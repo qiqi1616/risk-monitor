@@ -1,0 +1,12 @@
+# 敏感配置文件，严禁提交
+config.js
+config.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~

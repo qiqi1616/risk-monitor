@@ -1,0 +1,45 @@
+{
+  "updateTime": "2026-08-18T11:25:00+08:00",
+  "events": [
+    {
+      "time": "08-18 03:08",
+      "type": "fire",
+      "level": "",
+      "title": "广州番禺大平村废品站突发大火，距大夫山森林公园不足2公里",
+      "location": "广东广州",
+      "url": "https://m.zgfeipin.cn/feipinhuishou_6443_1/"
+    },
+    {
+      "time": "08-17 20:56",
+      "type": "explosion",
+      "level": "major",
+      "title": "山东淄博润兴化工己二腈泄漏爆炸，1死9伤",
+      "location": "山东淄博",
+      "url": "https://18show.cn/zt628232/18show_Affiche_1474613.html"
+    },
+    {
+      "time": "08-17 15:10",
+      "type": "fire",
+      "level": "",
+      "title": "绵阳游仙区废弃厂房突发大火，切割废品溅起火星引燃泡沫",
+      "location": "四川绵阳",
+      "url": "https://m.zgfeipin.cn/Article_10817_1/"
+    },
+    {
+      "time": "08-17 08:50",
+      "type": "traffic",
+      "level": "",
+      "title": "贵州锦屏县车辆失控冲入赶集人群，多人受伤",
+      "location": "贵州黔东南",
+      "url": "http://m.toutiao.com/group/7674927779200238086/"
+    },
+    {
+      "time": "08-17",
+      "type": "fire",
+      "level": "",
+      "title": "海南琼州海峡渔船起火，8人获救",
+      "location": "海南",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+    }
+  ]
+}

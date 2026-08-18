@@ -1,0 +1,7 @@
+{
+    "WARNING_KEY": "在此填入你的和风天气API Key",
+    "WARNING_DOMAIN": "devapi.qweather.com",
+    "GITHUB_TOKEN": "在此填入GitHub Personal Access Token（需要有repo权限）",
+    "GITHUB_OWNER": "你的GitHub用户名",
+    "GITHUB_REPO": "你的GitHub仓库名"
+}
