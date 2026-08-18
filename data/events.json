@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-08-18T11:25:00+08:00",
+  "updateTime": "2026-08-18T17:41:18+08:00",
   "events": [
     {
       "time": "08-18 03:08",
@@ -8,6 +8,14 @@
       "title": "广州番禺大平村废品站突发大火，距大夫山森林公园不足2公里",
       "location": "广东广州",
       "url": "https://m.zgfeipin.cn/feipinhuishou_6443_1/"
+    },
+    {
+      "time": "08-17 21:16",
+      "type": "fire",
+      "level": "",
+      "title": "重庆沙坪坝区天星桥街道红槽房居民楼1楼火灾，火势蔓延至楼顶，无人员伤亡",
+      "location": "重庆",
+      "url": "http://m.toutiao.com/group/7675157674044015110/"
     },
     {
       "time": "08-17 20:56",
@@ -24,6 +32,14 @@
       "title": "绵阳游仙区废弃厂房突发大火，切割废品溅起火星引燃泡沫",
       "location": "四川绵阳",
       "url": "https://m.zgfeipin.cn/Article_10817_1/"
+    },
+    {
+      "time": "08-17 11:26",
+      "type": "landslide",
+      "level": "major",
+      "title": "广西河池南丹县芒场镇山体滑坡，施工点5人被困，1死4失联，12万方塌方",
+      "location": "广西河池",
+      "url": "https://www.gxnews.com.cn/staticpages/20260818/newgx6a83c1d3-21982187.shtml"
     },
     {
       "time": "08-17 08:50",
