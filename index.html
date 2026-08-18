@@ -1843,7 +1843,7 @@ const FOCUS_WARNING_TYPES = ['雷电', '暴雨', '台风', '强对流', '冰雹'
 
 
 
-// 重点关注的预警级别（只展示黄/橙/红，过滤蓝色；高温黄色不体现）
+// 重点关注的预警级别（只展示黄/橙/红，过滤蓝色；高温黄色、雷电黄色不体现）
 
 const FOCUS_WARNING_LEVELS = ['黄色', '橙色', '红色'];
 
@@ -2535,8 +2535,8 @@ function filterWarnings(warnings) {
 
     
 
-    // 高温黄色预警不体现
-    if (typeName.includes('高温') && severity === '黄色') return false;
+    // 高温黄色、雷电黄色预警不体现
+    if (severity === '黄色' && (typeName.includes('高温') || typeName.includes('雷电'))) return false;
 
     const sender = w.sender || '';
 
