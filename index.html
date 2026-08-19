@@ -6075,8 +6075,8 @@ function _generateWarmtipText(cityName, city, insured) {
 
   var tipText = '\u3010\u6e29\u99a8\u63d0\u793a\u3011\u5c0a\u656c\u7684' + insured + '\uff1a\n\n' +
     '\u60a8\u597d\uff01\u6839\u636e\u6700\u65b0\u6c14\u8c61\u4fe1\u606f\uff0c\u60a8\u6240\u5728\u7684' + cityName + '\u5730\u533a\u5f53\u524d\u5929\u6c14\u60c5\u51b5\u5982\u4e0b\uff1a\n\n' +
-    '\U0001f321\ufe0f \u5f53\u524d\u5929\u6c14\uff1a' + weatherDesc + '\n' +
-    '\U0001f4c5 \u672a\u67683\u5929\u9884\u62a5\uff1a' + forecastDesc + '\n' +
+    '🌡️ \u5f53\u524d\u5929\u6c14\uff1a' + weatherDesc + '\n' +
+    '📅 \u672a\u67653\u5929\u9884\u62a5\uff1a' + forecastDesc + '\n' +
     '\u26a0\ufe0f \u9884\u8b66\u4fe1\u606f\uff1a' + warningDesc;
 
   // Orange/Red severe warnings
@@ -6091,7 +6091,7 @@ function _generateWarmtipText(cityName, city, insured) {
       var typeName = w.typeName || w.type || '';
       var guideKey = _warmtipGuideMap[typeName];
 
-      tipText += '\n\n\U0001f514 \u7279\u522b\u63d0\u9192\uff1a\u5f53\u524d' + cityName + '\u5df2\u53d1\u5e03' + typeName + sev + '\u9884\u8b66\uff0c\u8bf7\u6ce8\u610f\u4ee5\u4e0b\u9632\u8303\u4e8b\u9879\uff1a';
+      tipText += '\n\n🔔 \u7279\u522b\u63d0\u9192\uff1a\u5f53\u524d' + cityName + '\u5df2\u53d1\u5e03' + typeName + sev + '\u9884\u8b66\uff0c\u8bf7\u6ce8\u610f\u4ee5\u4e0b\u9632\u8303\u4e8b\u9879\uff1a';
 
       if (guideKey && typeof EMERGENCY_GUIDE_DATA !== 'undefined' && EMERGENCY_GUIDE_DATA[guideKey] && EMERGENCY_GUIDE_DATA[guideKey].prevention) {
         var measures = EMERGENCY_GUIDE_DATA[guideKey].prevention.slice(0, 3);
@@ -6105,13 +6105,13 @@ function _generateWarmtipText(cityName, city, insured) {
   // Typhoon specific
   var hasTyphoon = warnings.some(function(w) { return (w.typeName || w.type || '').indexOf('\u53f0\u98ce') !== -1; });
   if (hasTyphoon) {
-    tipText += '\n\n\U0001f300 \u53f0\u98ce\u5f71\u54cd\u671f\u95f4\uff0c\u8bf7\u52a1\u5fc5\u5173\u597d\u95e8\u7a97\uff0c\u4e0d\u8981\u5728\u6237\u5916\u9017\u7559\u3002';
+    tipText += '\n\n🌀 \u53f0\u98ce\u5f71\u54cd\u671f\u95f4\uff0c\u8bf7\u52a1\u5fc5\u5173\u597d\u95e8\u7a97\uff0c\u4e0d\u8981\u5728\u6237\u5916\u9017\u7559\u3002';
   }
 
   // Rainstorm specific
   var hasRainstorm = warnings.some(function(w) { return (w.typeName || w.type || '').indexOf('\u66b4\u96e8') !== -1; });
   if (hasRainstorm) {
-    tipText += '\n\n\U0001f327\ufe0f \u964d\u96e8\u8f83\u591a\uff0c\u8bf7\u6ce8\u610f\u9632\u8303\u79ef\u6c34\uff0c\u4f4e\u6d3c\u533a\u57df\u505a\u597d\u9632\u6d9d\u51c6\u5907\u3002';
+    tipText += '\n\n🌧️ \u964d\u96e8\u8f83\u591a\uff0c\u8bf7\u6ce8\u610f\u9632\u8303\u79ef\u6c34\uff0c\u4f4e\u6d3c\u533a\u57df\u505a\u597d\u9632\u6d9d\u51c6\u5907\u3002';
   }
 
   // Thunder specific
@@ -6126,7 +6126,7 @@ function _generateWarmtipText(cityName, city, insured) {
 
   // Reset copy button
   var copyBtn = document.getElementById('warmtipCopyBtn');
-  copyBtn.textContent = '\U0001f4cb \u590d\u5236\u5230\u526a\u8d34\u677f';
+  copyBtn.textContent = '📋 \u590d\u5236\u5230\u526a\u8d34\u677f';
   copyBtn.classList.remove('copied');
 }
 
@@ -6140,7 +6140,7 @@ function copyWarmtipText() {
     navigator.clipboard.writeText(text).then(function() {
       btn.textContent = '\u2705 \u5df2\u590d\u5236';
       btn.classList.add('copied');
-      setTimeout(function(){ btn.textContent = '\U0001f4cb \u590d\u5236\u5230\u526a\u8d34\u677f'; btn.classList.remove('copied'); }, 2000);
+      setTimeout(function(){ btn.textContent = '📋 \u590d\u5236\u5230\u526a\u8d34\u677f'; btn.classList.remove('copied'); }, 2000);
     }).catch(function() {
       _fallbackCopy(text, btn);
     });
@@ -6160,7 +6160,7 @@ function _fallbackCopy(text, btn) {
   document.body.removeChild(ta);
   btn.textContent = '\u2705 \u5df2\u590d\u5236';
   btn.classList.add('copied');
-  setTimeout(function(){ btn.textContent = '\U0001f4cb \u590d\u5236\u5230\u526a\u8d34\u677f'; btn.classList.remove('copied'); }, 2000);
+  setTimeout(function(){ btn.textContent = '📋 \u590d\u5236\u5230\u526a\u8d34\u677f'; btn.classList.remove('copied'); }, 2000);
 }
 
 // ESC to close warmtip modal
