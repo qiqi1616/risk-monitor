@@ -4583,9 +4583,8 @@ function getCityWarnings(cityName) {
 
 
 function getAllWarningsForCity(cityName) {
-
-  return getCityWarnings(cityName);
-
+  const allWarnings = getCityWarnings(cityName);
+  return allWarnings.filter(w => !w.status || w.status === 'active');
 }
 
 
