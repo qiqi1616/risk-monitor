@@ -1980,7 +1980,7 @@ function getCityRiskLevel(cityName) {
 }
 
 function getRiskTagHTML(level) {
-  const labels = { high: '\U0001f534 高风险', medium: '\U0001f7e1 中风险', low: '\U0001f7e2 低风险' };
+  const labels = { high: '🔴 高风险', medium: '🟡 中风险', low: '🟢 低风险' };
   return '<span class="risk-tag ' + level + '">' + (labels[level]||'') + '</span>';
 }
 
@@ -1991,9 +1991,12 @@ function exportCSV() {
   filteredCities.forEach(cityName => {
     const city = CITY_DATA[cityName];
     if (!city) return;
+    const warnings = cityWarningData[city.qid]?.warning || [];
+    // 只导出有橙色或红色预警的城市
+    const hasOrangeOrRed = warnings.some(w => w.status === 'active' && (w.severity === '橙色' || w.severity === '红色'));
+    if (!hasOrangeOrRed) return;
     const filteredProps = getFilteredProps(cityName);
     const weather = cityWeatherData[city.qid] || {};
-    const warnings = cityWarningData[city.qid]?.warning || [];
     const riskLevel = getCityRiskLevel(cityName);
     const riskLabel = { high:'高风险', medium:'中风险', low:'低风险' }[riskLevel];
     const weatherText = weather.text || '--';
@@ -2037,7 +2040,7 @@ function renderDisasterHistory(cityName) {
     const height = Math.max((val/maxVal)*28, 2);
     return '<div class="disaster-bar-item"><span class="disaster-bar-value">'+val+'</span><div class="disaster-bar '+t.cls+'" style="height:'+height+'px" title="'+t.label+': '+val+'次"></div><span class="disaster-bar-label">'+t.label+'</span></div>';
   }).join('');
-  return '<div class="disaster-history-section"><div class="disaster-history-title">\U0001f4ca 历史灾害频率（2023-2025，共'+(data.total||0)+'次）</div><div class="disaster-bar-chart">'+bars+'</div></div>';
+  return '<div class="disaster-history-section"><div class="disaster-history-title">📊 历史灾害频率（2023-2025，共'+(data.total||0)+'次）</div><div class="disaster-bar-chart">'+bars+'</div></div>';
 }
 
 // ========== 功能4：应急处置指南 ==========
