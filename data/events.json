@@ -1,21 +1,45 @@
 {
-  "updateTime": "2026-08-19T07:34:57+08:00",
+  "updateTime": "2026-08-19T17:45:40+08:00",
   "events": [
     {
-      "time": "08-18 03:08",
-      "type": "fire",
-      "level": "",
-      "title": "广州番禺大平村废品站突发大火，距大夫山森林公园不足2公里",
-      "location": "广东广州",
-      "url": "https://m.zgfeipin.cn/feipinhuishou_6443_1/"
+      "time": "08-19",
+      "type": "building_collapse",
+      "level": "major",
+      "title": "河北石家庄一居民楼发生部分坍塌，原因正在调查中",
+      "location": "河北石家庄",
+      "url": "https://news.cnr.cn/native/gd/kx/"
     },
     {
-      "time": "08-17 21:16",
+      "time": "08-18 17:30",
+      "type": "collapse",
+      "level": "major",
+      "title": "四川长宁县升学宴雨棚积水致女儿墙倒塌，5死17伤",
+      "location": "四川宜宾",
+      "url": "https://www.eeo.news/2026/0818/1002955.shtml"
+    },
+    {
+      "time": "08-19",
+      "type": "landslide",
+      "level": "major",
+      "title": "广西南丹山体滑坡致5人全部遇难，12万方塌方",
+      "location": "广西河池",
+      "url": "https://www.gxnews.com.cn/staticpages/20260818/newgx6a83c1d3-21982187.shtml"
+    },
+    {
+      "time": "08-19",
       "type": "fire",
       "level": "",
-      "title": "重庆沙坪坝区天星桥街道红槽房居民楼1楼火灾，火势蔓延至楼顶，无人员伤亡",
-      "location": "重庆",
-      "url": "http://m.toutiao.com/group/7675157674044015110/"
+      "title": "南宁西乡塘区安津五金机电市场深夜突发火灾，明火已扑灭",
+      "location": "广西南宁",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+    },
+    {
+      "time": "08-19",
+      "type": "fire",
+      "level": "",
+      "title": "上海青浦居民顶楼突发火灾，26分钟扑灭，无人伤亡",
+      "location": "上海",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     },
     {
       "time": "08-17 20:56",
@@ -26,20 +50,20 @@
       "url": "https://18show.cn/zt628232/18show_Affiche_1474613.html"
     },
     {
-      "time": "08-17 15:10",
+      "time": "08-17 21:16",
       "type": "fire",
       "level": "",
-      "title": "绵阳游仙区废弃厂房突发大火，切割废品溅起火星引燃泡沫",
-      "location": "四川绵阳",
-      "url": "https://m.zgfeipin.cn/Article_10817_1/"
+      "title": "重庆沙坪坝区天星桥街道居民楼火灾，火势蔓延至楼顶，无伤亡",
+      "location": "重庆",
+      "url": "http://m.toutiao.com/group/7675157674044015110/"
     },
     {
-      "time": "08-17 11:26",
-      "type": "landslide",
-      "level": "major",
-      "title": "广西河池南丹县芒场镇山体滑坡，施工点5人被困，1死4失联，12万方塌方",
-      "location": "广西河池",
-      "url": "https://www.gxnews.com.cn/staticpages/20260818/newgx6a83c1d3-21982187.shtml"
+      "time": "08-18 03:08",
+      "type": "fire",
+      "level": "",
+      "title": "广州番禺大平村废品站突发大火，距大夫山森林公园不足2公里",
+      "location": "广东广州",
+      "url": "https://m.zgfeipin.cn/feipinhuishou_6443_1/"
     },
     {
       "time": "08-17 08:50",
@@ -48,14 +72,6 @@
       "title": "贵州锦屏县车辆失控冲入赶集人群，多人受伤",
       "location": "贵州黔东南",
       "url": "http://m.toutiao.com/group/7674927779200238086/"
-    },
-    {
-      "time": "08-17",
-      "type": "fire",
-      "level": "",
-      "title": "海南琼州海峡渔船起火，8人获救",
-      "location": "海南",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
 }
