@@ -1550,6 +1550,167 @@ body {
 .prop-risk-tag.medium { background: rgba(234,179,8,0.25); color: #EAB308; }
 .prop-risk-tag.low { background: rgba(16,185,129,0.25); color: #10B981; }
 
+
+/* ===== 温馨提示按钮 ===== */
+.warmtip-btn {
+  background: linear-gradient(135deg, rgba(249,115,22,0.2), rgba(239,68,68,0.15));
+  border: 1px solid rgba(249,115,22,0.5);
+  color: #F97316;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.warmtip-btn:hover {
+  background: linear-gradient(135deg, rgba(249,115,22,0.4), rgba(239,68,68,0.3));
+  border-color: #F97316;
+}
+/* ===== 温馨提示模态框 ===== */
+.warmtip-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+.warmtip-overlay.active { display: flex; }
+.warmtip-modal-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: 620px;
+  max-width: 95vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+.warmtip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.warmtip-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.warmtip-close-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.warmtip-close-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-primary); }
+.warmtip-body { padding: 20px; }
+.warmtip-search-input {
+  width: 100%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.2s;
+  margin-bottom: 8px;
+}
+.warmtip-search-input:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.2);
+}
+.warmtip-search-input::placeholder { color: var(--text-secondary); }
+.warmtip-results {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: none;
+}
+.warmtip-results.active { display: block; }
+.warmtip-result-item {
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 13px;
+}
+.warmtip-result-item:hover { background: rgba(59,130,246,0.15); }
+.warmtip-result-item:last-child { border-bottom: none; }
+.warmtip-result-item .wt-city { color: var(--accent-cyan); font-weight: 500; }
+.warmtip-result-item .wt-name { color: var(--text-primary); margin-left: 6px; }
+.warmtip-output { display: none; }
+.warmtip-output.active { display: block; }
+.warmtip-info-bar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+.warmtip-info-bar .wt-label { color: var(--text-secondary); margin-right: 6px; }
+.warmtip-info-bar .wt-val { color: var(--accent-cyan); }
+.warmtip-preview {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 14px;
+}
+.warmtip-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.warmtip-copy-btn {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.warmtip-copy-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+.warmtip-copy-btn.copied { background: linear-gradient(135deg, #10B981, #059669); }
+.warmtip-regen-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.warmtip-regen-btn:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+
 </style>
 
 </head>
@@ -1610,6 +1771,7 @@ body {
 
     </div>
 
+    <button class="warmtip-btn" onclick="openWarmtipModal()" title="生成客户温馨提示">💌 温馨提示</button>
     <button class="export-btn" onclick="exportCSV()" title="导出当前筛选数据为CSV">📥 导出</button>
     <span class="filter-stats" id="filterStats">115城市 / 817标的</span>
 
@@ -5796,7 +5958,244 @@ function showTyphoonTip(type) {
 
 
 
+
+// ========== 客户温馨提示生成器 ==========
+var _warmtipSelected = null;
+
+var _warmtipGuideMap = {
+  '台风': 'typhoon', '暴雨': 'rainstorm', '雷电': 'thunder',
+  '冰雹': 'hail', '高温': 'heatwave', '大风': 'typhoon'
+};
+
+function openWarmtipModal() {
+  document.getElementById('warmtipOverlay').classList.add('active');
+  document.getElementById('warmtipInput').value = '';
+  document.getElementById('warmtipResults').classList.remove('active');
+  document.getElementById('warmtipResults').innerHTML = '';
+  document.getElementById('warmtipOutput').classList.remove('active');
+  _warmtipSelected = null;
+  setTimeout(function(){ document.getElementById('warmtipInput').focus(); }, 100);
+}
+
+function closeWarmtipModal() {
+  document.getElementById('warmtipOverlay').classList.remove('active');
+}
+
+function searchWarmtipCustomer(keyword) {
+  var resultsEl = document.getElementById('warmtipResults');
+  if (!keyword || keyword.trim().length === 0) {
+    resultsEl.classList.remove('active');
+    resultsEl.innerHTML = '';
+    return;
+  }
+  keyword = keyword.trim().toLowerCase();
+  var matches = [];
+
+  for (var cityName in CITY_DATA) {
+    var city = CITY_DATA[cityName];
+    if (!city.props) continue;
+    for (var i = 0; i < city.props.length; i++) {
+      var prop = city.props[i];
+      if (prop.insured && prop.insured.toLowerCase().indexOf(keyword) !== -1) {
+        matches.push({ cityName: cityName, qid: city.qid, insured: prop.insured });
+        if (matches.length >= 10) break;
+      }
+    }
+    if (matches.length >= 10) break;
+  }
+
+  if (matches.length === 0) {
+    resultsEl.innerHTML = '<div style="padding:14px;color:var(--text-secondary);text-align:center;font-size:13px;">\u672a\u627e\u5230\u5339\u914d\u7684\u5ba2\u6237</div>';
+    resultsEl.classList.add('active');
+    return;
+  }
+
+  resultsEl.innerHTML = matches.map(function(m) {
+    var encoded = encodeURIComponent(JSON.stringify(m));
+    return '<div class="warmtip-result-item" onclick="selectWarmtipCustomer(\'' + encoded + '\')">' +
+      '<span class="wt-city">[' + m.cityName + ']</span>' +
+      '<span class="wt-name">' + m.insured + '</span></div>';
+  }).join('');
+  resultsEl.classList.add('active');
+}
+
+function selectWarmtipCustomer(encoded) {
+  var info = JSON.parse(decodeURIComponent(encoded));
+  var cityName = info.cityName;
+  var qid = info.qid;
+  var insured = info.insured;
+  var city = CITY_DATA[cityName];
+
+  _warmtipSelected = { cityName: cityName, city: city, insured: insured };
+
+  document.getElementById('warmtipResults').classList.remove('active');
+  document.getElementById('warmtipInput').value = insured;
+
+  var infoDiv = document.getElementById('warmtipInfo');
+  infoDiv.innerHTML = '<span class="wt-label">\u5ba2\u6237\uff1a</span><span class="wt-val">' + insured + '</span>' +
+    '<span style="margin-left:16px" class="wt-label">\u57ce\u5e02\uff1a</span><span class="wt-val">' + cityName + '</span>';
+
+  _generateWarmtipText(cityName, city, insured);
+  document.getElementById('warmtipOutput').classList.add('active');
+}
+
+function regenerateWarmtip() {
+  if (!_warmtipSelected) return;
+  _generateWarmtipText(_warmtipSelected.cityName, _warmtipSelected.city, _warmtipSelected.insured);
+}
+
+function _generateWarmtipText(cityName, city, insured) {
+  var qid = city.qid;
+  var weather = cityWeatherData[qid] || {};
+  var forecast = cityForecastData[qid] || [];
+  var rawWarnings = (cityWarningData[qid] && cityWarningData[qid].warning) ? cityWarningData[qid].warning : [];
+  var warnings = (typeof filterWarnings === 'function') ? filterWarnings(rawWarnings) : rawWarnings;
+
+  // Current weather
+  var temp = weather.temp || '--';
+  var text = weather.text || '\u672a\u77e5';
+  var windDir = weather.windDir || '';
+  var windScale = weather.windScale || '';
+  var windSpeed = weather.windSpeed || '--';
+  var weatherDesc = text + '\uff0c\u6e29\u5ea6' + temp + '\u00b0C\uff0c' + windDir + (windScale ? windScale + '\u7ea7\uff0c' : '') + '\u98ce\u901f' + windSpeed + 'm/s';
+
+  // Forecast
+  var forecastDesc = '\u6682\u65e0\u9884\u62a5\u6570\u636e';
+  if (forecast.length > 0) {
+    forecastDesc = forecast.map(function(f){ return f.textDay || '--'; }).join('\u3001');
+  }
+
+  // Warnings
+  var warningDesc = '\u5f53\u524d\u65e0\u6c14\u8c61\u9884\u8b66';
+  if (warnings.length > 0) {
+    warningDesc = warnings.map(function(w){
+      return (w.typeName || w.type) + (w.severity || w.level || '') + '\u9884\u8b66';
+    }).join('\u3001');
+  }
+
+  var tipText = '\u3010\u6e29\u99a8\u63d0\u793a\u3011\u5c0a\u656c\u7684' + insured + '\uff1a\n\n' +
+    '\u60a8\u597d\uff01\u6839\u636e\u6700\u65b0\u6c14\u8c61\u4fe1\u606f\uff0c\u60a8\u6240\u5728\u7684' + cityName + '\u5730\u533a\u5f53\u524d\u5929\u6c14\u60c5\u51b5\u5982\u4e0b\uff1a\n\n' +
+    '\U0001f321\ufe0f \u5f53\u524d\u5929\u6c14\uff1a' + weatherDesc + '\n' +
+    '\U0001f4c5 \u672a\u67683\u5929\u9884\u62a5\uff1a' + forecastDesc + '\n' +
+    '\u26a0\ufe0f \u9884\u8b66\u4fe1\u606f\uff1a' + warningDesc;
+
+  // Orange/Red severe warnings
+  var severeWarnings = warnings.filter(function(w) {
+    var sev = w.severity || w.level || '';
+    return sev === '\u6a59\u8272' || sev === '\u7ea2\u8272';
+  });
+
+  if (severeWarnings.length > 0) {
+    severeWarnings.forEach(function(w) {
+      var sev = w.severity || w.level || '';
+      var typeName = w.typeName || w.type || '';
+      var guideKey = _warmtipGuideMap[typeName];
+
+      tipText += '\n\n\U0001f514 \u7279\u522b\u63d0\u9192\uff1a\u5f53\u524d' + cityName + '\u5df2\u53d1\u5e03' + typeName + sev + '\u9884\u8b66\uff0c\u8bf7\u6ce8\u610f\u4ee5\u4e0b\u9632\u8303\u4e8b\u9879\uff1a';
+
+      if (guideKey && typeof EMERGENCY_GUIDE_DATA !== 'undefined' && EMERGENCY_GUIDE_DATA[guideKey] && EMERGENCY_GUIDE_DATA[guideKey].prevention) {
+        var measures = EMERGENCY_GUIDE_DATA[guideKey].prevention.slice(0, 3);
+        measures.forEach(function(m) {
+          tipText += '\n- ' + m;
+        });
+      }
+    });
+  }
+
+  // Typhoon specific
+  var hasTyphoon = warnings.some(function(w) { return (w.typeName || w.type || '').indexOf('\u53f0\u98ce') !== -1; });
+  if (hasTyphoon) {
+    tipText += '\n\n\U0001f300 \u53f0\u98ce\u5f71\u54cd\u671f\u95f4\uff0c\u8bf7\u52a1\u5fc5\u5173\u597d\u95e8\u7a97\uff0c\u4e0d\u8981\u5728\u6237\u5916\u9017\u7559\u3002';
+  }
+
+  // Rainstorm specific
+  var hasRainstorm = warnings.some(function(w) { return (w.typeName || w.type || '').indexOf('\u66b4\u96e8') !== -1; });
+  if (hasRainstorm) {
+    tipText += '\n\n\U0001f327\ufe0f \u964d\u96e8\u8f83\u591a\uff0c\u8bf7\u6ce8\u610f\u9632\u8303\u79ef\u6c34\uff0c\u4f4e\u6d3c\u533a\u57df\u505a\u597d\u9632\u6d9d\u51c6\u5907\u3002';
+  }
+
+  // Thunder specific
+  var hasThunder = warnings.some(function(w) { return (w.typeName || w.type || '').indexOf('\u96f7\u7535') !== -1; });
+  if (hasThunder) {
+    tipText += '\n\n\u26a1 \u96f7\u7535\u5929\u6c14\uff0c\u8bf7\u6ce8\u610f\u5173\u95ed\u7535\u5668\u7535\u6e90\uff0c\u907f\u514d\u5728\u6237\u5916\u7a7a\u65f7\u5730\u5e26\u505c\u7559\u3002';
+  }
+
+  tipText += '\n\n\u8bf7\u60a8\u6ce8\u610f\u9632\u8303\uff0c\u505a\u597d\u76f8\u5173\u5b89\u5168\u63aa\u65bd\u3002\u5982\u6709\u4efb\u4f55\u7591\u95ee\uff0c\u8bf7\u53ca\u65f6\u4e0e\u6211\u4eec\u8054\u7cfb\u3002\n\n\u795d\u60a8\u5e73\u5b89\u987a\u9042\uff01';
+
+  document.getElementById('warmtipPreview').textContent = tipText;
+
+  // Reset copy button
+  var copyBtn = document.getElementById('warmtipCopyBtn');
+  copyBtn.textContent = '\U0001f4cb \u590d\u5236\u5230\u526a\u8d34\u677f';
+  copyBtn.classList.remove('copied');
+}
+
+function copyWarmtipText() {
+  var text = document.getElementById('warmtipPreview').textContent;
+  if (!text) return;
+
+  var btn = document.getElementById('warmtipCopyBtn');
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function() {
+      btn.textContent = '\u2705 \u5df2\u590d\u5236';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = '\U0001f4cb \u590d\u5236\u5230\u526a\u8d34\u677f'; btn.classList.remove('copied'); }, 2000);
+    }).catch(function() {
+      _fallbackCopy(text, btn);
+    });
+  } else {
+    _fallbackCopy(text, btn);
+  }
+}
+
+function _fallbackCopy(text, btn) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); } catch(e) {}
+  document.body.removeChild(ta);
+  btn.textContent = '\u2705 \u5df2\u590d\u5236';
+  btn.classList.add('copied');
+  setTimeout(function(){ btn.textContent = '\U0001f4cb \u590d\u5236\u5230\u526a\u8d34\u677f'; btn.classList.remove('copied'); }, 2000);
+}
+
+// ESC to close warmtip modal
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    var overlay = document.getElementById('warmtipOverlay');
+    if (overlay && overlay.classList.contains('active')) {
+      closeWarmtipModal();
+    }
+  }
+});
+
 </script>
+
+<!-- 客户温馨提示模态框 -->
+<div class="warmtip-overlay" id="warmtipOverlay" onclick="if(event.target===this)closeWarmtipModal()">
+  <div class="warmtip-modal-box">
+    <div class="warmtip-header">
+      <h3>💌 客户温馨提示生成器</h3>
+      <button class="warmtip-close-btn" onclick="closeWarmtipModal()">&times;</button>
+    </div>
+    <div class="warmtip-body">
+      <input class="warmtip-search-input" id="warmtipInput" type="text" placeholder="输入客户名称搜索（支持模糊匹配）..." oninput="searchWarmtipCustomer(this.value)">
+      <div class="warmtip-results" id="warmtipResults"></div>
+      <div class="warmtip-output" id="warmtipOutput">
+        <div class="warmtip-info-bar" id="warmtipInfo"></div>
+        <div class="warmtip-preview" id="warmtipPreview"></div>
+        <div class="warmtip-actions">
+          <button class="warmtip-regen-btn" onclick="regenerateWarmtip()">重新生成</button>
+          <button class="warmtip-copy-btn" id="warmtipCopyBtn" onclick="copyWarmtipText()">📋 复制到剪贴板</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 
