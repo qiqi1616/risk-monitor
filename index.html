@@ -198,8 +198,6 @@ body {
 
   display: flex;
 
-  flex: 1;
-
   min-height: 0;
 
   overflow: hidden;
@@ -217,9 +215,8 @@ body {
 .map-section {
 
   flex: 0 0 65%;
-  height: 50vh;
+  height: 400px;
   min-height: 320px;
-  max-height: 480px;
 
   position: relative;
 
@@ -884,7 +881,7 @@ body {
 
   .main-container { flex-direction: column; }
 
-  .map-section { flex: 0 0 auto; height: 45vh; min-height: 280px; max-height: 420px; }
+  .map-section { flex: 0 0 auto; height: 350px; min-height: 280px; }
 
   .panel-section { flex: 1; border-left: none; border-top: 1px solid var(--border); }
 
@@ -2011,9 +2008,8 @@ body {
   }
   .map-section {
     flex: none;
-    height: 45vh;
+    height: 350px;
     min-height: 280px;
-    max-height: 420px;
     padding: 8px;
   }
   .panel-section {
@@ -2077,7 +2073,7 @@ body {
   }
   .pie-svg { width: 80px; height: 80px; }
   .header h1 { font-size: 14px; }
-  .map-section { height: 38vh; min-height: 240px; max-height: 350px; }
+  .map-section { height: 300px; min-height: 240px; }
   .chart-row { flex-direction: column; }
   .chart-card { flex: 1 1 100%; min-width: 100%; }
 }
@@ -2240,7 +2236,7 @@ body {
 
     <div class="map-container">
 
-      <svg id="chinaMap" viewBox="0 0 1000 750" preserveAspectRatio="xMidYMid meet">
+      <svg id="chinaMap" viewBox="0 0 1000 1030" preserveAspectRatio="xMidYMid slice">
 
         <defs>
 
