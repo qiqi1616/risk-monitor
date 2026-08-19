@@ -2061,10 +2061,10 @@ function renderEmergencyGuide(disasterType) {
   html += '<span class="eg-arrow">\u25b6</span> ' + (guide.icon||'') + ' ' + (guide.name||'') + '应急处置指南</div>';
   html += '<div class="emergency-guide-content">';
   if (guide.prevention && guide.prevention.length) {
-    html += '<div class="eg-sub-title">\U0001f6e1\ufe0f 防范措施</div><ul class="eg-list">' + guide.prevention.map(p=>'<li>'+p+'</li>').join('') + '</ul>';
+    html += '<div class="eg-sub-title">🛡️ 防范措施</div><ul class="eg-list">' + guide.prevention.map(p=>'<li>'+p+'</li>').join('') + '</ul>';
   }
   if (guide.response && guide.response.length) {
-    html += '<div class="eg-sub-title">\U0001f6a8 应急响应步骤</div><ul class="eg-list">' + guide.response.map(r=>'<li>'+r+'</li>').join('') + '</ul>';
+    html += '<div class="eg-sub-title">🚨 应急响应步骤</div><ul class="eg-list">' + guide.response.map(r=>'<li>'+r+'</li>').join('') + '</ul>';
   }
   if (guide.notes && guide.notes.length) {
     html += '<div class="eg-note">\u26a0\ufe0f ' + guide.notes.join('\uff1b') + '</div>';
