@@ -1391,6 +1391,165 @@ body {
 
 .event-ticker-item .evt-level-especially { color: #dc2626; font-weight: 700; text-shadow: 0 0 6px rgba(220,38,38,0.5); }
 
+
+/* ===== 风险评级标签 ===== */
+.risk-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.risk-tag.high { background: rgba(239,68,68,0.2); color: #EF4444; border: 1px solid rgba(239,68,68,0.4); }
+.risk-tag.medium { background: rgba(234,179,8,0.2); color: #EAB308; border: 1px solid rgba(234,179,8,0.4); }
+.risk-tag.low { background: rgba(16,185,129,0.2); color: #10B981; border: 1px solid rgba(16,185,129,0.4); }
+
+/* ===== 导出按钮 ===== */
+.export-btn {
+  background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(6,182,212,0.2));
+  border: 1px solid rgba(59,130,246,0.5);
+  color: var(--accent-cyan);
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.export-btn:hover {
+  background: linear-gradient(135deg, rgba(59,130,246,0.4), rgba(6,182,212,0.4));
+  border-color: var(--accent-cyan);
+}
+
+/* ===== 历史灾害频率 ===== */
+.disaster-history-section {
+  margin-top: 8px;
+  padding: 8px;
+  background: rgba(19,28,49,0.6);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+.disaster-history-title {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+.disaster-bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 36px;
+}
+.disaster-bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  max-width: 40px;
+}
+.disaster-bar {
+  width: 100%;
+  min-height: 2px;
+  border-radius: 2px 2px 0 0;
+  transition: height 0.3s;
+}
+.disaster-bar-label {
+  font-size: 9px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  white-space: nowrap;
+}
+.disaster-bar-value {
+  font-size: 9px;
+  color: var(--text-primary);
+  margin-bottom: 1px;
+}
+.disaster-bar.typhoon { background: #3B82F6; }
+.disaster-bar.rainstorm { background: #06B6D4; }
+.disaster-bar.thunder { background: #EAB308; }
+.disaster-bar.hail { background: #8B5CF6; }
+.disaster-bar.heatwave { background: #EF4444; }
+
+/* ===== 应急处置指南 ===== */
+.emergency-guide-section {
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+.emergency-guide-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--accent-cyan);
+  cursor: pointer;
+  padding: 4px 0;
+  user-select: none;
+}
+.emergency-guide-toggle:hover { color: var(--accent-blue); }
+.emergency-guide-content {
+  display: none;
+  padding: 8px;
+  background: rgba(19,28,49,0.5);
+  border-radius: 6px;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.emergency-guide-content.open { display: block; }
+.eg-sub-title {
+  font-size: 11px;
+  color: var(--accent-orange);
+  margin: 6px 0 3px;
+  font-weight: 600;
+}
+.eg-sub-title:first-child { margin-top: 0; }
+.eg-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.eg-list li {
+  padding: 2px 0 2px 14px;
+  position: relative;
+  color: var(--text-secondary);
+  font-size: 11px;
+}
+.eg-list li::before {
+  content: '2';
+  position: absolute;
+  left: 2px;
+  color: var(--accent-cyan);
+}
+.eg-note {
+  margin-top: 6px;
+  padding: 6px 8px;
+  background: rgba(239,68,68,0.1);
+  border-radius: 4px;
+  border-left: 2px solid var(--warning-red);
+  font-size: 11px;
+  color: var(--warning-orange);
+}
+
+/* ===== 标的风险标签(展开列表内) ===== */
+.prop-risk-tag {
+  display: inline-block;
+  font-size: 10px;
+  padding: 0 4px;
+  border-radius: 2px;
+  margin-left: 4px;
+}
+.prop-risk-tag.high { background: rgba(239,68,68,0.25); color: #EF4444; }
+.prop-risk-tag.medium { background: rgba(234,179,8,0.25); color: #EAB308; }
+.prop-risk-tag.low { background: rgba(16,185,129,0.25); color: #10B981; }
+
 </style>
 
 </head>
@@ -1451,6 +1610,7 @@ body {
 
     </div>
 
+    <button class="export-btn" onclick="exportCSV()" title="导出当前筛选数据为CSV">📥 导出</button>
     <span class="filter-stats" id="filterStats">115城市 / 817标的</span>
 
     <div class="header-info">
@@ -1798,6 +1958,131 @@ body {
 <script src="config.js"></script>
 
 <script>
+
+// ========== 功能1：标的风险自动评级 ==========
+let DISASTER_HISTORY_DATA = {};
+let EMERGENCY_GUIDE_DATA = {};
+
+function getCityRiskLevel(cityName) {
+  const city = CITY_DATA[cityName];
+  if (!city) return 'low';
+  const warnings = cityWarningData[city.qid]?.warning || [];
+  const weather = cityWeatherData[city.qid] || {};
+  const hasHighWarning = warnings.some(w => w.status === 'active' && (w.severity === '橙色' || w.severity === '红色'));
+  const hasMedWarning = warnings.some(w => w.status === 'active' && w.severity === '黄色');
+  const windSpeed = parseFloat(weather.windSpeed) || 0;
+  const temp = parseFloat(weather.temp) || 20;
+  const weatherText = weather.text || '';
+  const hasHeavyRain = ['暴雨','大暴雨','特大暴雨'].some(k => weatherText.includes(k));
+  if (hasHighWarning || windSpeed > 17 || temp > 40 || temp < 0 || hasHeavyRain) return 'high';
+  if (hasMedWarning || windSpeed > 10) return 'medium';
+  return 'low';
+}
+
+function getRiskTagHTML(level) {
+  const labels = { high: '\U0001f534 高风险', medium: '\U0001f7e1 中风险', low: '\U0001f7e2 低风险' };
+  return '<span class="risk-tag ' + level + '">' + (labels[level]||'') + '</span>';
+}
+
+// ========== 功能2：数据导出 ==========
+function exportCSV() {
+  const filteredCities = getFilteredCities();
+  const rows = [['城市','标的名称','地址','板块','当前天气','预警信息','风险等级']];
+  filteredCities.forEach(cityName => {
+    const city = CITY_DATA[cityName];
+    if (!city) return;
+    const filteredProps = getFilteredProps(cityName);
+    const weather = cityWeatherData[city.qid] || {};
+    const warnings = cityWarningData[city.qid]?.warning || [];
+    const riskLevel = getCityRiskLevel(cityName);
+    const riskLabel = { high:'高风险', medium:'中风险', low:'低风险' }[riskLevel];
+    const weatherText = weather.text || '--';
+    const temp = weather.temp ? weather.temp + '°C' : '--';
+    const wind = weather.windSpeed || '--';
+    const weatherStr = weatherText + ' ' + temp + ' 风速' + wind + 'm/s';
+    const warningStr = warnings.filter(w => w.status === 'active').map(w => (w.typeName||w.type||'') + w.severity + '预警').join('; ') || '无';
+    filteredProps.forEach(p => {
+      rows.push([cityName, p.insured||'', p.addr||'', p.segment||'', weatherStr, warningStr, riskLabel]);
+    });
+  });
+  const BOM = '\uFEFF';
+  const csvContent = BOM + rows.map(row => row.map(cell => '"' + String(cell).replace(/"/g,'""') + '"').join(',')).join('\n');
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  const now = new Date();
+  const ds = now.getFullYear() + '' + String(now.getMonth()+1).padStart(2,'0') + String(now.getDate()).padStart(2,'0') + '_' + String(now.getHours()).padStart(2,'0') + String(now.getMinutes()).padStart(2,'0');
+  a.download = '风险预警数据_' + ds + '.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ========== 功能3：历史灾害频率 ==========
+function renderDisasterHistory(cityName) {
+  const data = DISASTER_HISTORY_DATA[cityName];
+  if (!data) return '';
+  const types = [
+    { key:'typhoon', label:'台风', cls:'typhoon' },
+    { key:'rainstorm', label:'暴雨', cls:'rainstorm' },
+    { key:'thunder', label:'雷电', cls:'thunder' },
+    { key:'hail', label:'冰雹', cls:'hail' },
+    { key:'heatwave', label:'高温', cls:'heatwave' }
+  ];
+  const maxVal = Math.max(...types.map(t => data[t.key]||0), 1);
+  let bars = types.map(t => {
+    const val = data[t.key]||0;
+    const height = Math.max((val/maxVal)*28, 2);
+    return '<div class="disaster-bar-item"><span class="disaster-bar-value">'+val+'</span><div class="disaster-bar '+t.cls+'" style="height:'+height+'px" title="'+t.label+': '+val+'次"></div><span class="disaster-bar-label">'+t.label+'</span></div>';
+  }).join('');
+  return '<div class="disaster-history-section"><div class="disaster-history-title">\U0001f4ca 历史灾害频率（2023-2025，共'+(data.total||0)+'次）</div><div class="disaster-bar-chart">'+bars+'</div></div>';
+}
+
+// ========== 功能4：应急处置指南 ==========
+function getDisasterTypeFromWarning(typeName) {
+  if (!typeName) return null;
+  const typeMap = { '台风':'typhoon','暴雨':'rainstorm','雷电':'thunder','雷暴':'thunder','冰雹':'hail','高温':'heatwave','强对流':'thunder' };
+  for (const [keyword, type] of Object.entries(typeMap)) {
+    if (typeName.includes(keyword)) return type;
+  }
+  return null;
+}
+
+function renderEmergencyGuide(disasterType) {
+  const guide = EMERGENCY_GUIDE_DATA[disasterType];
+  if (!guide) return '';
+  let html = '<div class="emergency-guide-section">';
+  html += '<div class="emergency-guide-toggle" onclick="this.nextElementSibling.classList.toggle(\'open\');this.querySelector(\'.eg-arrow\').textContent=this.nextElementSibling.classList.contains(\'open\')?\'\u25bc\':\'\u25b6\'">';
+  html += '<span class="eg-arrow">\u25b6</span> ' + (guide.icon||'') + ' ' + (guide.name||'') + '应急处置指南</div>';
+  html += '<div class="emergency-guide-content">';
+  if (guide.prevention && guide.prevention.length) {
+    html += '<div class="eg-sub-title">\U0001f6e1\ufe0f 防范措施</div><ul class="eg-list">' + guide.prevention.map(p=>'<li>'+p+'</li>').join('') + '</ul>';
+  }
+  if (guide.response && guide.response.length) {
+    html += '<div class="eg-sub-title">\U0001f6a8 应急响应步骤</div><ul class="eg-list">' + guide.response.map(r=>'<li>'+r+'</li>').join('') + '</ul>';
+  }
+  if (guide.notes && guide.notes.length) {
+    html += '<div class="eg-note">\u26a0\ufe0f ' + guide.notes.join('\uff1b') + '</div>';
+  }
+  html += '</div></div>';
+  return html;
+}
+
+async function loadDisasterHistory() {
+  try {
+    if (typeof DISASTER_HISTORY_INLINE !== 'undefined') { DISASTER_HISTORY_DATA = DISASTER_HISTORY_INLINE; }
+    else { const r = await fetch('data/disaster_history.json'); if(r.ok) DISASTER_HISTORY_DATA = await r.json(); }
+  } catch(e) { console.warn('历史灾害数据加载失败:', e); }
+}
+
+async function loadEmergencyGuide() {
+  try {
+    if (typeof EMERGENCY_GUIDE_INLINE !== 'undefined') { EMERGENCY_GUIDE_DATA = EMERGENCY_GUIDE_INLINE; }
+    else { const r = await fetch('data/emergency_guide.json'); if(r.ok) EMERGENCY_GUIDE_DATA = await r.json(); }
+  } catch(e) { console.warn('应急指南数据加载失败:', e); }
+}
 
 // ========== 配置区（从外部配置文件注入，禁止硬编码API Key） ==========
 
@@ -2738,7 +3023,9 @@ function renderCityMarkers() {
 
     ring.setAttribute('fill', 'rgba(59,130,246,0.15)');
 
-    ring.setAttribute('stroke', isSelected ? '#06B6D4' : (hasWarning ? 'rgba(249,115,22,0.7)' : 'rgba(59,130,246,0.5)'));
+    const _riskLevel = getCityRiskLevel(cityName);
+    const _riskRingColor = _riskLevel === 'high' ? 'rgba(239,68,68,0.7)' : _riskLevel === 'medium' ? 'rgba(234,179,8,0.7)' : (hasWarning ? 'rgba(249,115,22,0.7)' : 'rgba(59,130,246,0.5)');
+    ring.setAttribute('stroke', isSelected ? '#06B6D4' : _riskRingColor);
 
     ring.setAttribute('stroke-width', isSelected ? 3 : 1.5);
 
@@ -2758,9 +3045,11 @@ function renderCityMarkers() {
 
     inner.setAttribute('r', size);
 
-    inner.setAttribute('fill', hasWarning ? 'rgba(249,115,22,0.85)' : 'rgba(59,130,246,0.85)');
+    const _riskFillColor = _riskLevel === 'high' ? 'rgba(239,68,68,0.85)' : _riskLevel === 'medium' ? 'rgba(234,179,8,0.85)' : (hasWarning ? 'rgba(249,115,22,0.85)' : 'rgba(59,130,246,0.85)');
+    inner.setAttribute('fill', _riskFillColor);
 
-    inner.setAttribute('stroke', hasWarning ? '#F97316' : '#3B82F6');
+    const _riskStrokeColor = _riskLevel === 'high' ? '#EF4444' : _riskLevel === 'medium' ? '#EAB308' : (hasWarning ? '#F97316' : '#3B82F6');
+    inner.setAttribute('stroke', _riskStrokeColor);
 
     inner.setAttribute('stroke-width', isSelected ? 2.5 : 1.5);
 
@@ -2842,9 +3131,12 @@ function renderCityList() {
 
   
 
-  // 按预警优先级排序
-
+  // 按风险等级+预警优先级排序
   const sortedCities = filteredCities.sort((a, b) => {
+    const _riskOrder = { high: 0, medium: 1, low: 2 };
+    const _aRisk = _riskOrder[getCityRiskLevel(a)] || 2;
+    const _bRisk = _riskOrder[getCityRiskLevel(b)] || 2;
+    if (_aRisk !== _bRisk) return _aRisk - _bRisk;
 
     const aAllWarnings = getAllWarningsForCity(a);
 
@@ -2988,6 +3280,8 @@ function renderCityList() {
 
           ${cityName}
 
+          ${getRiskTagHTML(getCityRiskLevel(cityName))}
+
           ${getHighRiskCount(cityName) > 0 ? '<span class="high-risk-flag" title="台风高风险标的">🚩</span>' : ''}
 
           <span class="city-count">${filteredProps.length}标的${getHighRiskCount(cityName) > 0 ? ' <span style="color:#e74c3c;font-size:11px;">(高风险' + getHighRiskCount(cityName) + ')</span>' : ''}</span>
@@ -3009,6 +3303,8 @@ function renderCityList() {
       </div>
 
       ${forecastSection}
+
+      ${renderDisasterHistory(cityName)}
 
       <div class="prop-list" data-city="${cityName}">
 
@@ -3400,7 +3696,10 @@ function showWarningDetail(cityName, anchorEl) {
 
   }).join('');
 
-  
+    // 添加应急处置指南
+    const _disasterTypes = new Set();
+    allWarnings.forEach(w => { const dt = getDisasterTypeFromWarning(w.typeName || w.type); if (dt) _disasterTypes.add(dt); });
+    if (_disasterTypes.size > 0) { _disasterTypes.forEach(dt => { content.innerHTML += renderEmergencyGuide(dt); }); }
 
   if (anchorEl) {
 
@@ -5295,6 +5594,8 @@ async function initEventTicker() {
 
 
 function init() {
+  loadDisasterHistory();
+  loadEmergencyGuide();
 
   document.getElementById('wdClose').addEventListener('click', hideWarningDetail);
 

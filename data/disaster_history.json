@@ -1,0 +1,922 @@
+{
+  "福州": {
+    "typhoon": 5,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 17
+  },
+  "厦门": {
+    "typhoon": 6,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 19
+  },
+  "泉州": {
+    "typhoon": 5,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 15
+  },
+  "漳州": {
+    "typhoon": 9,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 24
+  },
+  "莆田": {
+    "typhoon": 9,
+    "rainstorm": 7,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 26
+  },
+  "宁德": {
+    "typhoon": 7,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 21
+  },
+  "南平": {
+    "typhoon": 7,
+    "rainstorm": 6,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 21
+  },
+  "三明": {
+    "typhoon": 5,
+    "rainstorm": 4,
+    "thunder": 6,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 19
+  },
+  "福清": {
+    "typhoon": 7,
+    "rainstorm": 6,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 22
+  },
+  "台州": {
+    "typhoon": 9,
+    "rainstorm": 4,
+    "thunder": 6,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 24
+  },
+  "温州": {
+    "typhoon": 7,
+    "rainstorm": 6,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 22
+  },
+  "宁波": {
+    "typhoon": 5,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 18
+  },
+  "舟山": {
+    "typhoon": 5,
+    "rainstorm": 7,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 23
+  },
+  "汕头": {
+    "typhoon": 7,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 21
+  },
+  "广州": {
+    "typhoon": 6,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 6,
+    "total": 24
+  },
+  "深圳": {
+    "typhoon": 5,
+    "rainstorm": 6,
+    "thunder": 7,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 24
+  },
+  "东莞": {
+    "typhoon": 5,
+    "rainstorm": 7,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 20
+  },
+  "佛山": {
+    "typhoon": 6,
+    "rainstorm": 8,
+    "thunder": 6,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 24
+  },
+  "珠海": {
+    "typhoon": 6,
+    "rainstorm": 6,
+    "thunder": 7,
+    "hail": 1,
+    "heatwave": 6,
+    "total": 26
+  },
+  "惠州": {
+    "typhoon": 7,
+    "rainstorm": 6,
+    "thunder": 6,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 23
+  },
+  "清远": {
+    "typhoon": 6,
+    "rainstorm": 8,
+    "thunder": 7,
+    "hail": 1,
+    "heatwave": 4,
+    "total": 26
+  },
+  "中山": {
+    "typhoon": 5,
+    "rainstorm": 8,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 21
+  },
+  "江门": {
+    "typhoon": 5,
+    "rainstorm": 6,
+    "thunder": 7,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 24
+  },
+  "南宁": {
+    "typhoon": 7,
+    "rainstorm": 8,
+    "thunder": 7,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 29
+  },
+  "柳州": {
+    "typhoon": 4,
+    "rainstorm": 5,
+    "thunder": 6,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 22
+  },
+  "玉林": {
+    "typhoon": 4,
+    "rainstorm": 7,
+    "thunder": 7,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 23
+  },
+  "海口": {
+    "typhoon": 5,
+    "rainstorm": 7,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 23
+  },
+  "上海": {
+    "typhoon": 4,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 20
+  },
+  "杭州": {
+    "typhoon": 2,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 14
+  },
+  "苏州": {
+    "typhoon": 4,
+    "rainstorm": 3,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 4,
+    "total": 17
+  },
+  "无锡": {
+    "typhoon": 2,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 13
+  },
+  "常州": {
+    "typhoon": 2,
+    "rainstorm": 3,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 13
+  },
+  "南通": {
+    "typhoon": 4,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 16
+  },
+  "嘉兴": {
+    "typhoon": 2,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 16
+  },
+  "绍兴": {
+    "typhoon": 3,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 17
+  },
+  "湖州": {
+    "typhoon": 4,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 19
+  },
+  "金华": {
+    "typhoon": 3,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 18
+  },
+  "丽水": {
+    "typhoon": 3,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 15
+  },
+  "昆山": {
+    "typhoon": 2,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 14
+  },
+  "义乌": {
+    "typhoon": 4,
+    "rainstorm": 3,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 15
+  },
+  "张家港": {
+    "typhoon": 2,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 15
+  },
+  "武汉": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 6,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 16
+  },
+  "长沙": {
+    "typhoon": 0,
+    "rainstorm": 6,
+    "thunder": 7,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 19
+  },
+  "南昌": {
+    "typhoon": 0,
+    "rainstorm": 7,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 18
+  },
+  "株洲": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 3,
+    "heatwave": 4,
+    "total": 15
+  },
+  "湘潭": {
+    "typhoon": 1,
+    "rainstorm": 7,
+    "thunder": 7,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 22
+  },
+  "岳阳": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 15
+  },
+  "益阳": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 14
+  },
+  "九江": {
+    "typhoon": 1,
+    "rainstorm": 5,
+    "thunder": 7,
+    "hail": 1,
+    "heatwave": 4,
+    "total": 18
+  },
+  "抚州": {
+    "typhoon": 1,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 5,
+    "total": 17
+  },
+  "宜昌": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 12
+  },
+  "北京": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 12
+  },
+  "天津": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 2,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 10
+  },
+  "石家庄": {
+    "typhoon": 1,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 6,
+    "total": 15
+  },
+  "保定": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 2,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 11
+  },
+  "廊坊": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 3,
+    "heatwave": 3,
+    "total": 14
+  },
+  "唐山": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 2,
+    "hail": 3,
+    "heatwave": 6,
+    "total": 14
+  },
+  "承德": {
+    "typhoon": 0,
+    "rainstorm": 2,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 4,
+    "total": 11
+  },
+  "太原": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 2,
+    "hail": 3,
+    "heatwave": 4,
+    "total": 13
+  },
+  "晋城": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 11
+  },
+  "衡水": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 3,
+    "heatwave": 5,
+    "total": 15
+  },
+  "秦皇岛": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 4,
+    "hail": 3,
+    "heatwave": 5,
+    "total": 15
+  },
+  "张家口": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 12
+  },
+  "成都": {
+    "typhoon": 0,
+    "rainstorm": 5,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 2,
+    "total": 12
+  },
+  "重庆": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 4,
+    "heatwave": 1,
+    "total": 12
+  },
+  "贵阳": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 4,
+    "heatwave": 2,
+    "total": 13
+  },
+  "昆明": {
+    "typhoon": 0,
+    "rainstorm": 6,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 16
+  },
+  "眉山": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 4,
+    "heatwave": 1,
+    "total": 12
+  },
+  "广汉": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 4,
+    "heatwave": 3,
+    "total": 16
+  },
+  "雅安": {
+    "typhoon": 0,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 4,
+    "heatwave": 3,
+    "total": 16
+  },
+  "文山": {
+    "typhoon": 0,
+    "rainstorm": 5,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 13
+  },
+  "黔南": {
+    "typhoon": 0,
+    "rainstorm": 5,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 2,
+    "total": 12
+  },
+  "怒江": {
+    "typhoon": 0,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 5,
+    "heatwave": 3,
+    "total": 17
+  },
+  "哈尔滨": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 2,
+    "hail": 1,
+    "heatwave": 1,
+    "total": 9
+  },
+  "长春": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 2,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 11
+  },
+  "沈阳": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 2,
+    "hail": 1,
+    "heatwave": 2,
+    "total": 8
+  },
+  "大连": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 10
+  },
+  "佳木斯": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 2,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 11
+  },
+  "七台河": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 1,
+    "total": 11
+  },
+  "朝阳": {
+    "typhoon": 0,
+    "rainstorm": 2,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 1,
+    "total": 7
+  },
+  "抚顺": {
+    "typhoon": 1,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 3,
+    "heatwave": 1,
+    "total": 12
+  },
+  "铁岭": {
+    "typhoon": 1,
+    "rainstorm": 2,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 2,
+    "total": 10
+  },
+  "营口": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 2,
+    "hail": 1,
+    "heatwave": 2,
+    "total": 8
+  },
+  "南京": {
+    "typhoon": 2,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 0,
+    "heatwave": 3,
+    "total": 12
+  },
+  "合肥": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 13
+  },
+  "济南": {
+    "typhoon": 2,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 17
+  },
+  "青岛": {
+    "typhoon": 2,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 12
+  },
+  "烟台": {
+    "typhoon": 2,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 14
+  },
+  "潍坊": {
+    "typhoon": 2,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 17
+  },
+  "威海": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 14
+  },
+  "日照": {
+    "typhoon": 1,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 15
+  },
+  "连云港": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 5,
+    "total": 14
+  },
+  "徐州": {
+    "typhoon": 2,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 16
+  },
+  "盐城": {
+    "typhoon": 2,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 17
+  },
+  "淮安": {
+    "typhoon": 2,
+    "rainstorm": 4,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 17
+  },
+  "宿迁": {
+    "typhoon": 1,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 14
+  },
+  "扬州": {
+    "typhoon": 1,
+    "rainstorm": 5,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 4,
+    "total": 16
+  },
+  "镇江": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 0,
+    "heatwave": 4,
+    "total": 13
+  },
+  "泰州": {
+    "typhoon": 2,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 16
+  },
+  "郑州": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 6,
+    "total": 14
+  },
+  "洛阳": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 13
+  },
+  "新乡": {
+    "typhoon": 0,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 4,
+    "total": 12
+  },
+  "黄石": {
+    "typhoon": 0,
+    "rainstorm": 2,
+    "thunder": 2,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 10
+  },
+  "西安": {
+    "typhoon": 0,
+    "rainstorm": 2,
+    "thunder": 2,
+    "hail": 4,
+    "heatwave": 5,
+    "total": 13
+  },
+  "临夏": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 3,
+    "heatwave": 4,
+    "total": 13
+  },
+  "嘉峪关": {
+    "typhoon": 0,
+    "rainstorm": 1,
+    "thunder": 1,
+    "hail": 4,
+    "heatwave": 5,
+    "total": 11
+  },
+  "包头": {
+    "typhoon": 0,
+    "rainstorm": 1,
+    "thunder": 2,
+    "hail": 2,
+    "heatwave": 3,
+    "total": 8
+  },
+  "蚌埠": {
+    "typhoon": 1,
+    "rainstorm": 3,
+    "thunder": 5,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 13
+  },
+  "芜湖": {
+    "typhoon": 1,
+    "rainstorm": 3,
+    "thunder": 4,
+    "hail": 2,
+    "heatwave": 4,
+    "total": 14
+  },
+  "滁州": {
+    "typhoon": 1,
+    "rainstorm": 5,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 16
+  },
+  "六安": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 4,
+    "hail": 1,
+    "heatwave": 5,
+    "total": 15
+  },
+  "龙岩": {
+    "typhoon": 1,
+    "rainstorm": 4,
+    "thunder": 3,
+    "hail": 2,
+    "heatwave": 1,
+    "total": 11
+  },
+  "常熟": {
+    "typhoon": 1,
+    "rainstorm": 3,
+    "thunder": 2,
+    "hail": 2,
+    "heatwave": 2,
+    "total": 10
+  },
+  "德州": {
+    "typhoon": 0,
+    "rainstorm": 3,
+    "thunder": 3,
+    "hail": 1,
+    "heatwave": 3,
+    "total": 10
+  },
+  "赣州": {
+    "typhoon": 0,
+    "rainstorm": 2,
+    "thunder": 2,
+    "hail": 0,
+    "heatwave": 2,
+    "total": 6
+  }
+}
