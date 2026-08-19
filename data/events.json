@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-08-19T17:45:40+08:00",
+  "updateTime": "2026-08-20T07:36:08+08:00",
   "events": [
     {
       "time": "08-19",
@@ -42,36 +42,36 @@
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     },
     {
-      "time": "08-17 20:56",
-      "type": "explosion",
-      "level": "major",
-      "title": "山东淄博润兴化工己二腈泄漏爆炸，1死9伤",
-      "location": "山东淄博",
-      "url": "https://18show.cn/zt628232/18show_Affiche_1474613.html"
-    },
-    {
-      "time": "08-17 21:16",
+      "time": "08-20",
       "type": "fire",
       "level": "",
-      "title": "重庆沙坪坝区天星桥街道居民楼火灾，火势蔓延至楼顶，无伤亡",
-      "location": "重庆",
-      "url": "http://m.toutiao.com/group/7675157674044015110/"
+      "title": "昆明一小区高层住户家中突发火灾，浓烟滚滚，无人员受伤",
+      "location": "云南昆明",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     },
     {
-      "time": "08-18 03:08",
+      "time": "08-19",
       "type": "fire",
       "level": "",
-      "title": "广州番禺大平村废品站突发大火，距大夫山森林公园不足2公里",
-      "location": "广东广州",
-      "url": "https://m.zgfeipin.cn/feipinhuishou_6443_1/"
+      "title": "湖北十堰一高楼发生火灾，现场浓烟滚滚",
+      "location": "湖北十堰",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     },
     {
-      "time": "08-17 08:50",
-      "type": "traffic",
+      "time": "08-18 22:00",
+      "type": "fire",
       "level": "",
-      "title": "贵州锦屏县车辆失控冲入赶集人群，多人受伤",
-      "location": "贵州黔东南",
-      "url": "http://m.toutiao.com/group/7674927779200238086/"
+      "title": "东莞清溪渔梁围附近突发火灾，浓烟滚滚",
+      "location": "广东东莞",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+    },
+    {
+      "time": "08-20",
+      "type": "fire",
+      "level": "",
+      "title": "上海中环高架一车辆起火，占用两根车道，消防已到场处置",
+      "location": "上海",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
 }
