@@ -216,7 +216,10 @@ body {
 
 .map-section {
 
-  flex: 0 0 70%;
+  flex: 0 0 auto;
+  height: 55vh;
+  min-height: 350px;
+  max-height: 550px;
 
   position: relative;
 
@@ -230,7 +233,7 @@ body {
 
   height: 100%;
 
-  background: radial-gradient(ellipse at center, rgba(30,41,59,0.5) 0%, transparent 70%);
+  background: radial-gradient(ellipse at center, rgba(30,41,59,0.3) 0%, transparent 60%);
 
   border-radius: 12px;
 
@@ -1972,8 +1975,9 @@ body {
   }
   .map-section {
     flex: none;
-    height: 50vh;
-    min-height: 300px;
+    height: 45vh;
+    min-height: 280px;
+    max-height: 420px;
     padding: 8px;
   }
   .panel-section {
@@ -2024,7 +2028,7 @@ body {
   }
   .pie-svg { width: 80px; height: 80px; }
   .header h1 { font-size: 14px; }
-  .map-section { height: 40vh; min-height: 250px; }
+  .map-section { height: 38vh; min-height: 240px; max-height: 350px; }
 }
 
 </style>
@@ -2185,7 +2189,7 @@ body {
 
     <div class="map-container">
 
-      <svg id="chinaMap" viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid meet">
+      <svg id="chinaMap" viewBox="0 0 1000 870" preserveAspectRatio="xMidYMid meet">
 
         <defs>
 
