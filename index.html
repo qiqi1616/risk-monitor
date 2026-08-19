@@ -216,14 +216,14 @@ body {
 
 .map-section {
 
-  flex: 0 0 auto;
-  height: 55vh;
-  min-height: 350px;
-  max-height: 550px;
+  flex: 0 0 65%;
+  height: 50vh;
+  min-height: 320px;
+  max-height: 480px;
 
   position: relative;
 
-  padding: 16px;
+  padding: 10px;
 
 }
 
@@ -319,7 +319,7 @@ body {
 
 .panel-section {
 
-  flex: 0 0 30%;
+  flex: 0 0 35%;
 
   background: var(--bg-secondary);
 
@@ -327,7 +327,40 @@ body {
 
   overflow-y: auto;
 
-  padding: 16px;
+  padding: 14px;
+
+}
+
+/* 图表行 */
+.chart-row {
+
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+
+}
+
+.chart-card {
+
+  flex: 1;
+  min-width: 0;
+  background: var(--bg-secondary);
+  border-radius: 10px;
+  padding: 14px;
+  border: 1px solid var(--border);
+
+}
+
+/* 时间线独立区域 */
+.timeline-section {
+
+  padding: 0 16px 12px;
+
+}
+
+.timeline-section .timeline-container {
+
+  margin-bottom: 0;
 
 }
 
@@ -847,17 +880,23 @@ body {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
   .main-container { flex-direction: column; }
 
-  .map-section { flex: 0 0 60vh; }
+  .map-section { flex: 0 0 auto; height: 45vh; min-height: 280px; max-height: 420px; }
 
   .panel-section { flex: 1; border-left: none; border-top: 1px solid var(--border); }
 
   .header { flex-direction: column; align-items: flex-start; }
 
   .header-controls { width: 100%; justify-content: flex-start; }
+
+  .chart-row { flex-wrap: wrap; }
+
+  .chart-card { flex: 1 1 calc(50% - 6px); min-width: calc(50% - 6px); }
+
+  .chart-card:last-child { flex: 1 1 100%; }
 
 }
 
@@ -1719,18 +1758,17 @@ body {
 
 /* 预警趋势图 */
 .trend-chart-container {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 .trend-chart-container h3 {
-  font-size: 12px;
-  color: var(--text-secondary);
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
 }
 .trend-svg { width: 100%; height: 120px; }
 .trend-line { fill: none; stroke: #06B6D4; stroke-width: 2; filter: url(#glow); }
@@ -1785,18 +1823,17 @@ body {
 
 /* 预警类型分布饼图 */
 .pie-chart-container {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 .pie-chart-container h3 {
-  font-size: 12px;
-  color: var(--text-secondary);
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
 }
 .pie-chart-wrapper {
   display: flex;
@@ -1815,11 +1852,11 @@ body {
 
 /* 预警历史时间线 */
 .timeline-container {
-  background: var(--bg-card);
+  background: var(--bg-secondary);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 0;
 }
 .timeline-header {
   display: flex; align-items: center; justify-content: space-between;
@@ -1898,18 +1935,17 @@ body {
 
 /* 季节性风险日历 */
 .season-calendar-container {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 .season-calendar-container h3 {
-  font-size: 12px;
-  color: var(--text-secondary);
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
 }
 .season-grid {
   display: grid;
@@ -1986,6 +2022,21 @@ body {
     border-top: 1px solid var(--border);
     padding: 12px;
   }
+  .chart-row {
+    flex-wrap: wrap;
+    padding: 8px 12px;
+  }
+  .chart-card {
+    flex: 1 1 calc(50% - 6px);
+    min-width: calc(50% - 6px);
+    padding: 10px;
+  }
+  .chart-card:last-child {
+    flex: 1 1 100%;
+  }
+  .timeline-section {
+    padding: 0 12px 8px;
+  }
   .summary-stats {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -2002,9 +2053,7 @@ body {
   .zoom-btn { width: 40px; height: 40px; font-size: 20px; }
   .event-ticker { font-size: 12px; }
   .event-ticker-inner { padding: 6px 12px; }
-  .risk-ranking-container, .trend-chart-container,
-  .pie-chart-container, .timeline-container,
-  .season-calendar-container { padding: 12px; }
+  .risk-ranking-container { padding: 12px; }
   body { font-size: 14px; }
   .stat-value { font-size: 22px; }
   .city-name { font-size: 13px; }
@@ -2029,6 +2078,8 @@ body {
   .pie-svg { width: 80px; height: 80px; }
   .header h1 { font-size: 14px; }
   .map-section { height: 38vh; min-height: 240px; max-height: 350px; }
+  .chart-row { flex-direction: column; }
+  .chart-card { flex: 1 1 100%; min-width: 100%; }
 }
 
 </style>
@@ -2189,7 +2240,7 @@ body {
 
     <div class="map-container">
 
-      <svg id="chinaMap" viewBox="0 0 1000 870" preserveAspectRatio="xMidYMid meet">
+      <svg id="chinaMap" viewBox="0 0 1000 750" preserveAspectRatio="xMidYMid meet">
 
         <defs>
 
@@ -2384,18 +2435,6 @@ body {
 
 
     
-    <!-- 预警趋势图 -->
-    <div class="trend-chart-container" id="trendChartContainer">
-      <h3>📈 7日预警趋势</h3>
-      <svg class="trend-svg" id="trendSvg" viewBox="0 0 300 120">
-        <defs>
-          <linearGradient id="trendGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.4"/>
-            <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
 
     <!-- 风险排行 TOP10 -->
     <div class="risk-ranking-container" id="riskRankingContainer">
@@ -2403,29 +2442,8 @@ body {
       <div id="riskRankingList"></div>
     </div>
 
-    <!-- 预警类型分布饼图 -->
-    <div class="pie-chart-container" id="pieChartContainer">
-      <h3>📊 预警类型分布</h3>
-      <div class="pie-chart-wrapper">
-        <svg class="pie-svg" id="pieSvg" viewBox="0 0 100 100"></svg>
-        <div class="pie-legend" id="pieLegend"></div>
-      </div>
-    </div>
 
-    <!-- 预警历史时间线 -->
-    <div class="timeline-container" id="timelineContainer">
-      <div class="timeline-header" onclick="toggleTimeline()">
-        <h3>📅 预警历史时间线</h3>
-        <span class="timeline-toggle" id="timelineToggle">▼</span>
-      </div>
-      <div class="timeline-body" id="timelineBody"></div>
-    </div>
 
-    <!-- 季节性风险日历 -->
-    <div class="season-calendar-container" id="seasonCalendarContainer">
-      <h3>📆 季节性风险日历</h3>
-      <div class="season-grid" id="seasonGrid"></div>
-    </div>
 
 
     <h4 class="section-title">标的城市列表</h4>
@@ -2458,7 +2476,48 @@ body {
 
 </div>
 
+<!-- 图表行：趋势图 + 饼图 + 季节日历 -->
+<div class="chart-row">
+  <div class="chart-card">
+    <div class="trend-chart-container" id="trendChartContainer">
+      <h3>📈 7日预警趋势</h3>
+      <svg class="trend-svg" id="trendSvg" viewBox="0 0 300 120">
+        <defs>
+          <linearGradient id="trendGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.4"/>
+            <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </div>
+  <div class="chart-card">
+    <div class="pie-chart-container" id="pieChartContainer">
+      <h3>📊 预警类型分布</h3>
+      <div class="pie-chart-wrapper">
+        <svg class="pie-svg" id="pieSvg" viewBox="0 0 100 100"></svg>
+        <div class="pie-legend" id="pieLegend"></div>
+      </div>
+    </div>
+  </div>
+  <div class="chart-card">
+    <div class="season-calendar-container" id="seasonCalendarContainer">
+      <h3>📆 季节性风险日历</h3>
+      <div class="season-grid" id="seasonGrid"></div>
+    </div>
+  </div>
+</div>
 
+<!-- 预警历史时间线（可折叠独立区域） -->
+<div class="timeline-section">
+  <div class="timeline-container" id="timelineContainer">
+    <div class="timeline-header" onclick="toggleTimeline()">
+      <h3>📅 预警历史时间线</h3>
+      <span class="timeline-toggle" id="timelineToggle">▼</span>
+    </div>
+    <div class="timeline-body" id="timelineBody"></div>
+  </div>
+</div>
 
 <!-- Tooltip -->
 
