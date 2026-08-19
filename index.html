@@ -1711,6 +1711,322 @@ body {
 }
 .warmtip-regen-btn:hover { border-color: var(--accent-blue); color: var(--text-primary); }
 
+
+/* ===== 新增功能样式 ===== */
+
+/* 预警趋势图 */
+.trend-chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.trend-chart-container h3 {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.trend-svg { width: 100%; height: 120px; }
+.trend-line { fill: none; stroke: #06B6D4; stroke-width: 2; filter: url(#glow); }
+.trend-area { fill: url(#trendGrad); opacity: 0.3; }
+.trend-dot { fill: #06B6D4; stroke: #0B1120; stroke-width: 2; }
+.trend-label { fill: var(--text-secondary); font-size: 10px; text-anchor: middle; }
+.trend-value-label { fill: #06B6D4; font-size: 9px; text-anchor: middle; font-weight: 600; }
+
+/* 风险排行 TOP10 */
+.risk-ranking-container {
+  background: linear-gradient(135deg, var(--bg-card) 0%, rgba(239,68,68,0.08) 100%);
+  border: 1px solid rgba(239,68,68,0.25);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.risk-ranking-container h3 {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.risk-rank-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+.risk-rank-item:hover { background: rgba(239,68,68,0.1); }
+.risk-rank-num {
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 700;
+  background: rgba(59,130,246,0.2); color: var(--accent-blue);
+  flex-shrink: 0;
+}
+.risk-rank-num.top3 { background: rgba(239,68,68,0.25); color: var(--warning-red); }
+.risk-rank-city { font-weight: 600; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.risk-rank-badge { font-size: 10px; padding: 1px 6px; border-radius: 3px; flex-shrink: 0; }
+.risk-rank-badge.red { background: rgba(239,68,68,0.2); color: var(--warning-red); }
+.risk-rank-badge.orange { background: rgba(249,115,22,0.2); color: var(--warning-orange); }
+.risk-rank-badge.yellow { background: rgba(234,179,8,0.2); color: var(--warning-yellow); }
+.risk-rank-score { color: var(--text-secondary); font-size: 10px; flex-shrink: 0; width: 35px; text-align: right; }
+.risk-rank-count { color: var(--text-secondary); font-size: 10px; flex-shrink: 0; width: 25px; text-align: center; }
+
+/* 预警类型分布饼图 */
+.pie-chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.pie-chart-container h3 {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.pie-chart-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.pie-svg { width: 100px; height: 100px; flex-shrink: 0; }
+.pie-legend { flex: 1; }
+.pie-legend-item {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px; color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+.pie-legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+.pie-legend-pct { margin-left: auto; color: var(--text-primary); font-weight: 600; font-size: 10px; }
+
+/* 预警历史时间线 */
+.timeline-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.timeline-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 12px; cursor: pointer;
+}
+.timeline-header h3 {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.timeline-toggle { font-size: 14px; color: var(--accent-cyan); transition: transform 0.3s; }
+.timeline-toggle.collapsed { transform: rotate(-90deg); }
+.timeline-body { overflow: hidden; transition: max-height 0.3s ease; }
+.timeline-body.collapsed { max-height: 0 !important; }
+.timeline-day-group { margin-bottom: 12px; }
+.timeline-date {
+  font-size: 11px; color: var(--accent-cyan); font-weight: 600;
+  margin-bottom: 6px; padding-left: 16px; position: relative;
+}
+.timeline-date::before {
+  content: '';
+  position: absolute; left: 4px; top: 50%; transform: translateY(-50%);
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent-cyan);
+}
+.timeline-date::after {
+  content: '';
+  position: absolute; left: 6px; top: 50%; width: 1px; height: 100%;
+  background: rgba(6,182,212,0.2);
+}
+.timeline-event {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 11px; padding: 3px 8px 3px 16px;
+  color: var(--text-secondary); position: relative;
+}
+.timeline-event::before {
+  content: '';
+  position: absolute; left: 6px; top: 0; width: 1px; height: 100%;
+  background: rgba(6,182,212,0.15);
+}
+.timeline-time { color: var(--text-secondary); width: 36px; flex-shrink: 0; font-size: 10px; }
+.timeline-city { font-weight: 600; color: var(--text-primary); width: 40px; flex-shrink: 0; }
+.timeline-type { flex: 1; }
+.timeline-level-tag { font-size: 9px; padding: 1px 4px; border-radius: 3px; }
+.timeline-level-tag.red { background: rgba(239,68,68,0.2); color: var(--warning-red); }
+.timeline-level-tag.orange { background: rgba(249,115,22,0.2); color: var(--warning-orange); }
+.timeline-level-tag.yellow { background: rgba(234,179,8,0.2); color: var(--warning-yellow); }
+
+/* 收藏功能 */
+.fav-btn {
+  background: none; border: none; cursor: pointer;
+  font-size: 14px; padding: 2px; transition: transform 0.2s;
+  filter: grayscale(1); opacity: 0.5;
+}
+.fav-btn:hover { transform: scale(1.2); }
+.fav-btn.active { filter: grayscale(0); opacity: 1; }
+.fav-filter-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex; align-items: center; gap: 4px;
+}
+.fav-filter-btn:hover { border-color: var(--accent-blue); }
+.fav-filter-btn.active { border-color: #EAB308; color: #EAB308; background: rgba(234,179,8,0.1); }
+.city-marker-fav {
+  stroke: #EAB308 !important;
+  stroke-width: 2.5 !important;
+  filter: drop-shadow(0 0 4px rgba(234,179,8,0.6));
+}
+
+/* 季节性风险日历 */
+.season-calendar-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.season-calendar-container h3 {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.season-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+.season-month {
+  background: rgba(15,23,42,0.5);
+  border: 1px solid rgba(59,130,246,0.1);
+  border-radius: 6px;
+  padding: 8px 6px;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: default;
+}
+.season-month.current {
+  border-color: var(--accent-cyan);
+  background: rgba(6,182,212,0.1);
+  box-shadow: 0 0 8px rgba(6,182,212,0.15);
+}
+.season-month-name { font-size: 11px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+.season-month.current .season-month-name { color: var(--accent-cyan); }
+.season-disaster-tags { display: flex; flex-wrap: wrap; gap: 2px; justify-content: center; }
+.season-tag {
+  font-size: 9px; padding: 1px 4px; border-radius: 3px;
+  white-space: nowrap;
+}
+.season-tag.typhoon { background: rgba(147,51,234,0.2); color: #A855F7; }
+.season-tag.rainstorm { background: rgba(59,130,246,0.2); color: #60A5FA; }
+.season-tag.thunder { background: rgba(234,179,8,0.2); color: #FACC15; }
+.season-tag.hail { background: rgba(6,182,212,0.2); color: #22D3EE; }
+.season-tag.heatwave { background: rgba(239,68,68,0.2); color: #F87171; }
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+  }
+  .header h1 { font-size: 16px; }
+  .header-controls {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .filter-group { width: 100%; }
+  .filter-select {
+    width: 100%;
+    min-width: unset;
+    padding: 10px 12px;
+    font-size: 14px;
+    min-height: 44px;
+  }
+  .header-info {
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 12px;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .map-section {
+    flex: none;
+    height: 50vh;
+    min-height: 300px;
+    padding: 8px;
+  }
+  .panel-section {
+    flex: none;
+    border-left: none;
+    border-top: 1px solid var(--border);
+    padding: 12px;
+  }
+  .summary-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .season-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .city-item { padding: 14px; min-height: 44px; }
+  .tip-btn { min-height: 44px; padding: 10px 16px; }
+  .warmtip-btn, .export-btn {
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+  .zoom-btn { width: 40px; height: 40px; font-size: 20px; }
+  .event-ticker { font-size: 12px; }
+  .event-ticker-inner { padding: 6px 12px; }
+  .risk-ranking-container, .trend-chart-container,
+  .pie-chart-container, .timeline-container,
+  .season-calendar-container { padding: 12px; }
+  body { font-size: 14px; }
+  .stat-value { font-size: 22px; }
+  .city-name { font-size: 13px; }
+}
+
+@media screen and (max-width: 480px) {
+  .summary-stats {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 8px;
+  }
+  .stat-item {
+    display: flex; align-items: center; gap: 8px;
+    justify-content: space-between;
+  }
+  .stat-value { font-size: 20px; }
+  .season-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pie-chart-wrapper {
+    flex-direction: column;
+  }
+  .pie-svg { width: 80px; height: 80px; }
+  .header h1 { font-size: 14px; }
+  .map-section { height: 40vh; min-height: 250px; }
+}
+
 </style>
 
 </head>
@@ -2061,6 +2377,51 @@ body {
 
     </div>
 
+
+
+    
+    <!-- 预警趋势图 -->
+    <div class="trend-chart-container" id="trendChartContainer">
+      <h3>📈 7日预警趋势</h3>
+      <svg class="trend-svg" id="trendSvg" viewBox="0 0 300 120">
+        <defs>
+          <linearGradient id="trendGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.4"/>
+            <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+
+    <!-- 风险排行 TOP10 -->
+    <div class="risk-ranking-container" id="riskRankingContainer">
+      <h3>🏆 风险排行 TOP10</h3>
+      <div id="riskRankingList"></div>
+    </div>
+
+    <!-- 预警类型分布饼图 -->
+    <div class="pie-chart-container" id="pieChartContainer">
+      <h3>📊 预警类型分布</h3>
+      <div class="pie-chart-wrapper">
+        <svg class="pie-svg" id="pieSvg" viewBox="0 0 100 100"></svg>
+        <div class="pie-legend" id="pieLegend"></div>
+      </div>
+    </div>
+
+    <!-- 预警历史时间线 -->
+    <div class="timeline-container" id="timelineContainer">
+      <div class="timeline-header" onclick="toggleTimeline()">
+        <h3>📅 预警历史时间线</h3>
+        <span class="timeline-toggle" id="timelineToggle">▼</span>
+      </div>
+      <div class="timeline-body" id="timelineBody"></div>
+    </div>
+
+    <!-- 季节性风险日历 -->
+    <div class="season-calendar-container" id="seasonCalendarContainer">
+      <h3>📆 季节性风险日历</h3>
+      <div class="season-grid" id="seasonGrid"></div>
+    </div>
 
 
     <h4 class="section-title">标的城市列表</h4>
@@ -6172,6 +6533,571 @@ document.addEventListener('keydown', function(e) {
     }
   }
 });
+
+
+
+// ========== 新增功能模块 ==========
+
+// ===== 功能1: 预警趋势图 =====
+let warningTrendData = [];
+
+async function loadWarningTrend() {
+  try {
+    if (typeof window.WARNING_TREND_INLINE !== 'undefined') {
+      warningTrendData = window.WARNING_TREND_INLINE;
+    } else {
+      const resp = await fetch('data/warning_trend.json?_t=' + Date.now());
+      if (resp.ok) warningTrendData = await resp.json();
+    }
+    renderTrendChart();
+  } catch(e) {
+    console.warn('[趋势图] 加载失败:', e);
+  }
+}
+
+function renderTrendChart() {
+  const svg = document.getElementById('trendSvg');
+  if (!svg || !warningTrendData.length) return;
+  
+  const data = warningTrendData.slice(-7);
+  if (data.length < 2) return;
+  
+  const W = 300, H = 120;
+  const padL = 30, padR = 10, padT = 15, padB = 25;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  
+  const maxVal = Math.max(...data.map(d => d.count), 1);
+  const step = chartW / (data.length - 1);
+  
+  let points = data.map((d, i) => {
+    const x = padL + i * step;
+    const y = padT + chartH - (d.count / maxVal) * chartH;
+    return { x, y, count: d.count, date: d.date };
+  });
+  
+  let linePath = 'M' + points.map(p => p.x + ',' + p.y).join(' L');
+  let areaPath = linePath + ' L' + points[points.length-1].x + ',' + (padT + chartH) + ' L' + points[0].x + ',' + (padT + chartH) + ' Z';
+  
+  let html = '<defs><linearGradient id="trendGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#06B6D4" stop-opacity="0.4"/><stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/></linearGradient></defs>';
+  
+  // Grid lines
+  for (let i = 0; i <= 3; i++) {
+    const y = padT + (chartH / 3) * i;
+    html += '<line x1="' + padL + '" y1="' + y + '" x2="' + (W-padR) + '" y2="' + y + '" stroke="rgba(59,130,246,0.1)" stroke-width="0.5"/>';
+    const val = Math.round(maxVal - (maxVal / 3) * i);
+    html += '<text x="' + (padL - 4) + '" y="' + (y + 3) + '" fill="#94A3B8" font-size="8" text-anchor="end">' + val + '</text>';
+  }
+  
+  // Area
+  html += '<path d="' + areaPath + '" fill="url(#trendGrad)"/>';
+  // Line
+  html += '<path d="' + linePath + '" fill="none" stroke="#06B6D4" stroke-width="2"/>';
+  // Dots and labels
+  points.forEach((p, i) => {
+    html += '<circle cx="' + p.x + '" cy="' + p.y + '" r="3" fill="#06B6D4" stroke="#0B1120" stroke-width="2"/>';
+    html += '<text x="' + p.x + '" y="' + (p.y - 8) + '" fill="#06B6D4" font-size="9" text-anchor="middle" font-weight="600">' + p.count + '</text>';
+    const dateLabel = p.date.substring(5); // MM-DD
+    html += '<text x="' + p.x + '" y="' + (H - 4) + '" fill="#94A3B8" font-size="8" text-anchor="middle">' + dateLabel + '</text>';
+  });
+  
+  svg.innerHTML = html;
+}
+
+function updateWarningTrend() {
+  // Called during data refresh to update trend
+  const today = new Date();
+  const dateStr = today.getFullYear() + '-' + String(today.getMonth()+1).padStart(2,'0') + '-' + String(today.getDate()).padStart(2,'0');
+  
+  let activeCount = 0;
+  let warnings = [];
+  Object.entries(cityWarningData).forEach(([qid, data]) => {
+    if (!data.warning) return;
+    data.warning.forEach(w => {
+      if (w.status === 'active') {
+        activeCount++;
+        // Find city name for this qid
+        let cityName = '';
+        for (const [name, city] of Object.entries(CITY_DATA)) {
+          if (city.qid === qid) { cityName = name; break; }
+        }
+        const now = new Date();
+        warnings.push({
+          city: cityName || '未知',
+          type: w.typeName || w.type || '未知',
+          level: w.severity || w.level || '未知',
+          time: String(now.getHours()).padStart(2,'0') + ':' + String(now.getMinutes()).padStart(2,'0')
+        });
+      }
+    });
+  });
+  
+  // Update or add today's entry
+  const existingIdx = warningTrendData.findIndex(d => d.date === dateStr);
+  if (existingIdx >= 0) {
+    warningTrendData[existingIdx].count = activeCount;
+    warningTrendData[existingIdx].warnings = warnings;
+  } else {
+    warningTrendData.push({ date: dateStr, count: activeCount, warnings: warnings });
+    // Keep only last 7 days
+    if (warningTrendData.length > 7) {
+      warningTrendData = warningTrendData.slice(-7);
+    }
+  }
+  
+  renderTrendChart();
+}
+
+// ===== 功能2: 风险排行 TOP10 =====
+function renderRiskRanking() {
+  const container = document.getElementById('riskRankingList');
+  if (!container) return;
+  
+  const levelWeight = { '红色': 3, '橙色': 2, '黄色': 1 };
+  const rankings = [];
+  
+  Object.entries(CITY_DATA).forEach(([cityName, city]) => {
+    const warnings = cityWarningData[city.qid]?.warning || [];
+    const activeWarnings = warnings.filter(w => w.status === 'active');
+    if (activeWarnings.length === 0) return;
+    
+    // Get max severity
+    let maxWeight = 0;
+    let maxLevel = '';
+    activeWarnings.forEach(w => {
+      const w_val = levelWeight[w.severity] || 0;
+      if (w_val > maxWeight) {
+        maxWeight = w_val;
+        maxLevel = w.severity;
+      }
+    });
+    
+    // Get disaster frequency
+    const disasterData = DISASTER_HISTORY_DATA[cityName];
+    const freq = disasterData ? (disasterData.total || 1) : 1;
+    
+    // Risk score = weight * frequency * warning_count
+    const score = maxWeight * freq * activeWarnings.length;
+    
+    if (score > 0) {
+      rankings.push({
+        city: cityName,
+        level: maxLevel,
+        levelClass: maxLevel === '红色' ? 'red' : (maxLevel === '橙色' ? 'orange' : 'yellow'),
+        count: activeWarnings.length,
+        score: Math.round(score)
+      });
+    }
+  });
+  
+  rankings.sort((a, b) => b.score - a.score);
+  const top10 = rankings.slice(0, 10);
+  
+  container.innerHTML = top10.map((item, idx) => {
+    const numClass = idx < 3 ? 'top3' : '';
+    return '<div class="risk-rank-item" onclick="selectCity(\'' + item.city + '\')">' +
+      '<span class="risk-rank-num ' + numClass + '">' + (idx + 1) + '</span>' +
+      '<span class="risk-rank-city">' + item.city + '</span>' +
+      '<span class="risk-rank-badge ' + item.levelClass + '">' + item.level + '</span>' +
+      '<span class="risk-rank-count">' + item.count + '条</span>' +
+      '<span class="risk-rank-score">' + item.score + '分</span>' +
+      '</div>';
+  }).join('');
+  
+  if (top10.length === 0) {
+    container.innerHTML = '<div style="padding:12px;text-align:center;color:var(--text-secondary);font-size:12px;">暂无活跃预警</div>';
+  }
+}
+
+// ===== 功能3: 预警类型分布饼图 =====
+function renderPieChart() {
+  const svg = document.getElementById('pieSvg');
+  const legend = document.getElementById('pieLegend');
+  if (!svg || !legend) return;
+  
+  // Count warning types
+  const typeCount = {};
+  const typeColors = {
+    '暴雨': '#3B82F6', '台风': '#A855F7', '雷电': '#EAB308',
+    '冰雹': '#06B6D4', '强对流': '#F97316', '高温': '#EF4444',
+    '大风': '#10B981', '寒潮': '#6366F1', '大雾': '#94A3B8', '其他': '#64748B'
+  };
+  
+  Object.values(cityWarningData).forEach(data => {
+    if (!data.warning) return;
+    data.warning.forEach(w => {
+      if (w.status !== 'active') return;
+      const typeName = w.typeName || w.type || '其他';
+      // Normalize type
+      let normalized = typeName;
+      for (const key of Object.keys(typeColors)) {
+        if (typeName.includes(key)) { normalized = key; break; }
+      }
+      typeCount[normalized] = (typeCount[normalized] || 0) + 1;
+    });
+  });
+  
+  const total = Object.values(typeCount).reduce((a, b) => a + b, 0);
+  if (total === 0) {
+    svg.innerHTML = '<text x="50" y="54" text-anchor="middle" fill="#94A3B8" font-size="10">暂无数据</text>';
+    legend.innerHTML = '';
+    return;
+  }
+  
+  const entries = Object.entries(typeCount).sort((a, b) => b[1] - a[1]);
+  const cx = 50, cy = 50, r = 40, innerR = 22;
+  
+  let startAngle = -Math.PI / 2;
+  let paths = '';
+  let legendHtml = '';
+  
+  entries.forEach(([type, count]) => {
+    const pct = count / total;
+    const angle = pct * 2 * Math.PI;
+    const endAngle = startAngle + angle;
+    const largeArc = angle > Math.PI ? 1 : 0;
+    
+    const x1 = cx + r * Math.cos(startAngle);
+    const y1 = cy + r * Math.sin(startAngle);
+    const x2 = cx + r * Math.cos(endAngle);
+    const y2 = cy + r * Math.sin(endAngle);
+    const ix1 = cx + innerR * Math.cos(endAngle);
+    const iy1 = cy + innerR * Math.sin(endAngle);
+    const ix2 = cx + innerR * Math.cos(startAngle);
+    const iy2 = cy + innerR * Math.sin(startAngle);
+    
+    const color = typeColors[type] || '#64748B';
+    
+    if (pct >= 0.999) {
+      // Full circle
+      paths += '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="' + color + '"/>';
+      paths += '<circle cx="' + cx + '" cy="' + cy + '" r="' + innerR + '" fill="#1a2332"/>';
+    } else {
+      const d = 'M' + x1 + ',' + y1 + ' A' + r + ',' + r + ' 0 ' + largeArc + ' 1 ' + x2 + ',' + y2 + 
+                ' L' + ix1 + ',' + iy1 + ' A' + innerR + ',' + innerR + ' 0 ' + largeArc + ' 0 ' + ix2 + ',' + iy2 + ' Z';
+      paths += '<path d="' + d + '" fill="' + color + '" stroke="#1a2332" stroke-width="1"/>';
+    }
+    
+    const pctStr = Math.round(pct * 100) + '%';
+    legendHtml += '<div class="pie-legend-item"><span class="pie-legend-dot" style="background:' + color + '"></span><span>' + type + '</span><span class="pie-legend-pct">' + pctStr + '</span></div>';
+    
+    startAngle = endAngle;
+  });
+  
+  svg.innerHTML = paths;
+  legend.innerHTML = legendHtml;
+}
+
+// ===== 功能4: 预警历史时间线 =====
+let timelineCollapsed = false;
+
+function toggleTimeline() {
+  timelineCollapsed = !timelineCollapsed;
+  const body = document.getElementById('timelineBody');
+  const toggle = document.getElementById('timelineToggle');
+  if (body) {
+    if (timelineCollapsed) {
+      body.classList.add('collapsed');
+      toggle.classList.add('collapsed');
+    } else {
+      body.classList.remove('collapsed');
+      toggle.classList.remove('collapsed');
+    }
+  }
+}
+
+function renderTimeline() {
+  const body = document.getElementById('timelineBody');
+  if (!body) return;
+  
+  if (!warningTrendData.length) {
+    body.innerHTML = '<div style="padding:8px;color:var(--text-secondary);font-size:11px;text-align:center;">暂无历史数据</div>';
+    return;
+  }
+  
+  const data = warningTrendData.slice(-7).reverse();
+  
+  let html = '';
+  data.forEach(day => {
+    const dateStr = day.date.substring(5).replace('-', '/');
+    html += '<div class="timeline-day-group">';
+    html += '<div class="timeline-date">' + day.date.substring(0, 4) + '/' + dateStr + ' (' + (day.warnings || []).length + '条)</div>';
+    
+    if (day.warnings && day.warnings.length > 0) {
+      day.warnings.slice(0, 8).forEach(w => {
+        const levelClass = w.level === '红色' ? 'red' : (w.level === '橙色' ? 'orange' : 'yellow');
+        html += '<div class="timeline-event">' +
+          '<span class="timeline-time">' + (w.time || '--:--') + '</span>' +
+          '<span class="timeline-city">' + w.city + '</span>' +
+          '<span class="timeline-type">' + w.type + '</span>' +
+          '<span class="timeline-level-tag ' + levelClass + '">' + w.level + '</span>' +
+          '</div>';
+      });
+      if (day.warnings.length > 8) {
+        html += '<div style="padding:2px 16px;font-size:10px;color:var(--text-secondary);">...还有' + (day.warnings.length - 8) + '条</div>';
+      }
+    }
+    html += '</div>';
+  });
+  
+  body.innerHTML = html;
+  body.style.maxHeight = body.scrollHeight + 'px';
+}
+
+// ===== 功能5: 收藏功能 =====
+let favorites = [];
+let showFavOnly = false;
+
+function loadFavorites() {
+  try {
+    const stored = localStorage.getItem('risk_monitor_favorites');
+    if (stored) favorites = JSON.parse(stored);
+  } catch(e) {}
+}
+
+function saveFavorites() {
+  try {
+    localStorage.setItem('risk_monitor_favorites', JSON.stringify(favorites));
+  } catch(e) {}
+}
+
+function toggleFavorite(cityName, event) {
+  if (event) event.stopPropagation();
+  const idx = favorites.indexOf(cityName);
+  if (idx >= 0) {
+    favorites.splice(idx, 1);
+  } else {
+    favorites.push(cityName);
+  }
+  saveFavorites();
+  renderCityList();
+  renderCityMarkers();
+  updateFavBtnState();
+}
+
+function isFavorite(cityName) {
+  return favorites.indexOf(cityName) >= 0;
+}
+
+function toggleFavFilter() {
+  showFavOnly = !showFavOnly;
+  const btn = document.getElementById('favFilterBtn');
+  if (btn) {
+    btn.classList.toggle('active', showFavOnly);
+  }
+  renderCityList();
+  renderCityMarkers();
+}
+
+function updateFavBtnState() {
+  // Update star buttons in city list
+  document.querySelectorAll('.fav-btn').forEach(btn => {
+    const city = btn.getAttribute('data-city');
+    if (city) {
+      btn.classList.toggle('active', isFavorite(city));
+    }
+  });
+}
+
+function renderFavFilterBtn() {
+  // Insert fav filter button after filter-stats
+  const filterStats = document.getElementById('filterStats');
+  if (!filterStats) return;
+  if (document.getElementById('favFilterBtn')) return;
+  const btn = document.createElement('button');
+  btn.id = 'favFilterBtn';
+  btn.className = 'fav-filter-btn';
+  btn.innerHTML = '⭐ 只看收藏';
+  btn.onclick = toggleFavFilter;
+  filterStats.parentNode.insertBefore(btn, filterStats.nextSibling);
+}
+
+// ===== 功能6: 季节性风险日历 =====
+function renderSeasonCalendar() {
+  const grid = document.getElementById('seasonGrid');
+  if (!grid) return;
+  
+  const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+  const currentMonth = new Date().getMonth(); // 0-11
+  
+  // Seasonal disaster patterns (typical for China)
+  const seasonPatterns = {
+    0: [{type:'heatwave',label:'寒潮'},{type:'rainstorm',label:'低温'}], // Jan
+    1: [{type:'heatwave',label:'寒潮'},{type:'rainstorm',label:'低温'}], // Feb
+    2: [{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'}], // Mar
+    3: [{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'},{type:'rainstorm',label:'暴雨'}], // Apr
+    4: [{type:'rainstorm',label:'暴雨'},{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'}], // May
+    5: [{type:'rainstorm',label:'暴雨'},{type:'typhoon',label:'台风'},{type:'thunder',label:'雷电'}], // Jun
+    6: [{type:'typhoon',label:'台风'},{type:'rainstorm',label:'暴雨'},{type:'heatwave',label:'高温'}], // Jul
+    7: [{type:'typhoon',label:'台风'},{type:'rainstorm',label:'暴雨'},{type:'heatwave',label:'高温'}], // Aug
+    8: [{type:'typhoon',label:'台风'},{type:'rainstorm',label:'暴雨'},{type:'thunder',label:'雷电'}], // Sep
+    9: [{type:'typhoon',label:'台风'},{type:'thunder',label:'雷电'}], // Oct
+    10: [{type:'heatwave',label:'寒潮'},{type:'thunder',label:'雷电'}], // Nov
+    11: [{type:'heatwave',label:'寒潮'}] // Dec
+  };
+  
+  // Enhance with actual disaster_history data if available
+  const disasterMonthData = {};
+  if (typeof DISASTER_HISTORY_DATA !== 'undefined') {
+    Object.values(DISASTER_HISTORY_DATA).forEach(cityData => {
+      // Aggregate monthly patterns from historical data
+      if (cityData.monthly) {
+        Object.entries(cityData.monthly).forEach(([m, types]) => {
+          const mi = parseInt(m) - 1;
+          if (!disasterMonthData[mi]) disasterMonthData[mi] = {};
+          Object.entries(types).forEach(([type, count]) => {
+            disasterMonthData[mi][type] = (disasterMonthData[mi][type] || 0) + count;
+          });
+        });
+      }
+    });
+  }
+  
+  let html = '';
+  months.forEach((name, idx) => {
+    const isCurrent = idx === currentMonth;
+    let tags = seasonPatterns[idx] || [];
+    
+    html += '<div class="season-month' + (isCurrent ? ' current' : '') + '">';
+    html += '<div class="season-month-name">' + name + '</div>';
+    html += '<div class="season-disaster-tags">';
+    tags.forEach(tag => {
+      html += '<span class="season-tag ' + tag.type + '">' + tag.label + '</span>';
+    });
+    html += '</div></div>';
+  });
+  
+  grid.innerHTML = html;
+}
+
+// ===== 功能7: 修改城市列表渲染以支持收藏 =====
+const _originalRenderCityList = typeof renderCityList === 'function' ? renderCityList : null;
+
+function patchedRenderCityList() {
+  if (!_originalRenderCityList) return;
+  _originalRenderCityList();
+  
+  // Add fav buttons to city items
+  document.querySelectorAll('.city-item').forEach(item => {
+    const cityHeader = item.querySelector('.city-name');
+    if (!cityHeader || cityHeader.querySelector('.fav-btn')) return;
+    
+    // Extract city name
+    const nameNode = cityHeader.childNodes[0];
+    let cityName = '';
+    if (nameNode) {
+      cityName = nameNode.textContent.trim().replace(/[📍]/g, '').trim();
+    }
+    if (!cityName || !CITY_DATA[cityName]) return;
+    
+    // Filter for favorites
+    if (showFavOnly && !isFavorite(cityName)) {
+      item.style.display = 'none';
+      return;
+    }
+    
+    const btn = document.createElement('button');
+    btn.className = 'fav-btn' + (isFavorite(cityName) ? ' active' : '');
+    btn.setAttribute('data-city', cityName);
+    btn.innerHTML = '⭐';
+    btn.title = isFavorite(cityName) ? '取消收藏' : '收藏此城市';
+    btn.onclick = function(e) { toggleFavorite(cityName, e); };
+    cityHeader.insertBefore(btn, cityHeader.firstChild);
+  });
+}
+
+// ===== 增强地图标记 =====
+const _originalRenderCityMarkers = typeof renderCityMarkers === 'function' ? renderCityMarkers : null;
+
+function patchedRenderCityMarkers() {
+  if (!_originalRenderCityMarkers) return;
+  _originalRenderCityMarkers();
+  
+  // Add favorite highlight to markers
+  if (favorites.length > 0) {
+    favorites.forEach(cityName => {
+      const city = CITY_DATA[cityName];
+      if (!city) return;
+      const marker = document.querySelector('.city-marker[data-city="' + cityName + '"]');
+      if (marker) {
+        marker.classList.add('city-marker-fav');
+      }
+    });
+  }
+}
+
+// ===== 增强renderSummary以触发新面板更新 =====
+const _originalRenderSummary = typeof renderSummary === 'function' ? renderSummary : null;
+
+function patchedRenderSummary() {
+  if (_originalRenderSummary) _originalRenderSummary();
+  renderRiskRanking();
+  renderPieChart();
+  updateWarningTrend();
+}
+
+// ===== 初始化新模块 =====
+function initNewModules() {
+  loadFavorites();
+  renderFavFilterBtn();
+  renderSeasonCalendar();
+  
+  // Load trend data
+  loadWarningTrend().then(() => {
+    renderTimeline();
+  });
+  
+  // Override original functions after they're defined
+  // Use a small delay to ensure originals are loaded
+  setTimeout(() => {
+    if (typeof renderCityList === 'function' && renderCityList !== patchedRenderCityList) {
+      // Wrap the functions
+      window._origRenderCityList = renderCityList;
+      window.renderCityList = patchedRenderCityList;
+    }
+    if (typeof renderCityMarkers === 'function' && renderCityMarkers !== patchedRenderCityMarkers) {
+      window._origRenderCityMarkers = renderCityMarkers;
+      window.renderCityMarkers = patchedRenderCityMarkers;
+    }
+    if (typeof renderSummary === 'function' && renderSummary !== patchedRenderSummary) {
+      window._origRenderSummary = renderSummary;
+      window.renderSummary = patchedRenderSummary;
+    }
+    // Initial render of ranking and pie
+    renderRiskRanking();
+    renderPieChart();
+  }, 500);
+}
+
+// ===== 集成到init =====
+// Override the init function to include new modules
+const _origInit = init;
+// We'll call initNewModules after the DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(initNewModules, 1000);
+  });
+} else {
+  setTimeout(initNewModules, 1000);
+}
+
+// ===== selectCity helper for risk ranking =====
+function selectCity(cityName) {
+  const city = CITY_DATA[cityName];
+  if (!city) return;
+  // Find and click the city item in the list
+  const items = document.querySelectorAll('.city-item');
+  for (const item of items) {
+    const nameEl = item.querySelector('.city-name');
+    if (nameEl && nameEl.textContent.includes(cityName)) {
+      item.click();
+      item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      break;
+    }
+  }
+}
+
+
 
 </script>
 
