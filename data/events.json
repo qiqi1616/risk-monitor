@@ -1,13 +1,21 @@
 {
-  "updateTime": "2026-08-20T07:36:08+08:00",
+  "updateTime": "2026-08-20T14:40:16+08:00",
   "events": [
     {
-      "time": "08-19",
-      "type": "building_collapse",
+      "time": "08-20 03:40",
+      "type": "fire",
       "level": "major",
-      "title": "河北石家庄一居民楼发生部分坍塌，原因正在调查中",
+      "title": "秦皇岛海港区一底商发生火灾致8死3伤",
+      "location": "河北秦皇岛",
+      "url": "http://news.cnr.cn/local/dftj/20260820/t20260820_527783538.shtml"
+    },
+    {
+      "time": "08-19 05:42",
+      "type": "explosion",
+      "level": "major",
+      "title": "石家庄新华区居民楼疑似燃气泄漏燃爆坍塌，致3死1伤",
       "location": "河北石家庄",
-      "url": "https://news.cnr.cn/native/gd/kx/"
+      "url": "https://m.thepaper.cn/newsDetail_forward_33813078"
     },
     {
       "time": "08-18 17:30",
@@ -15,39 +23,15 @@
       "level": "major",
       "title": "四川长宁县升学宴雨棚积水致女儿墙倒塌，5死17伤",
       "location": "四川宜宾",
-      "url": "https://www.eeo.news/2026/0818/1002955.shtml"
+      "url": "http://m.toutiao.com/group/7675933768352088639/"
     },
     {
       "time": "08-19",
       "type": "landslide",
       "level": "major",
-      "title": "广西南丹山体滑坡致5人全部遇难，12万方塌方",
+      "title": "广西南丹县芒场镇山体滑坡致5人遇难",
       "location": "广西河池",
-      "url": "https://www.gxnews.com.cn/staticpages/20260818/newgx6a83c1d3-21982187.shtml"
-    },
-    {
-      "time": "08-19",
-      "type": "fire",
-      "level": "",
-      "title": "南宁西乡塘区安津五金机电市场深夜突发火灾，明火已扑灭",
-      "location": "广西南宁",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
-      "time": "08-19",
-      "type": "fire",
-      "level": "",
-      "title": "上海青浦居民顶楼突发火灾，26分钟扑灭，无人伤亡",
-      "location": "上海",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
-      "time": "08-20",
-      "type": "fire",
-      "level": "",
-      "title": "昆明一小区高层住户家中突发火灾，浓烟滚滚，无人员受伤",
-      "location": "云南昆明",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+      "url": "http://www.gx.news.cn/20260819/9c6b828e95014a37927a058bb12980be/c.html"
     },
     {
       "time": "08-19",
@@ -58,19 +42,19 @@
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     },
     {
-      "time": "08-18 22:00",
-      "type": "fire",
-      "level": "",
-      "title": "东莞清溪渔梁围附近突发火灾，浓烟滚滚",
-      "location": "广东东莞",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
       "time": "08-20",
       "type": "fire",
       "level": "",
-      "title": "上海中环高架一车辆起火，占用两根车道，消防已到场处置",
-      "location": "上海",
+      "title": "昆明一小区高层住户家中突发火灾，无人员受伤",
+      "location": "云南昆明",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+    },
+    {
+      "time": "08-19",
+      "type": "fire",
+      "level": "",
+      "title": "南宁西乡塘区安津五金机电市场深夜突发火灾",
+      "location": "广西南宁",
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
