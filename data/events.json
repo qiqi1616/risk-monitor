@@ -1,6 +1,14 @@
 {
-  "updateTime": "2026-08-20T14:40:16+08:00",
+  "updateTime": "2026-08-21T07:34:38+08:00",
   "events": [
+    {
+      "time": "08-20 21:00",
+      "type": "hazmat",
+      "level": "major",
+      "title": "北京通州区一废品站废旧氟化氢气瓶泄漏，疏散近百人",
+      "location": "北京通州",
+      "url": "http://zgfeipin.cn/Article_3342_1/"
+    },
     {
       "time": "08-20 03:40",
       "type": "fire",
@@ -10,20 +18,20 @@
       "url": "http://news.cnr.cn/local/dftj/20260820/t20260820_527783538.shtml"
     },
     {
+      "time": "08-20",
+      "type": "fire",
+      "level": "",
+      "title": "昆明一小区高层住户家中突发火灾，无人员受伤",
+      "location": "云南昆明",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+    },
+    {
       "time": "08-19 05:42",
       "type": "explosion",
       "level": "major",
       "title": "石家庄新华区居民楼疑似燃气泄漏燃爆坍塌，致3死1伤",
       "location": "河北石家庄",
       "url": "https://m.thepaper.cn/newsDetail_forward_33813078"
-    },
-    {
-      "time": "08-18 17:30",
-      "type": "collapse",
-      "level": "major",
-      "title": "四川长宁县升学宴雨棚积水致女儿墙倒塌，5死17伤",
-      "location": "四川宜宾",
-      "url": "http://m.toutiao.com/group/7675933768352088639/"
     },
     {
       "time": "08-19",
@@ -39,14 +47,6 @@
       "level": "",
       "title": "湖北十堰一高楼发生火灾，现场浓烟滚滚",
       "location": "湖北十堰",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
-      "time": "08-20",
-      "type": "fire",
-      "level": "",
-      "title": "昆明一小区高层住户家中突发火灾，无人员受伤",
-      "location": "云南昆明",
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     },
     {
