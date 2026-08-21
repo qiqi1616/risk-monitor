@@ -10,3 +10,5 @@ Thumbs.db
 *.swp
 *.swo
 *~
+__pycache__/
+api_usage.log

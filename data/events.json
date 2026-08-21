@@ -1,6 +1,14 @@
 {
-  "updateTime": "2026-08-21T07:34:38+08:00",
+  "updateTime": "2026-08-21T13:43:40+08:00",
   "events": [
+    {
+      "time": "08-21 02:40",
+      "type": "hazmat",
+      "level": "major",
+      "title": "吕梁国道209线半挂车起火LNG储气箱泄漏",
+      "location": "山西吕梁",
+      "url": "https://ll.sxgov.cn/content/2026-08/21/content_13674692.htm"
+    },
     {
       "time": "08-20 21:00",
       "type": "hazmat",
@@ -13,9 +21,9 @@
       "time": "08-20 03:40",
       "type": "fire",
       "level": "major",
-      "title": "秦皇岛海港区一底商发生火灾致8死3伤",
+      "title": "秦皇岛海港区一底商火灾致8死3伤",
       "location": "河北秦皇岛",
-      "url": "http://news.cnr.cn/local/dftj/20260820/t20260820_527783538.shtml"
+      "url": "http://m.toutiao.com/group/7676325514969137710/"
     },
     {
       "time": "08-20",
@@ -34,6 +42,14 @@
       "url": "https://m.thepaper.cn/newsDetail_forward_33813078"
     },
     {
+      "time": "08-18 17:30",
+      "type": "landslide",
+      "level": "major",
+      "title": "四川长宁县升学宴女儿墙墙体倒塌致5死17伤",
+      "location": "四川宜宾",
+      "url": "http://www2.xinhuanet.com/20260819/00c86310ae1141beb7382f98893ee524/c.html"
+    },
+    {
       "time": "08-19",
       "type": "landslide",
       "level": "major",
@@ -47,14 +63,6 @@
       "level": "",
       "title": "湖北十堰一高楼发生火灾，现场浓烟滚滚",
       "location": "湖北十堰",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
-      "time": "08-19",
-      "type": "fire",
-      "level": "",
-      "title": "南宁西乡塘区安津五金机电市场深夜突发火灾",
-      "location": "广西南宁",
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
