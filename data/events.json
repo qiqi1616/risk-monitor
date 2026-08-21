@@ -1,6 +1,14 @@
 {
-  "updateTime": "2026-08-21T13:43:40+08:00",
+  "updateTime": "2026-08-22T07:35:00+08:00",
   "events": [
+    {
+      "time": "08-21 15:38",
+      "type": "explosion",
+      "level": "major",
+      "title": "山东临沂沂河新区王桥社区平房院落爆炸，致1死2失联",
+      "location": "山东临沂",
+      "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=10770377579937939885"
+    },
     {
       "time": "08-21 02:40",
       "type": "hazmat",
@@ -18,10 +26,18 @@
       "url": "http://zgfeipin.cn/Article_3342_1/"
     },
     {
+      "time": "08-20 15:00",
+      "type": "fire",
+      "level": "",
+      "title": "重庆璧山区大成广场一高楼住宅突发火灾",
+      "location": "重庆璧山",
+      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
+    },
+    {
       "time": "08-20 03:40",
       "type": "fire",
       "level": "major",
-      "title": "秦皇岛海港区一底商火灾致8死3伤",
+      "title": "秦皇岛海港区一酒吧火灾致8死3伤",
       "location": "河北秦皇岛",
       "url": "http://m.toutiao.com/group/7676325514969137710/"
     },
@@ -31,38 +47,6 @@
       "level": "",
       "title": "昆明一小区高层住户家中突发火灾，无人员受伤",
       "location": "云南昆明",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
-      "time": "08-19 05:42",
-      "type": "explosion",
-      "level": "major",
-      "title": "石家庄新华区居民楼疑似燃气泄漏燃爆坍塌，致3死1伤",
-      "location": "河北石家庄",
-      "url": "https://m.thepaper.cn/newsDetail_forward_33813078"
-    },
-    {
-      "time": "08-18 17:30",
-      "type": "landslide",
-      "level": "major",
-      "title": "四川长宁县升学宴女儿墙墙体倒塌致5死17伤",
-      "location": "四川宜宾",
-      "url": "http://www2.xinhuanet.com/20260819/00c86310ae1141beb7382f98893ee524/c.html"
-    },
-    {
-      "time": "08-19",
-      "type": "landslide",
-      "level": "major",
-      "title": "广西南丹县芒场镇山体滑坡致5人遇难",
-      "location": "广西河池",
-      "url": "http://www.gx.news.cn/20260819/9c6b828e95014a37927a058bb12980be/c.html"
-    },
-    {
-      "time": "08-19",
-      "type": "fire",
-      "level": "",
-      "title": "湖北十堰一高楼发生火灾，现场浓烟滚滚",
-      "location": "湖北十堰",
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
