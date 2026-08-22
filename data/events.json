@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-08-22T07:35:00+08:00",
+  "updateTime": "2026-08-22T13:45:00+08:00",
   "events": [
     {
       "time": "08-21 15:38",
@@ -7,7 +7,7 @@
       "level": "major",
       "title": "山东临沂沂河新区王桥社区平房院落爆炸，致1死2失联",
       "location": "山东临沂",
-      "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=10770377579937939885"
+      "url": "http://www.xinhuanet.com/local/20260821/207830d3b26c49919b82df898c9430f7/c.html"
     },
     {
       "time": "08-21 02:40",
@@ -31,22 +31,6 @@
       "level": "",
       "title": "重庆璧山区大成广场一高楼住宅突发火灾",
       "location": "重庆璧山",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
-    },
-    {
-      "time": "08-20 03:40",
-      "type": "fire",
-      "level": "major",
-      "title": "秦皇岛海港区一酒吧火灾致8死3伤",
-      "location": "河北秦皇岛",
-      "url": "http://m.toutiao.com/group/7676325514969137710/"
-    },
-    {
-      "time": "08-20",
-      "type": "fire",
-      "level": "",
-      "title": "昆明一小区高层住户家中突发火灾，无人员受伤",
-      "location": "云南昆明",
       "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
