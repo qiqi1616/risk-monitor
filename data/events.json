@@ -1,11 +1,19 @@
 {
-  "updateTime": "2026-08-22T13:45:00+08:00",
+  "updateTime": "2026-08-23T07:35:00+08:00",
   "events": [
+    {
+      "time": "08-22 01:12",
+      "type": "fire",
+      "level": "major",
+      "title": "台湾台南安南区住宅区大火，延烧8户致3名消防员及11名民众受伤",
+      "location": "台湾台南",
+      "url": "https://cbgc.scol.com.cn/news/7877387"
+    },
     {
       "time": "08-21 15:38",
       "type": "explosion",
       "level": "major",
-      "title": "山东临沂沂河新区王桥社区平房院落爆炸，致1死2失联",
+      "title": "山东临沂沂河新区王桥社区平房院落爆炸，致1死2失联150人疏散",
       "location": "山东临沂",
       "url": "http://www.xinhuanet.com/local/20260821/207830d3b26c49919b82df898c9430f7/c.html"
     },
@@ -16,22 +24,6 @@
       "title": "吕梁国道209线半挂车起火LNG储气箱泄漏",
       "location": "山西吕梁",
       "url": "https://ll.sxgov.cn/content/2026-08/21/content_13674692.htm"
-    },
-    {
-      "time": "08-20 21:00",
-      "type": "hazmat",
-      "level": "major",
-      "title": "北京通州区一废品站废旧氟化氢气瓶泄漏，疏散近百人",
-      "location": "北京通州",
-      "url": "http://zgfeipin.cn/Article_3342_1/"
-    },
-    {
-      "time": "08-20 15:00",
-      "type": "fire",
-      "level": "",
-      "title": "重庆璧山区大成广场一高楼住宅突发火灾",
-      "location": "重庆璧山",
-      "url": "https://news.163.com/keywords/7/6/706b707e/1.html"
     }
   ]
 }
