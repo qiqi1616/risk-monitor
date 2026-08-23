@@ -1,21 +1,21 @@
 {
-  "updateTime": "2026-08-23T13:41:00+08:00",
-  "events": [
-    {
-      "time": "08-22 01:12",
-      "type": "fire",
-      "level": "major",
-      "title": "台湾台南安南区住宅区大火，延烧8户致3名消防员及11名民众受伤",
-      "location": "台湾台南",
-      "url": "https://cbgc.scol.com.cn/news/7877387"
-    },
-    {
-      "time": "08-21 15:38",
-      "type": "explosion",
-      "level": "major",
-      "title": "山东临沂沂河新区王桥社区平房院落爆炸，致1死2失联150人疏散",
-      "location": "山东临沂",
-      "url": "http://www.xinhuanet.com/local/20260821/207830d3b26c49919b82df898c9430f7/c.html"
-    }
-  ]
+    "updateTime": "2026-08-24T07:35:00+08:00",
+    "events": [
+        {
+            "time": "08-23 15:00",
+            "type": "traffic",
+            "level": "general",
+            "title": "上海浦东4S店试驾车辆操作不当驶上人行道，撞伤1名行人",
+            "location": "上海浦东",
+            "url": "https://www.thepaper.cn/newsDetail_forward_31324567"
+        },
+        {
+            "time": "08-22",
+            "type": "fire",
+            "level": "general",
+            "title": "浙江宁波一化工企业沥青储罐起火，大量黄色烟雾弥漫，无人员伤亡",
+            "location": "浙江宁波",
+            "url": "https://www.zdyxny.com/product/30.html"
+        }
+    ]
 }
