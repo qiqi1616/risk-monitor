@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-08-23T07:35:00+08:00",
+  "updateTime": "2026-08-23T13:41:00+08:00",
   "events": [
     {
       "time": "08-22 01:12",
@@ -16,14 +16,6 @@
       "title": "山东临沂沂河新区王桥社区平房院落爆炸，致1死2失联150人疏散",
       "location": "山东临沂",
       "url": "http://www.xinhuanet.com/local/20260821/207830d3b26c49919b82df898c9430f7/c.html"
-    },
-    {
-      "time": "08-21 02:40",
-      "type": "hazmat",
-      "level": "major",
-      "title": "吕梁国道209线半挂车起火LNG储气箱泄漏",
-      "location": "山西吕梁",
-      "url": "https://ll.sxgov.cn/content/2026-08/21/content_13674692.htm"
     }
   ]
 }
