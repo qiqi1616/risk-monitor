@@ -1,21 +1,21 @@
 {
-  "updateTime": "2026-08-24T13:44:50+08:00",
+  "updateTime": "2026-08-25T07:35:03+08:00",
   "events": [
+    {
+      "time": "08-23 21:57",
+      "type": "fire",
+      "level": "general",
+      "title": "辽宁盖州一农贸市场摊位起火并发生爆炸，电气线路故障引燃液化气罐，无人员伤亡",
+      "location": "辽宁营口盖州",
+      "url": "http://m.toutiao.com/group/7677610925809091074/"
+    },
     {
       "time": "08-23 凌晨",
       "type": "natural_disaster",
       "level": "major",
       "title": "云南凤庆强降雨引发泥石流和滑坡，致2人遇难4人失联",
       "location": "云南临沧凤庆",
-      "url": "https://www.news.cn/local/20260823/c8954b9cafa640f1a6dd98e7547148fa/c.html"
-    },
-    {
-      "time": "08-23 凌晨4:30",
-      "type": "traffic",
-      "level": "general",
-      "title": "河南信阳玛莎拉蒂撞毁护栏后坠入浉河，车上3人被捞起",
-      "location": "河南信阳",
-      "url": "http://news.qq.com/rain/a/20260823A08VYE00"
+      "url": "http://news.cnr.cn/local/dftj/20260823/t20260823_527788398.shtml"
     },
     {
       "time": "08-23 15:00",
@@ -24,14 +24,6 @@
       "title": "上海浦东4S店试驾车辆操作不当驶上人行道，撞伤1名行人",
       "location": "上海浦东",
       "url": "https://www.thepaper.cn/newsDetail_forward_31324567"
-    },
-    {
-      "time": "08-22",
-      "type": "fire",
-      "level": "general",
-      "title": "浙江宁波一化工企业沥青储罐起火，大量黄色烟雾弥漫，无人员伤亡",
-      "location": "浙江宁波",
-      "url": "https://www.zdyxny.com/product/30.html"
     }
   ]
 }
