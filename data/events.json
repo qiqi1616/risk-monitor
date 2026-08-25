@@ -1,21 +1,29 @@
 {
-  "updateTime": "2026-08-25T13:43:35+08:00",
+  "updateTime": "2026-08-26T08:00:00+08:00",
   "events": [
     {
-      "time": "08-23 19:00",
-      "type": "fire",
-      "level": "general",
-      "title": "贵州赤水一小区突发火灾，消防救出7人，无人员伤亡",
-      "location": "贵州遵义赤水",
-      "url": "http://gz.people.com.cn/n2/2026/0824/c222152-41676094.html"
+      "time": "08-25 15:00",
+      "type": "flood",
+      "level": "major",
+      "title": "内蒙古乌兰察布突发山洪，4人死亡1人失联",
+      "location": "内蒙古乌兰察布兴和县",
+      "url": "https://news.cctv.com/2026/08/25/ARTI8zqcM4MwUKSvGa5DNBky260825.shtml"
     },
     {
-      "time": "08-23",
+      "time": "08-24 13:30",
       "type": "landslide",
-      "level": "major",
-      "title": "云南凤庆县暴雨引发泥石流滑坡，4人遇难2人失联",
-      "location": "云南临沧凤庆",
-      "url": "https://m.bjnews.com.cn/detail/1787573563169582.html"
+      "level": "general",
+      "title": "辽宁丹东暴雨致小区山体滑坡，314人紧急转移",
+      "location": "辽宁丹东元宝区",
+      "url": "http://www.ctdsb.net/c1716_202608/2840422.html"
+    },
+    {
+      "time": "08-24 下午",
+      "type": "hazmat",
+      "level": "general",
+      "title": "杭瑞高速云南保山段载焦油货车侧翻起火",
+      "location": "云南保山隆阳区",
+      "url": "https://m.weibo.cn/detail/5335581996878337"
     }
   ]
 }
