@@ -1,1 +1,3850 @@
-{"updateTime": "2026-08-27T07:35:11+08:00", "weather": {"101281401": {"temp": "26", "icon": "107", "text": "小雨", "windDir": "西南风", "windScale": "2", "windSpeed": "8", "humidity": "96", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101270101": {"temp": "25", "icon": "100", "text": "晴", "windDir": "西南风", "windScale": "1", "windSpeed": "3", "humidity": "92", "feelsLike": "31", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230701": {"temp": "25", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "2", "humidity": "98", "feelsLike": "31", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230601": {"temp": "26", "icon": "104", "text": "阴", "windDir": "西北风", "windScale": "1", "windSpeed": "3", "humidity": "93", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101010100": {"temp": "24", "icon": "101", "text": "多云", "windDir": "北风", "windScale": "1", "windSpeed": "3", "humidity": "81", "feelsLike": "28", "updateTime": "2026-08-27T07:34:43+08:00"}, "101250301": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东南风", "windScale": "1", "windSpeed": "2", "humidity": "90", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101281601": {"temp": "26", "icon": "115", "text": "小阵雨", "windDir": "东南风", "windScale": "2", "windSpeed": "8", "humidity": "96", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101040100": {"temp": "29", "icon": "100", "text": "晴", "windDir": "南风", "windScale": "1", "windSpeed": "5", "humidity": "74", "feelsLike": "35", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210101": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "11", "humidity": "86", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230501": {"temp": "27", "icon": "104", "text": "阴", "windDir": "西北风", "windScale": "1", "windSpeed": "2", "humidity": "91", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210301": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "17", "humidity": "86", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101220701": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "2", "windSpeed": "7", "humidity": "89", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101220101": {"temp": "28", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "5", "humidity": "81", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101020100": {"temp": "29", "icon": "107", "text": "小雨", "windDir": "北风", "windScale": "3", "windSpeed": "16", "humidity": "84", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101280801": {"temp": "26", "icon": "108", "text": "中雨", "windDir": "南风", "windScale": "2", "windSpeed": "10", "humidity": "97", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190101": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "5", "humidity": "82", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101250501": {"temp": "27", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "1", "windSpeed": "5", "humidity": "94", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101200101": {"temp": "30", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "2", "windSpeed": "8", "humidity": "78", "feelsLike": "36", "updateTime": "2026-08-27T07:34:43+08:00"}, "101240101": {"temp": "28", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "2", "humidity": "93", "feelsLike": "36", "updateTime": "2026-08-27T07:34:43+08:00"}, "101250101": {"temp": "28", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "4", "humidity": "86", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190901": {"temp": "26", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "1", "windSpeed": "5", "humidity": "91", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101220201": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "4", "humidity": "88", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190801": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "3", "humidity": "90", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190701": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "8", "humidity": "90", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101260101": {"temp": "21", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "2", "windSpeed": "8", "humidity": "88", "feelsLike": "24", "updateTime": "2026-08-27T07:34:43+08:00"}, "101200601": {"temp": "29", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "2", "windSpeed": "6", "humidity": "83", "feelsLike": "36", "updateTime": "2026-08-27T07:34:43+08:00"}, "101280101": {"temp": "26", "icon": "109", "text": "大雨", "windDir": "东南风", "windScale": "2", "windSpeed": "8", "humidity": "96", "feelsLike": "31", "updateTime": "2026-08-27T07:34:43+08:00"}, "101191301": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "3", "humidity": "89", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210401": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "19", "humidity": "83", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230301": {"temp": "28", "icon": "104", "text": "阴", "windDir": "西风", "windScale": "1", "windSpeed": "3", "humidity": "81", "feelsLike": "35", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230101": {"temp": "27", "icon": "104", "text": "阴", "windDir": "西北风", "windScale": "1", "windSpeed": "5", "humidity": "86", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230901": {"temp": "27", "icon": "101", "text": "多云", "windDir": "西南风", "windScale": "1", "windSpeed": "2", "humidity": "92", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101230401": {"temp": "27", "icon": "100", "text": "晴", "windDir": "西南风", "windScale": "1", "windSpeed": "4", "humidity": "90", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101280701": {"temp": "27", "icon": "107", "text": "小雨", "windDir": "西南风", "windScale": "2", "windSpeed": "10", "humidity": "95", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "119.92,28.45": {"temp": "28", "icon": "100", "text": "晴", "windDir": "西南风", "windScale": "1", "windSpeed": "5", "humidity": "82", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101120101": {"temp": "25", "icon": "109", "text": "大雨", "windDir": "北风", "windScale": "2", "windSpeed": "6", "humidity": "98", "feelsLike": "30", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210901": {"temp": "28", "icon": "104", "text": "阴", "windDir": "西北风", "windScale": "4", "windSpeed": "19", "humidity": "80", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190201": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "2", "windSpeed": "9", "humidity": "84", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210701": {"temp": "28", "icon": "104", "text": "阴", "windDir": "西北风", "windScale": "3", "windSpeed": "14", "humidity": "77", "feelsLike": "31", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210501": {"temp": "27", "icon": "107", "text": "小雨", "windDir": "北风", "windScale": "3", "windSpeed": "15", "humidity": "89", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101300101": {"temp": "25", "icon": "120", "text": "雷阵雨", "windDir": "西风", "windScale": "2", "windSpeed": "8", "humidity": "99", "feelsLike": "31", "updateTime": "2026-08-27T07:34:43+08:00"}, "101300301": {"temp": "26", "icon": "107", "text": "小雨", "windDir": "北风", "windScale": "2", "windSpeed": "9", "humidity": "95", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101240201": {"temp": "29", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "6", "humidity": "91", "feelsLike": "36", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190501": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "12", "humidity": "89", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101070201": {"temp": "24", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "9", "humidity": "76", "feelsLike": "27", "updateTime": "2026-08-27T07:34:43+08:00"}, "101050101": {"temp": "18", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "2", "windSpeed": "9", "humidity": "80", "feelsLike": "18", "updateTime": "2026-08-27T07:34:43+08:00"}, "101060101": {"temp": "18", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "2", "windSpeed": "6", "humidity": "70", "feelsLike": "18", "updateTime": "2026-08-27T07:34:43+08:00"}, "101070101": {"temp": "21", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "0", "windSpeed": "1", "humidity": "80", "feelsLike": "23", "updateTime": "2026-08-27T07:34:43+08:00"}, "101090201": {"temp": "22", "icon": "104", "text": "阴", "windDir": "北风", "windScale": "2", "windSpeed": "5", "humidity": "88", "feelsLike": "25", "updateTime": "2026-08-27T07:34:43+08:00"}, "117.96,40.95": {"temp": "21", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "1", "windSpeed": "2", "humidity": "87", "feelsLike": "24", "updateTime": "2026-08-27T07:34:43+08:00"}, "101060201": {"temp": "23", "icon": "101", "text": "多云", "windDir": "北风", "windScale": "1", "windSpeed": "5", "humidity": "85", "feelsLike": "26", "updateTime": "2026-08-27T07:34:43+08:00"}, "101090101": {"temp": "24", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "1", "windSpeed": "4", "humidity": "89", "feelsLike": "28", "updateTime": "2026-08-27T07:34:43+08:00"}, "109.84,40.66": {"temp": "19", "icon": "101", "text": "多云", "windDir": "西南风", "windScale": "1", "windSpeed": "2", "humidity": "88", "feelsLike": "21", "updateTime": "2026-08-27T07:34:43+08:00"}, "101030100": {"temp": "23", "icon": "104", "text": "阴", "windDir": "北风", "windScale": "2", "windSpeed": "5", "humidity": "87", "feelsLike": "27", "updateTime": "2026-08-27T07:34:43+08:00"}, "101221101": {"temp": "26", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "6", "humidity": "89", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101220301": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "2", "windSpeed": "8", "humidity": "87", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "120.74,31.64": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "14", "humidity": "85", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101191101": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "2", "windSpeed": "8", "humidity": "86", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101191001": {"temp": "26", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "0", "windSpeed": "0", "humidity": "91", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190601": {"temp": "26", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "7", "humidity": "90", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190301": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "8", "humidity": "90", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101120201": {"temp": "27", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "1", "windSpeed": "3", "humidity": "88", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101190401": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "8", "humidity": "92", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101121301": {"temp": "26", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "3", "windSpeed": "18", "humidity": "82", "feelsLike": "28", "updateTime": "2026-08-27T07:34:43+08:00"}, "101120601": {"temp": "25", "icon": "109", "text": "大雨", "windDir": "东南风", "windScale": "2", "windSpeed": "6", "humidity": "96", "feelsLike": "30", "updateTime": "2026-08-27T07:34:43+08:00"}, "101120501": {"temp": "26", "icon": "104", "text": "阴", "windDir": "东风", "windScale": "3", "windSpeed": "15", "humidity": "82", "feelsLike": "30", "updateTime": "2026-08-27T07:34:43+08:00"}, "101100101": {"temp": "20", "icon": "104", "text": "阴", "windDir": "西北风", "windScale": "2", "windSpeed": "6", "humidity": "92", "feelsLike": "23", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210201": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "14", "humidity": "85", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "101210801": {"temp": "27", "icon": "100", "text": "晴", "windDir": "西风", "windScale": "1", "windSpeed": "5", "humidity": "87", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "120.95,31.39": {"temp": "28", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "3", "windSpeed": "17", "humidity": "83", "feelsLike": "33", "updateTime": "2026-08-27T07:34:43+08:00"}, "120.06,29.32": {"temp": "27", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "2", "windSpeed": "11", "humidity": "84", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101280301": {"temp": "26", "icon": "120", "text": "雷阵雨", "windDir": "东风", "windScale": "2", "windSpeed": "7", "humidity": "100", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101281301": {"temp": "25", "icon": "120", "text": "雷阵雨", "windDir": "东南风", "windScale": "2", "windSpeed": "6", "humidity": "98", "feelsLike": "31", "updateTime": "2026-08-27T07:34:43+08:00"}, "101281501": {"temp": "27", "icon": "101", "text": "多云", "windDir": "东北风", "windScale": "1", "windSpeed": "3", "humidity": "94", "feelsLike": "34", "updateTime": "2026-08-27T07:34:43+08:00"}, "101281701": {"temp": "26", "icon": "104", "text": "阴", "windDir": "南风", "windScale": "3", "windSpeed": "11", "humidity": "95", "feelsLike": "32", "updateTime": "2026-08-27T07:34:43+08:00"}, "101180901": {"temp": "24", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "2", "windSpeed": "8", "humidity": "88", "feelsLike": "28", "updateTime": "2026-08-27T07:34:43+08:00"}, "101180401": {"temp": "24", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "2", "windSpeed": "8", "humidity": "89", "feelsLike": "28", "updateTime": "2026-08-27T07:34:43+08:00"}, "101180101": {"temp": "24", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "2", "windSpeed": "5", "humidity": "84", "feelsLike": "28", "updateTime": "2026-08-27T07:34:43+08:00"}, "101200901": {"temp": "27", "icon": "100", "text": "晴", "windDir": "西风", "windScale": "1", "windSpeed": "4", "humidity": "95", "feelsLike": "34", "updateTime": "2026-08-27T07:34:45+08:00"}, "101250201": {"temp": "27", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "2", "windSpeed": "5", "humidity": "88", "feelsLike": "34", "updateTime": "2026-08-27T07:34:45+08:00"}, "101250601": {"temp": "29", "icon": "107", "text": "小雨", "windDir": "东南风", "windScale": "1", "windSpeed": "4", "humidity": "90", "feelsLike": "36", "updateTime": "2026-08-27T07:34:45+08:00"}, "101110101": {"temp": "25", "icon": "107", "text": "小雨", "windDir": "东风", "windScale": "1", "windSpeed": "2", "humidity": "92", "feelsLike": "31", "updateTime": "2026-08-27T07:34:45+08:00"}, "104.28,31.0": {"temp": "26", "icon": "100", "text": "晴", "windDir": "南风", "windScale": "1", "windSpeed": "3", "humidity": "94", "feelsLike": "32", "updateTime": "2026-08-27T07:34:45+08:00"}, "103.83,30.05": {"temp": "25", "icon": "100", "text": "晴", "windDir": "南风", "windScale": "1", "windSpeed": "2", "humidity": "95", "feelsLike": "31", "updateTime": "2026-08-27T07:34:45+08:00"}, "101290101": {"temp": "17", "icon": "115", "text": "小阵雨", "windDir": "北风", "windScale": "2", "windSpeed": "5", "humidity": "94", "feelsLike": "18", "updateTime": "2026-08-27T07:34:45+08:00"}, "101050401": {"temp": "16", "icon": "104", "text": "阴", "windDir": "北风", "windScale": "2", "windSpeed": "7", "humidity": "91", "feelsLike": "17", "updateTime": "2026-08-27T07:34:45+08:00"}, "130.83,45.77": {"temp": "18", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "2", "windSpeed": "7", "humidity": "81", "feelsLike": "18", "updateTime": "2026-08-27T07:34:45+08:00"}, "120.44,41.57": {"temp": "21", "icon": "100", "text": "晴", "windDir": "西北风", "windScale": "1", "windSpeed": "1", "humidity": "71", "feelsLike": "22", "updateTime": "2026-08-27T07:34:45+08:00"}, "123.96,41.88": {"temp": "20", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "4", "humidity": "88", "feelsLike": "22", "updateTime": "2026-08-27T07:34:45+08:00"}, "123.85,42.28": {"temp": "20", "icon": "100", "text": "晴", "windDir": "西南风", "windScale": "1", "windSpeed": "2", "humidity": "77", "feelsLike": "22", "updateTime": "2026-08-27T07:34:45+08:00"}, "119.38,25.72": {"temp": "27", "icon": "104", "text": "阴", "windDir": "南风", "windScale": "0", "windSpeed": "1", "humidity": "90", "feelsLike": "34", "updateTime": "2026-08-27T07:34:45+08:00"}, "122.23,40.67": {"temp": "23", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "1", "windSpeed": "2", "humidity": "74", "feelsLike": "26", "updateTime": "2026-08-27T07:34:45+08:00"}, "115.67,37.73": {"temp": "23", "icon": "109", "text": "大雨", "windDir": "北风", "windScale": "3", "windSpeed": "12", "humidity": "96", "feelsLike": "26", "updateTime": "2026-08-27T07:34:45+08:00"}, "101091101": {"temp": "25", "icon": "100", "text": "晴", "windDir": "北风", "windScale": "1", "windSpeed": "4", "humidity": "68", "feelsLike": "27", "updateTime": "2026-08-27T07:34:45+08:00"}, "101090301": {"temp": "20", "icon": "104", "text": "阴", "windDir": "东北风", "windScale": "1", "windSpeed": "3", "humidity": "76", "feelsLike": "22", "updateTime": "2026-08-27T07:34:45+08:00"}, "112.85,35.49": {"temp": "22", "icon": "104", "text": "阴", "windDir": "东南风", "windScale": "2", "windSpeed": "8", "humidity": "93", "feelsLike": "26", "updateTime": "2026-08-27T07:34:45+08:00"}, "101230801": {"temp": "26", "icon": "104", "text": "阴", "windDir": "西南风", "windScale": "1", "windSpeed": "2", "humidity": "97", "feelsLike": "33", "updateTime": "2026-08-27T07:34:45+08:00"}, "103.21,35.6": {"temp": "17", "icon": "107", "text": "小雨", "windDir": "西北风", "windScale": "1", "windSpeed": "3", "humidity": "91", "feelsLike": "18", "updateTime": "2026-08-27T07:34:45+08:00"}, "101280601": {"temp": "26", "icon": "109", "text": "大雨", "windDir": "南风", "windScale": "2", "windSpeed": "7", "humidity": "97", "feelsLike": "32", "updateTime": "2026-08-27T07:34:45+08:00"}, "101241101": {"temp": "28", "icon": "100", "text": "晴", "windDir": "东风", "windScale": "1", "windSpeed": "3", "humidity": "87", "feelsLike": "34", "updateTime": "2026-08-27T07:34:45+08:00"}, "116.29,37.45": {"temp": "24", "icon": "115", "text": "小阵雨", "windDir": "东北风", "windScale": "3", "windSpeed": "12", "humidity": "96", "feelsLike": "28", "updateTime": "2026-08-27T07:34:45+08:00"}, "119.46,35.42": {"temp": "27", "icon": "101", "text": "多云", "windDir": "东风", "windScale": "1", "windSpeed": "4", "humidity": "85", "feelsLike": "33", "updateTime": "2026-08-27T07:34:45+08:00"}, "101210601": {"temp": "28", "icon": "107", "text": "小雨", "windDir": "北风", "windScale": "5", "windSpeed": "35", "humidity": "80", "feelsLike": "29", "updateTime": "2026-08-27T07:34:45+08:00"}, "101310101": {"temp": "27", "icon": "104", "text": "阴", "windDir": "南风", "windScale": "2", "windSpeed": "6", "humidity": "91", "feelsLike": "34", "updateTime": "2026-08-27T07:34:45+08:00"}, "120.55,31.88": {"temp": "28", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "3", "windSpeed": "12", "humidity": "87", "feelsLike": "33", "updateTime": "2026-08-27T07:34:45+08:00"}, "98.28,39.77": {"temp": "17", "icon": "101", "text": "多云", "windDir": "北风", "windScale": "2", "windSpeed": "9", "humidity": "85", "feelsLike": "17", "updateTime": "2026-08-27T07:34:45+08:00"}, "98.85,25.86": {"temp": "24", "icon": "107", "text": "小雨", "windDir": "东北风", "windScale": "0", "windSpeed": "1", "humidity": "98", "feelsLike": "30", "updateTime": "2026-08-27T07:34:45+08:00"}, "101240701": {"temp": "26", "icon": "100", "text": "晴", "windDir": "东北风", "windScale": "0", "windSpeed": "0", "humidity": "95", "feelsLike": "33", "updateTime": "2026-08-27T07:34:45+08:00"}, "101300501": {"temp": "25", "icon": "108", "text": "中雨", "windDir": "南风", "windScale": "2", "windSpeed": "9", "humidity": "97", "feelsLike": "31", "updateTime": "2026-08-27T07:34:45+08:00"}, "107.52,26.25": {"temp": "23", "icon": "104", "text": "阴", "windDir": "北风", "windScale": "2", "windSpeed": "7", "humidity": "89", "feelsLike": "26", "updateTime": "2026-08-27T07:34:45+08:00"}, "101230201": {"temp": "27", "icon": "104", "text": "阴", "windDir": "西风", "windScale": "2", "windSpeed": "6", "humidity": "93", "feelsLike": "33", "updateTime": "2026-08-27T07:34:45+08:00"}, "103.01,29.98": {"temp": "24", "icon": "100", "text": "晴", "windDir": "西南风", "windScale": "1", "windSpeed": "4", "humidity": "99", "feelsLike": "29", "updateTime": "2026-08-27T07:34:45+08:00"}, "104.24,23.37": {"temp": "20", "icon": "120", "text": "雷阵雨", "windDir": "西风", "windScale": "1", "windSpeed": "4", "humidity": "98", "feelsLike": "23", "updateTime": "2026-08-27T07:34:45+08:00"}}, "warning": {"101281401": {"warning": [{"id": "202608270345007368580857", "sender": "江门市气象台", "pubTime": "2026-08-26T19:45Z", "title": "江门市气象台发布暴雨黄色预警", "startTime": "2026-08-26T19:45Z", "endTime": "2026-08-27T19:45Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "[江门预警中心][江门暴雨黄色预警信号]预计未来3小时本地有雷阵雨，短时雨势较大，并伴有强雷暴和短时大风，请注意防御。江门市气象台2026年8月27日3时45分发布蓬江区、江海区暴雨黄色预警信号。", "headline": "江门市气象台发布暴雨黄色预警", "description": "[江门预警中心][江门暴雨黄色预警信号]预计未来3小时本地有雷阵雨，短时雨势较大，并伴有强雷暴和短时大风，请注意防御。江门市气象台2026年8月27日3时45分发布蓬江区、江海区暴雨黄色预警信号。", "source": "qweather"}]}, "101280801": {"warning": [{"id": "202608270332003511791629", "sender": "佛山市气象台", "pubTime": "2026-08-26T19:32Z", "title": "佛山市气象台发布暴雨黄色预警", "startTime": "2026-08-26T19:32Z", "endTime": "2026-08-27T19:32Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "预计未来1到2小时禅城区将出现暴雨，佛山市气象台2026年8月27日3时32分发布禅城区暴雨黄色预警信号。禅城区应急管理局、佛山市气象局禅城工作组提醒您：请注意防御短时强降水，做好低洼、易涝地区的排水防涝工作。", "headline": "佛山市气象台发布暴雨黄色预警", "description": "预计未来1到2小时禅城区将出现暴雨，佛山市气象台2026年8月27日3时32分发布禅城区暴雨黄色预警信号。禅城区应急管理局、佛山市气象局禅城工作组提醒您：请注意防御短时强降水，做好低洼、易涝地区的排水防涝工作。", "source": "qweather"}]}, "101280701": {"warning": [{"id": "202608270610006548713021", "sender": "珠海市气象台", "pubTime": "2026-08-26T22:10Z", "title": "珠海市气象台发布暴雨橙色预警", "startTime": "2026-08-26T22:10Z", "endTime": "2026-08-27T22:10Z", "status": "active", "level": "橙色", "severity": "橙色", "type": "1003", "typeName": "暴雨", "text": "珠海市气象台于8月27日06时10分发布万山区暴雨橙色预警信号。", "headline": "珠海市气象台发布暴雨橙色预警", "description": "珠海市气象台于8月27日06时10分发布万山区暴雨橙色预警信号。", "source": "qweather"}]}, "101210901": {"warning": [{"id": "202608262150000081514584", "sender": "台州市椒江区气象台", "pubTime": "2026-08-26T13:50Z", "title": "台州市椒江区气象台发布台风黄色预警", "startTime": "2026-08-26T13:50Z", "endTime": "2026-08-27T13:50Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1001", "typeName": "台风", "text": "台州市椒江区气象台2026年08月26日21时50分将台风蓝色预警信号升级为台风黄色预警信号：受今年第18号台风“沙德尔”（强台风级）影响，预计今天夜里大陈镇、沿海海面风力将增强到8～10级，明天到后天9～11级增强到12～14级局部15～16级；内陆地区明天夜里到后天10～12级。明天下午到后天椒江区和台州湾新区各街道（镇）有暴雨，部分大暴雨。希各有关方面注意防范。", "headline": "台州市椒江区气象台发布台风黄色预警", "description": "台州市椒江区气象台2026年08月26日21时50分将台风蓝色预警信号升级为台风黄色预警信号：受今年第18号台风“沙德尔”（强台风级）影响，预计今天夜里大陈镇、沿海海面风力将增强到8～10级，明天到后天9～11级增强到12～14级局部15～16级；内陆地区明天夜里到后天10～12级。明天下午到后天椒江区和台州湾新区各街道（镇）有暴雨，部分大暴雨。希各有关方面注意防范。", "source": "qweather"}]}, "101210701": {"warning": [{"id": "202608261857000490217290", "sender": "温州市气象台", "pubTime": "2026-08-26T10:57Z", "title": "温州市气象台发布台风黄色预警", "startTime": "2026-08-26T10:57Z", "endTime": "2026-08-27T10:57Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1001", "typeName": "台风", "text": "温州市气象台2026年08月26日18时57分将温州市区台风蓝色预警信号升级为台风黄色预警信号：受今年第18号台风“沙德尔”影响，预计明天龙湾区沿海海面风力7-9级逐渐增强至8-10级，明天夜里到后天温州市区风力增强至10-12级，沿海海面、沿海平原及高山风力增强至12-14级，明天夜里起市区所有街道（镇）阴有中到大雨，局部暴雨，后天阴有暴雨到大暴雨。希各有关方面注意防范。", "headline": "温州市气象台发布台风黄色预警", "description": "温州市气象台2026年08月26日18时57分将温州市区台风蓝色预警信号升级为台风黄色预警信号：受今年第18号台风“沙德尔”影响，预计明天龙湾区沿海海面风力7-9级逐渐增强至8-10级，明天夜里到后天温州市区风力增强至10-12级，沿海海面、沿海平原及高山风力增强至12-14级，明天夜里起市区所有街道（镇）阴有中到大雨，局部暴雨，后天阴有暴雨到大暴雨。希各有关方面注意防范。", "source": "qweather"}]}, "101300101": {"warning": [{"id": "202608270555058303719739", "sender": "南宁市气象台", "pubTime": "2026-08-26T21:55Z", "title": "南宁市气象台发布暴雨橙色预警信号", "startTime": "2026-08-26T21:55Z", "endTime": "2026-08-27T21:55Z", "status": "active", "level": "橙色", "severity": "橙色", "type": "1003", "typeName": "暴雨", "text": "南宁市气象台27日5时55分发布青秀区、兴宁区、良庆区暴雨橙色预警信号：5时以来，青秀区长塘镇天堂村已出现20毫米的强降雨，预计未来3小时青秀区东部、兴宁区东部及良庆区南部乡镇将有20-40毫米，局地50毫米以上的强降雨，并伴有雷电、短时大风，山洪地质灾害气象风险大，请防范。", "headline": "南宁市气象台发布暴雨橙色预警信号", "description": "南宁市气象台27日5时55分发布青秀区、兴宁区、良庆区暴雨橙色预警信号：5时以来，青秀区长塘镇天堂村已出现20毫米的强降雨，预计未来3小时青秀区东部、兴宁区东部及良庆区南部乡镇将有20-40毫米，局地50毫米以上的强降雨，并伴有雷电、短时大风，山洪地质灾害气象风险大，请防范。", "source": "qweather"}, {"id": "202608270520215460834653", "sender": "南宁市气象台", "pubTime": "2026-08-26T21:20Z", "title": "南宁市气象台发布雷电黄色预警信号", "startTime": "2026-08-26T21:20Z", "endTime": "2026-08-27T21:20Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1014", "typeName": "雷电", "text": "南宁市气象台27日5时20分发布雷电黄色预警信号：目前雷雨云团正逐渐靠近青秀区伶俐镇，预计未来6小时，南宁城区将出现雷电，局地伴有短时强降水、大风，请注意防范。", "headline": "南宁市气象台发布雷电黄色预警信号", "description": "南宁市气象台27日5时20分发布雷电黄色预警信号：目前雷雨云团正逐渐靠近青秀区伶俐镇，预计未来6小时，南宁城区将出现雷电，局地伴有短时强降水、大风，请注意防范。", "source": "qweather"}]}, "101090201": {"warning": [{"id": "202608261108399471772047", "sender": "保定市气象台", "pubTime": "2026-08-26T03:08Z", "title": "保定市气象台更新暴雨黄色预警", "startTime": "2026-08-26T03:08Z", "endTime": "2026-08-27T03:08Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "保定市气象台2026年08月26日11时08分继续发布暴雨黄色预警信号：预计26日中午到27日上午，我市全部县区仍有强降水，部分地区6小时雨量可达70毫米以上或1小时雨量可达50毫米以上，请注意防范。", "headline": "保定市气象台更新暴雨黄色预警", "description": "保定市气象台2026年08月26日11时08分继续发布暴雨黄色预警信号：预计26日中午到27日上午，我市全部县区仍有强降水，部分地区6小时雨量可达70毫米以上或1小时雨量可达50毫米以上，请注意防范。", "source": "qweather"}]}, "101090101": {"warning": [{"id": "202608260940239620573235", "sender": "河北省气象台", "pubTime": "2026-08-26T01:40Z", "title": "河北省气象台更新暴雨黄色预警", "startTime": "2026-08-26T01:40Z", "endTime": "2026-08-27T13:40Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "河北省气象台2026年08月26日09时40分继续发布暴雨黄色预警信号：预计8月26日下午到27日白天，我省中部地区较强降雨仍将持续，保定西部和南部、廊坊南部、石家庄、沧州、衡水、邢台北部等地有大雨到暴雨，局地降雨量可能达到150-200毫米；上述地区的部分地区1小时雨量可达50毫米以上或6小时雨量可达70毫米以上。山区及浅山区有出现山洪、泥石流、滑坡等次生灾害的风险，低洼地区有积水风险，请注意防范。", "headline": "河北省气象台更新暴雨黄色预警", "description": "河北省气象台2026年08月26日09时40分继续发布暴雨黄色预警信号：预计8月26日下午到27日白天，我省中部地区较强降雨仍将持续，保定西部和南部、廊坊南部、石家庄、沧州、衡水、邢台北部等地有大雨到暴雨，局地降雨量可能达到150-200毫米；上述地区的部分地区1小时雨量可达50毫米以上或6小时雨量可达70毫米以上。山区及浅山区有出现山洪、泥石流、滑坡等次生灾害的风险，低洼地区有积水风险，请注意防范。", "source": "qweather"}]}, "101100101": {"warning": [{"id": "202608261055005801285694", "sender": "山西省气象台", "pubTime": "2026-08-26T02:55Z", "title": "山西省气象台发布暴雨黄色预警", "startTime": "2026-08-26T02:56Z", "endTime": "2026-08-27T02:56Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "山西省气象台2026年08月26日10时55分变更暴雨黄色预警，预警区域：忻州市、吕梁市、太原市、阳泉市、晋中市、长治市。预计未来24小时预警区域内降雨量将达80毫米以上，局地可达100毫米，并伴有短时强降水、雷暴大风。请有关单位和人员做好防范准备。防御指南：1政府及相关部门按照职责做好防暴雨工作；2交通管理部门根据路况采取交通管理措施，实行交通引导；3切断有危险的室外电源，减少户外作业，转移危险地带人员和危房居民到安全场所避雨；4检查城市、农田、鱼塘等排水系统，采取必要的排涝措施。", "headline": "山西省气象台发布暴雨黄色预警", "description": "山西省气象台2026年08月26日10时55分变更暴雨黄色预警，预警区域：忻州市、吕梁市、太原市、阳泉市、晋中市、长治市。预计未来24小时预警区域内降雨量将达80毫米以上，局地可达100毫米，并伴有短时强降水、雷暴大风。请有关单位和人员做好防范准备。防御指南：1政府及相关部门按照职责做好防暴雨工作；2交通管理部门根据路况采取交通管理措施，实行交通引导；3切断有危险的室外电源，减少户外作业，转移危险地带人员和危房居民到安全场所避雨；4检查城市、农田、鱼塘等排水系统，采取必要的排涝措施。", "source": "qweather"}]}, "101280301": {"warning": [{"id": "202608270500004132536133", "sender": "惠州市气象台", "pubTime": "2026-08-26T21:00Z", "title": "惠州市气象台发布暴雨橙色预警", "startTime": "2026-08-26T21:00Z", "endTime": "2026-08-27T21:00Z", "status": "active", "level": "橙色", "severity": "橙色", "type": "1003", "typeName": "暴雨", "text": "惠州市气象台8月27日05时00分解除惠城区各街镇、仲恺区各街镇暴雨预警信号，大亚湾区澳头街道、霞涌街道、西区街道暴雨橙色预警信号继续生效，请继续做好防御。", "headline": "惠州市气象台发布暴雨橙色预警", "description": "惠州市气象台8月27日05时00分解除惠城区各街镇、仲恺区各街镇暴雨预警信号，大亚湾区澳头街道、霞涌街道、西区街道暴雨橙色预警信号继续生效，请继续做好防御。", "source": "qweather"}]}, "101281301": {"warning": [{"id": "202608270508008039442165", "sender": "清远市气象台", "pubTime": "2026-08-26T21:08Z", "title": "清远市气象台发布暴雨黄色预警", "startTime": "2026-08-26T21:08Z", "endTime": "2026-08-27T21:08Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "受花都方向北抬的雷雨云团影响，预计未来1到2小时清城区有强雷雨，最大小时雨强20到30毫米，清远市气象台于8月27日5时08分发布清城区暴雨黄色预警信号，不排除后期升级预警信号的可能性，请注意防御强降水及其引发的灾害。", "headline": "清远市气象台发布暴雨黄色预警", "description": "受花都方向北抬的雷雨云团影响，预计未来1到2小时清城区有强雷雨，最大小时雨强20到30毫米，清远市气象台于8月27日5时08分发布清城区暴雨黄色预警信号，不排除后期升级预警信号的可能性，请注意防御强降水及其引发的灾害。", "source": "qweather"}]}, "115.67,37.73": {"warning": [{"id": "202608260940239620573235", "sender": "河北省气象台", "pubTime": "2026-08-26T01:40Z", "title": "河北省气象台更新暴雨黄色预警", "startTime": "2026-08-26T01:40Z", "endTime": "2026-08-27T13:40Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "河北省气象台2026年08月26日09时40分继续发布暴雨黄色预警信号：预计8月26日下午到27日白天，我省中部地区较强降雨仍将持续，保定西部和南部、廊坊南部、石家庄、沧州、衡水、邢台北部等地有大雨到暴雨，局地降雨量可能达到150-200毫米；上述地区的部分地区1小时雨量可达50毫米以上或6小时雨量可达70毫米以上。山区及浅山区有出现山洪、泥石流、滑坡等次生灾害的风险，低洼地区有积水风险，请注意防范。", "headline": "河北省气象台更新暴雨黄色预警", "description": "河北省气象台2026年08月26日09时40分继续发布暴雨黄色预警信号：预计8月26日下午到27日白天，我省中部地区较强降雨仍将持续，保定西部和南部、廊坊南部、石家庄、沧州、衡水、邢台北部等地有大雨到暴雨，局地降雨量可能达到150-200毫米；上述地区的部分地区1小时雨量可达50毫米以上或6小时雨量可达70毫米以上。山区及浅山区有出现山洪、泥石流、滑坡等次生灾害的风险，低洼地区有积水风险，请注意防范。", "source": "qweather"}]}, "101280601": {"warning": [{"id": "202608270031009970273513", "sender": "深圳市气象台", "pubTime": "2026-08-26T16:31Z", "title": "深圳市气象台发布暴雨黄色预警", "startTime": "2026-08-26T16:31Z", "endTime": "2026-08-27T16:31Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1003", "typeName": "暴雨", "text": "【深圳市扩展分区暴雨黄色预警信号】预计光明区、龙华区、罗湖区（翠竹、东晓、清水河、南湖、桂园、东门、笋岗街道）和龙岗区（布吉、坂田、平湖、吉华街道）2-3小时内将出现30-50毫米降水，深圳市气象台2026年08月27日00时30分将分区暴雨黄色预警信号扩展至上述区域，上述区域处于暴雨戒备状态，存在山洪风险，请注意防御暴雨可能引发的局部内涝、山洪等灾害。", "headline": "深圳市气象台发布暴雨黄色预警", "description": "【深圳市扩展分区暴雨黄色预警信号】预计光明区、龙华区、罗湖区（翠竹、东晓、清水河、南湖、桂园、东门、笋岗街道）和龙岗区（布吉、坂田、平湖、吉华街道）2-3小时内将出现30-50毫米降水，深圳市气象台2026年08月27日00时30分将分区暴雨黄色预警信号扩展至上述区域，上述区域处于暴雨戒备状态，存在山洪风险，请注意防御暴雨可能引发的局部内涝、山洪等灾害。", "source": "qweather"}, {"id": "202608260819003999591998", "sender": "深圳市气象台", "pubTime": "2026-08-26T00:19Z", "title": "深圳市气象台发布雷电黄色预警", "startTime": "2026-08-26T00:19Z", "endTime": "2026-08-27T00:19Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1014", "typeName": "雷电", "text": "【深圳市雷电黄色预警信号】深圳市气象台于2026年08月26日08时20分发布全市雷电黄色预警信号，受海上雷雨云团加强北上影响，预计2小时内全市有阵雨，并伴有分散雷暴，市民停留在安全地方。", "headline": "深圳市气象台发布雷电黄色预警", "description": "【深圳市雷电黄色预警信号】深圳市气象台于2026年08月26日08时20分发布全市雷电黄色预警信号，受海上雷雨云团加强北上影响，预计2小时内全市有阵雨，并伴有分散雷暴，市民停留在安全地方。", "source": "qweather"}]}, "101210601": {"warning": [{"id": "202608261745000294321803", "sender": "舟山市定海区气象台", "pubTime": "2026-08-26T09:45Z", "title": "舟山市定海区气象台发布台风黄色预警", "startTime": "2026-08-26T09:45Z", "endTime": "2026-08-27T09:45Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1001", "typeName": "台风", "text": "舟山市定海区气象台2026年08月26日17时45分将台风蓝色预警信号升级为台风黄色预警信号：受今年第18号台风“沙德尔”影响，预计我区所有镇（街道）和定海海域今天夜里起东北风9级，下半夜到明天10级，明天上午起东北风11级，明天下午起11-12级。后天偏东风11级，后天中午起东南风10级，后天下午起9级。降水方面：今天夜里到后天我区有阵雨或雷雨，其中明天、后天有中到大雨、局部暴雨。请注意防范台风对海上船舶、在建工程、低洼地带、高空作业、户外活动等的不利影响，及其可能引发的道路积水、城乡积涝等次生灾害。", "headline": "舟山市定海区气象台发布台风黄色预警", "description": "舟山市定海区气象台2026年08月26日17时45分将台风蓝色预警信号升级为台风黄色预警信号：受今年第18号台风“沙德尔”影响，预计我区所有镇（街道）和定海海域今天夜里起东北风9级，下半夜到明天10级，明天上午起东北风11级，明天下午起11-12级。后天偏东风11级，后天中午起东南风10级，后天下午起9级。降水方面：今天夜里到后天我区有阵雨或雷雨，其中明天、后天有中到大雨、局部暴雨。请注意防范台风对海上船舶、在建工程、低洼地带、高空作业、户外活动等的不利影响，及其可能引发的道路积水、城乡积涝等次生灾害。", "source": "qweather"}]}, "101300501": {"warning": [{"id": "202608270659181745234685", "sender": "玉林市气象台", "pubTime": "2026-08-26T22:59Z", "title": "玉林市气象台更新雷电黄色预警信号", "startTime": "2026-08-26T22:59Z", "endTime": "2026-08-27T22:59Z", "status": "active", "level": "黄色", "severity": "黄色", "type": "1014", "typeName": "雷电", "text": "玉林市气象台2026年8月27日6时59分继续发布玉州区、福绵区、兴业县雷电黄色预警信号：目前雷雨云团正影响玉州区，预计未来6小时，兴业县、玉州区和福绵区将自南向北出现雷电，并伴有强降雨和6-7级短时大风，请注意防范。", "headline": "玉林市气象台更新雷电黄色预警信号", "description": "玉林市气象台2026年8月27日6时59分继续发布玉州区、福绵区、兴业县雷电黄色预警信号：目前雷雨云团正影响玉州区，预计未来6小时，兴业县、玉州区和福绵区将自南向北出现雷电，并伴有强降雨和6-7级短时大风，请注意防范。", "source": "qweather"}, {"id": "202608270618567314617326", "sender": "玉林市气象台", "pubTime": "2026-08-26T22:18Z", "title": "玉林市气象台更新暴雨橙色预警信号", "startTime": "2026-08-26T22:18Z", "endTime": "2026-08-27T22:18Z", "status": "active", "level": "橙色", "severity": "橙色", "type": "1003", "typeName": "暴雨", "text": "玉林市气象台2026年8月27日6时18分继续发布玉州区、福绵区、兴业县暴雨橙色预警信号：3时以来兴业县山心镇已出现39毫米降雨，目前强降雨云团正逐渐北移，预计未来3小时，玉州区南江、城北、茂林、名山，兴业县大平山、龙安、石南、山心、葵阳和福绵区福绵、成均等镇街将有20-40毫米、局地50毫米以上的强降雨，伴有雷电和6-7级短时大风，积涝气象风险大，请防范。", "headline": "玉林市气象台更新暴雨橙色预警信号", "description": "玉林市气象台2026年8月27日6时18分继续发布玉州区、福绵区、兴业县暴雨橙色预警信号：3时以来兴业县山心镇已出现39毫米降雨，目前强降雨云团正逐渐北移，预计未来3小时，玉州区南江、城北、茂林、名山，兴业县大平山、龙安、石南、山心、葵阳和福绵区福绵、成均等镇街将有20-40毫米、局地50毫米以上的强降雨，伴有雷电和6-7级短时大风，积涝气象风险大，请防范。", "source": "qweather"}]}}, "forecast": {"101281401": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101270101": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "31", "tempMin": "24", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "25", "tempMin": "22", "iconDay": "120", "textDay": "雷阵雨"}], "101230701": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "23", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "24", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "24", "iconDay": "109", "textDay": "大雨"}], "101230601": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "36", "tempMin": "26", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101010100": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "22", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "25", "tempMin": "21", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "20", "iconDay": "104", "textDay": "阴"}], "101250301": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "35", "tempMin": "26", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101281601": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "27", "iconDay": "107", "textDay": "小雨"}], "101040100": [{"fxDate": "2026-08-27", "tempMax": "37", "tempMin": "29", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "24", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101210101": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101230501": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "36", "tempMin": "25", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101210301": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}], "101220701": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "26", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101220101": [{"fxDate": "2026-08-27", "tempMax": "35", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "27", "iconDay": "107", "textDay": "小雨"}], "101020100": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "31", "tempMin": "28", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}], "101280801": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}], "101190101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "25", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}], "101250501": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101200101": [{"fxDate": "2026-08-27", "tempMax": "37", "tempMin": "29", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "37", "tempMin": "28", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-29", "tempMax": "35", "tempMin": "28", "iconDay": "120", "textDay": "雷阵雨"}], "101240101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "27", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "27", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101250101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "35", "tempMin": "27", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101190901": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "24", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "24", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101220201": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "26", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "25", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101190801": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "109", "textDay": "大雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "24", "iconDay": "107", "textDay": "小雨"}], "101190701": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "24", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101260101": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "20", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "29", "tempMin": "20", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "20", "iconDay": "107", "textDay": "小雨"}], "101200601": [{"fxDate": "2026-08-27", "tempMax": "35", "tempMin": "28", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "27", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-29", "tempMax": "36", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101280101": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101191301": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "24", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "24", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-29", "tempMax": "35", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}], "101210401": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}], "101230301": [{"fxDate": "2026-08-27", "tempMax": "37", "tempMin": "25", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101230101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "28", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101230901": [{"fxDate": "2026-08-27", "tempMax": "35", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101230401": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "35", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101280701": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}], "119.92,28.45": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "29", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101120101": [{"fxDate": "2026-08-27", "tempMax": "28", "tempMin": "25", "iconDay": "109", "textDay": "大雨"}, {"fxDate": "2026-08-28", "tempMax": "28", "tempMin": "22", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "22", "iconDay": "115", "textDay": "小阵雨"}], "101210901": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "28", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101190201": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101210701": [{"fxDate": "2026-08-27", "tempMax": "35", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "28", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101210501": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101300101": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "31", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}], "101300301": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "31", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}], "101240201": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "27", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101190501": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "26", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}], "101070201": [{"fxDate": "2026-08-27", "tempMax": "28", "tempMin": "23", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "25", "tempMin": "23", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "26", "tempMin": "22", "iconDay": "108", "textDay": "中雨"}], "101050101": [{"fxDate": "2026-08-27", "tempMax": "22", "tempMin": "16", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "15", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "23", "tempMin": "17", "iconDay": "108", "textDay": "中雨"}], "101060101": [{"fxDate": "2026-08-27", "tempMax": "24", "tempMin": "15", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "15", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "27", "tempMin": "17", "iconDay": "115", "textDay": "小阵雨"}], "101070101": [{"fxDate": "2026-08-27", "tempMax": "27", "tempMin": "18", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "18", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "26", "tempMin": "19", "iconDay": "108", "textDay": "中雨"}], "101090201": [{"fxDate": "2026-08-27", "tempMax": "28", "tempMin": "22", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "19", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "20", "iconDay": "104", "textDay": "阴"}], "117.96,40.95": [{"fxDate": "2026-08-27", "tempMax": "29", "tempMin": "18", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "19", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "16", "iconDay": "104", "textDay": "阴"}], "101060201": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "21", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "21", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "20", "iconDay": "104", "textDay": "阴"}], "101090101": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "22", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "21", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "21", "iconDay": "104", "textDay": "阴"}], "109.84,40.66": [{"fxDate": "2026-08-27", "tempMax": "22", "tempMin": "18", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "17", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "24", "tempMin": "13", "iconDay": "104", "textDay": "阴"}], "101030100": [{"fxDate": "2026-08-27", "tempMax": "29", "tempMin": "22", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "22", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "21", "iconDay": "104", "textDay": "阴"}], "101221101": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "25", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101220301": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "26", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "27", "iconDay": "107", "textDay": "小雨"}], "120.74,31.64": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "27", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}], "101191101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "27", "iconDay": "109", "textDay": "大雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101191001": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "24", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "24", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "25", "iconDay": "108", "textDay": "中雨"}], "101190601": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101190301": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}], "101120201": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101190401": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}], "101121301": [{"fxDate": "2026-08-27", "tempMax": "27", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "26", "tempMin": "22", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "24", "tempMin": "21", "iconDay": "116", "textDay": "中阵雨"}], "101120601": [{"fxDate": "2026-08-27", "tempMax": "28", "tempMin": "24", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "24", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "28", "tempMin": "22", "iconDay": "115", "textDay": "小阵雨"}], "101120501": [{"fxDate": "2026-08-27", "tempMax": "28", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "26", "tempMin": "22", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "25", "tempMin": "22", "iconDay": "116", "textDay": "中阵雨"}], "101100101": [{"fxDate": "2026-08-27", "tempMax": "23", "tempMin": "19", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "25", "tempMin": "18", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "28", "tempMin": "18", "iconDay": "104", "textDay": "阴"}], "101210201": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101210801": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "27", "iconDay": "108", "textDay": "中雨"}], "120.95,31.39": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}], "120.06,29.32": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101280301": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}], "101281301": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "35", "tempMin": "26", "iconDay": "104", "textDay": "阴"}], "101281501": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101281701": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "26", "iconDay": "115", "textDay": "小阵雨"}], "101180901": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "24", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "24", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "22", "iconDay": "104", "textDay": "阴"}], "101180401": [{"fxDate": "2026-08-27", "tempMax": "29", "tempMin": "23", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "26", "tempMin": "23", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "20", "iconDay": "104", "textDay": "阴"}], "101180101": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "24", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "27", "tempMin": "23", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "22", "iconDay": "104", "textDay": "阴"}], "101200901": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "26", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "34", "tempMin": "27", "iconDay": "104", "textDay": "阴"}], "101250201": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "36", "tempMin": "27", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101250601": [{"fxDate": "2026-08-27", "tempMax": "35", "tempMin": "29", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "28", "iconDay": "100", "textDay": "晴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101110101": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "109", "textDay": "大雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "24", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "28", "tempMin": "23", "iconDay": "104", "textDay": "阴"}], "104.28,31.0": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "31", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "25", "tempMin": "22", "iconDay": "116", "textDay": "中阵雨"}], "103.83,30.05": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "31", "tempMin": "24", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "25", "tempMin": "23", "iconDay": "120", "textDay": "雷阵雨"}], "101290101": [{"fxDate": "2026-08-27", "tempMax": "25", "tempMin": "17", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "26", "tempMin": "15", "iconDay": "109", "textDay": "大雨"}, {"fxDate": "2026-08-29", "tempMax": "24", "tempMin": "16", "iconDay": "120", "textDay": "雷阵雨"}], "101050401": [{"fxDate": "2026-08-27", "tempMax": "21", "tempMin": "14", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "23", "tempMin": "14", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "21", "tempMin": "16", "iconDay": "115", "textDay": "小阵雨"}], "130.83,45.77": [{"fxDate": "2026-08-27", "tempMax": "20", "tempMin": "14", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "22", "tempMin": "13", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "22", "tempMin": "14", "iconDay": "115", "textDay": "小阵雨"}], "120.44,41.57": [{"fxDate": "2026-08-27", "tempMax": "28", "tempMin": "16", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "26", "tempMin": "19", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "19", "iconDay": "107", "textDay": "小雨"}], "123.96,41.88": [{"fxDate": "2026-08-27", "tempMax": "27", "tempMin": "18", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "25", "tempMin": "18", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "26", "tempMin": "17", "iconDay": "120", "textDay": "雷阵雨"}], "123.85,42.28": [{"fxDate": "2026-08-27", "tempMax": "26", "tempMin": "17", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "17", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "26", "tempMin": "18", "iconDay": "120", "textDay": "雷阵雨"}], "119.38,25.72": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "24", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "35", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}], "122.23,40.67": [{"fxDate": "2026-08-27", "tempMax": "29", "tempMin": "21", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "20", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "26", "tempMin": "22", "iconDay": "108", "textDay": "中雨"}], "115.67,37.73": [{"fxDate": "2026-08-27", "tempMax": "27", "tempMin": "23", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "26", "tempMin": "21", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "20", "iconDay": "104", "textDay": "阴"}], "101091101": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "21", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "25", "tempMin": "21", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "20", "iconDay": "104", "textDay": "阴"}], "101090301": [{"fxDate": "2026-08-27", "tempMax": "26", "tempMin": "18", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-28", "tempMax": "21", "tempMin": "17", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "27", "tempMin": "14", "iconDay": "104", "textDay": "阴"}], "112.85,35.49": [{"fxDate": "2026-08-27", "tempMax": "27", "tempMin": "21", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "20", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "18", "iconDay": "104", "textDay": "阴"}], "101230801": [{"fxDate": "2026-08-27", "tempMax": "35", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "36", "tempMin": "24", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "103.21,35.6": [{"fxDate": "2026-08-27", "tempMax": "21", "tempMin": "17", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-28", "tempMax": "17", "tempMin": "13", "iconDay": "116", "textDay": "中阵雨"}, {"fxDate": "2026-08-29", "tempMax": "19", "tempMin": "10", "iconDay": "107", "textDay": "小雨"}], "101280601": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101241101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "26", "iconDay": "117", "textDay": "大暴雨"}], "116.29,37.45": [{"fxDate": "2026-08-27", "tempMax": "26", "tempMin": "24", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "24", "tempMin": "21", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "29", "tempMin": "20", "iconDay": "108", "textDay": "中雨"}], "119.46,35.42": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "30", "tempMin": "26", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "24", "iconDay": "120", "textDay": "雷阵雨"}], "101210601": [{"fxDate": "2026-08-27", "tempMax": "29", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "29", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "101310101": [{"fxDate": "2026-08-27", "tempMax": "34", "tempMin": "27", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "30", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}], "120.55,31.88": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "33", "tempMin": "27", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}], "98.28,39.77": [{"fxDate": "2026-08-27", "tempMax": "24", "tempMin": "17", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "25", "tempMin": "15", "iconDay": "101", "textDay": "多云"}, {"fxDate": "2026-08-29", "tempMax": "28", "tempMin": "11", "iconDay": "100", "textDay": "晴"}], "98.85,25.86": [{"fxDate": "2026-08-27", "tempMax": "31", "tempMin": "24", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "22", "iconDay": "108", "textDay": "中雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "22", "iconDay": "107", "textDay": "小雨"}], "101240701": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "25", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "34", "tempMin": "25", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "26", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}], "101300501": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "33", "tempMin": "25", "iconDay": "120", "textDay": "雷阵雨"}], "107.52,26.25": [{"fxDate": "2026-08-27", "tempMax": "30", "tempMin": "22", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-28", "tempMax": "29", "tempMin": "21", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-29", "tempMax": "32", "tempMin": "22", "iconDay": "115", "textDay": "小阵雨"}], "101230201": [{"fxDate": "2026-08-27", "tempMax": "32", "tempMin": "26", "iconDay": "120", "textDay": "雷阵雨"}, {"fxDate": "2026-08-28", "tempMax": "35", "tempMin": "27", "iconDay": "104", "textDay": "阴"}, {"fxDate": "2026-08-29", "tempMax": "31", "tempMin": "27", "iconDay": "120", "textDay": "雷阵雨"}], "103.01,29.98": [{"fxDate": "2026-08-27", "tempMax": "33", "tempMin": "23", "iconDay": "107", "textDay": "小雨"}, {"fxDate": "2026-08-28", "tempMax": "32", "tempMin": "23", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-29", "tempMax": "25", "tempMin": "23", "iconDay": "120", "textDay": "雷阵雨"}], "104.24,23.37": [{"fxDate": "2026-08-27", "tempMax": "26", "tempMin": "20", "iconDay": "121", "textDay": "雷阵雨伴冰雹"}, {"fxDate": "2026-08-28", "tempMax": "29", "tempMin": "19", "iconDay": "115", "textDay": "小阵雨"}, {"fxDate": "2026-08-29", "tempMax": "26", "tempMin": "20", "iconDay": "120", "textDay": "雷阵雨"}]}, "typhoon": {"active": false}}
+{
+  "updateTime": "2026-08-26T13:43:35+08:00",
+  "weather": {
+    "101281401": {
+      "temp": "29",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "17",
+      "humidity": "79",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101270101": {
+      "temp": "35",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "14",
+      "humidity": "47",
+      "feelsLike": "40",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230701": {
+      "temp": "26",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "西南风",
+      "windScale": "2",
+      "windSpeed": "8",
+      "humidity": "91",
+      "feelsLike": "28",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230601": {
+      "temp": "28",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "东南风",
+      "windScale": "2",
+      "windSpeed": "11",
+      "humidity": "92",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101010100": {
+      "temp": "30",
+      "icon": "501",
+      "text": "雾",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "13",
+      "humidity": "75",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101250301": {
+      "temp": "32",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东北风",
+      "windScale": "4",
+      "windSpeed": "27",
+      "humidity": "67",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101281601": {
+      "temp": "33",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "26",
+      "humidity": "66",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101040100": {
+      "temp": "38",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "16",
+      "humidity": "38",
+      "feelsLike": "39",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210101": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "17",
+      "humidity": "68",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230501": {
+      "temp": "25",
+      "icon": "306",
+      "text": "中雨",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "20",
+      "humidity": "99",
+      "feelsLike": "24",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210301": {
+      "temp": "30",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "73",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101220701": {
+      "temp": "32",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "28",
+      "humidity": "71",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101220101": {
+      "temp": "33",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东北风",
+      "windScale": "5",
+      "windSpeed": "32",
+      "humidity": "68",
+      "feelsLike": "33",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101020100": {
+      "temp": "32",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "12",
+      "humidity": "54",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101280801": {
+      "temp": "33",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西南风",
+      "windScale": "4",
+      "windSpeed": "27",
+      "humidity": "59",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190101": {
+      "temp": "32",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "27",
+      "humidity": "64",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101250501": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "16",
+      "humidity": "79",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101200101": {
+      "temp": "35",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "49",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101240101": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "57",
+      "feelsLike": "33",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101250101": {
+      "temp": "34",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "68",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190901": {
+      "temp": "31",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "5",
+      "windSpeed": "29",
+      "humidity": "67",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101220201": {
+      "temp": "33",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "5",
+      "windSpeed": "35",
+      "humidity": "59",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190801": {
+      "temp": "31",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "26",
+      "humidity": "69",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190701": {
+      "temp": "31",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "5",
+      "windSpeed": "33",
+      "humidity": "62",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101260101": {
+      "temp": "23",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "西北风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "85",
+      "feelsLike": "21",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101200601": {
+      "temp": "35",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "24",
+      "humidity": "50",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101280101": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "北风",
+      "windScale": "2",
+      "windSpeed": "8",
+      "humidity": "81",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101191301": {
+      "temp": "32",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "21",
+      "humidity": "62",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210401": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "18",
+      "humidity": "71",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230301": {
+      "temp": "26",
+      "icon": "307",
+      "text": "大雨",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "94",
+      "feelsLike": "24",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230101": {
+      "temp": "26",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "100",
+      "feelsLike": "27",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230901": {
+      "temp": "26",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "16",
+      "humidity": "90",
+      "feelsLike": "27",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230401": {
+      "temp": "25",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "14",
+      "humidity": "95",
+      "feelsLike": "26",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101280701": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "17",
+      "humidity": "74",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "119.92,28.45": {
+      "temp": "30",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西风",
+      "windScale": "3",
+      "windSpeed": "13",
+      "humidity": "72",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101120101": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "2",
+      "windSpeed": "9",
+      "humidity": "63",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210901": {
+      "temp": "33",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "26",
+      "humidity": "54",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190201": {
+      "temp": "31",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "23",
+      "humidity": "65",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210701": {
+      "temp": "32",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "12",
+      "humidity": "64",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210501": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "72",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101300101": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东风",
+      "windScale": "3",
+      "windSpeed": "17",
+      "humidity": "79",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101300301": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "14",
+      "humidity": "59",
+      "feelsLike": "38",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101240201": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "4",
+      "windSpeed": "20",
+      "humidity": "58",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190501": {
+      "temp": "32",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "27",
+      "humidity": "59",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101070201": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "79",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101050101": {
+      "temp": "26",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "西南风",
+      "windScale": "5",
+      "windSpeed": "35",
+      "humidity": "64",
+      "feelsLike": "26",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101060101": {
+      "temp": "25",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "24",
+      "humidity": "83",
+      "feelsLike": "26",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101070101": {
+      "temp": "28",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "20",
+      "humidity": "73",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101090201": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "62",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "117.96,40.95": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东北风",
+      "windScale": "2",
+      "windSpeed": "10",
+      "humidity": "67",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101060201": {
+      "temp": "24",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "5",
+      "windSpeed": "29",
+      "humidity": "80",
+      "feelsLike": "22",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101090101": {
+      "temp": "31",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "76",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "109.84,40.66": {
+      "temp": "21",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东北风",
+      "windScale": "4",
+      "windSpeed": "21",
+      "humidity": "90",
+      "feelsLike": "20",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101030100": {
+      "temp": "34",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西风",
+      "windScale": "4",
+      "windSpeed": "24",
+      "humidity": "56",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101221101": {
+      "temp": "33",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "5",
+      "windSpeed": "32",
+      "humidity": "61",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101220301": {
+      "temp": "32",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "5",
+      "windSpeed": "31",
+      "humidity": "61",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "120.74,31.64": {
+      "temp": "30",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "5",
+      "windSpeed": "29",
+      "humidity": "56",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101191101": {
+      "temp": "32",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "4",
+      "windSpeed": "23",
+      "humidity": "60",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101191001": {
+      "temp": "31",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "66",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190601": {
+      "temp": "33",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "23",
+      "humidity": "59",
+      "feelsLike": "38",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190301": {
+      "temp": "32",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "28",
+      "humidity": "64",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101120201": {
+      "temp": "31",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "28",
+      "humidity": "77",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101190401": {
+      "temp": "31",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "5",
+      "windSpeed": "32",
+      "humidity": "69",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101121301": {
+      "temp": "29",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "16",
+      "humidity": "83",
+      "feelsLike": "31",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101120601": {
+      "temp": "34",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "21",
+      "humidity": "60",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101120501": {
+      "temp": "29",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "20",
+      "humidity": "80",
+      "feelsLike": "30",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101100101": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "13",
+      "humidity": "51",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210201": {
+      "temp": "30",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "5",
+      "windSpeed": "29",
+      "humidity": "71",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210801": {
+      "temp": "30",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西风",
+      "windScale": "3",
+      "windSpeed": "13",
+      "humidity": "72",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "120.95,31.39": {
+      "temp": "32",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "20",
+      "humidity": "62",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "120.06,29.32": {
+      "temp": "32",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "57",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101280301": {
+      "temp": "32",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "4",
+      "windSpeed": "28",
+      "humidity": "64",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101281301": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东北风",
+      "windScale": "1",
+      "windSpeed": "5",
+      "humidity": "74",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101281501": {
+      "temp": "26",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "北风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "91",
+      "feelsLike": "27",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101281701": {
+      "temp": "32",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "5",
+      "windSpeed": "38",
+      "humidity": "66",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101180901": {
+      "temp": "31",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "4",
+      "windSpeed": "21",
+      "humidity": "70",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101180401": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "21",
+      "humidity": "63",
+      "feelsLike": "38",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101180101": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "19",
+      "humidity": "58",
+      "feelsLike": "38",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101200901": {
+      "temp": "35",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "南风",
+      "windScale": "2",
+      "windSpeed": "9",
+      "humidity": "55",
+      "feelsLike": "38",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101250201": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "27",
+      "humidity": "73",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101250601": {
+      "temp": "31",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "北风",
+      "windScale": "3",
+      "windSpeed": "13",
+      "humidity": "80",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101110101": {
+      "temp": "34",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "54",
+      "feelsLike": "39",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "104.28,31.0": {
+      "temp": "35",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东风",
+      "windScale": "2",
+      "windSpeed": "10",
+      "humidity": "50",
+      "feelsLike": "41",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "103.83,30.05": {
+      "temp": "34",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "北风",
+      "windScale": "2",
+      "windSpeed": "10",
+      "humidity": "56",
+      "feelsLike": "40",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101290101": {
+      "temp": "26",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西北风",
+      "windScale": "2",
+      "windSpeed": "6",
+      "humidity": "50",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101050401": {
+      "temp": "27",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "西南风",
+      "windScale": "3",
+      "windSpeed": "19",
+      "humidity": "54",
+      "feelsLike": "28",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "130.83,45.77": {
+      "temp": "27",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "西风",
+      "windScale": "5",
+      "windSpeed": "29",
+      "humidity": "48",
+      "feelsLike": "27",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "120.44,41.57": {
+      "temp": "28",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "22",
+      "humidity": "47",
+      "feelsLike": "27",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "123.96,41.88": {
+      "temp": "28",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西风",
+      "windScale": "3",
+      "windSpeed": "14",
+      "humidity": "75",
+      "feelsLike": "30",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "123.85,42.28": {
+      "temp": "27",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "77",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "119.38,25.72": {
+      "temp": "26",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "14",
+      "humidity": "93",
+      "feelsLike": "27",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "122.23,40.67": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西南风",
+      "windScale": "4",
+      "windSpeed": "28",
+      "humidity": "75",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "115.67,37.73": {
+      "temp": "33",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "3",
+      "windSpeed": "18",
+      "humidity": "67",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101091101": {
+      "temp": "30",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "69",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101090301": {
+      "temp": "26",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "北风",
+      "windScale": "4",
+      "windSpeed": "26",
+      "humidity": "71",
+      "feelsLike": "26",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "112.85,35.49": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东风",
+      "windScale": "3",
+      "windSpeed": "15",
+      "humidity": "67",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230801": {
+      "temp": "27",
+      "icon": "300",
+      "text": "阵雨",
+      "windDir": "东北风",
+      "windScale": "4",
+      "windSpeed": "21",
+      "humidity": "89",
+      "feelsLike": "28",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "103.21,35.6": {
+      "temp": "26",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "西南风",
+      "windScale": "2",
+      "windSpeed": "11",
+      "humidity": "59",
+      "feelsLike": "30",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101280601": {
+      "temp": "30",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "2",
+      "windSpeed": "10",
+      "humidity": "75",
+      "feelsLike": "34",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101241101": {
+      "temp": "32",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "东北风",
+      "windScale": "6",
+      "windSpeed": "41",
+      "humidity": "61",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "116.29,37.45": {
+      "temp": "34",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "19",
+      "humidity": "61",
+      "feelsLike": "36",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "119.46,35.42": {
+      "temp": "29",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "26",
+      "humidity": "79",
+      "feelsLike": "29",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101210601": {
+      "temp": "30",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东风",
+      "windScale": "4",
+      "windSpeed": "26",
+      "humidity": "76",
+      "feelsLike": "33",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101310101": {
+      "temp": "32",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "20",
+      "humidity": "67",
+      "feelsLike": "33",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "120.55,31.88": {
+      "temp": "32",
+      "icon": "100",
+      "text": "晴",
+      "windDir": "东南风",
+      "windScale": "4",
+      "windSpeed": "24",
+      "humidity": "60",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "98.28,39.77": {
+      "temp": "18",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "1",
+      "windSpeed": "5",
+      "humidity": "66",
+      "feelsLike": "18",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "98.85,25.86": {
+      "temp": "31",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "南风",
+      "windScale": "3",
+      "windSpeed": "17",
+      "humidity": "59",
+      "feelsLike": "35",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101240701": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "东北风",
+      "windScale": "2",
+      "windSpeed": "11",
+      "humidity": "76",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101300501": {
+      "temp": "32",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东北风",
+      "windScale": "3",
+      "windSpeed": "19",
+      "humidity": "63",
+      "feelsLike": "37",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "107.52,26.25": {
+      "temp": "25",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "北风",
+      "windScale": "3",
+      "windSpeed": "14",
+      "humidity": "90",
+      "feelsLike": "28",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "101230201": {
+      "temp": "26",
+      "icon": "305",
+      "text": "小雨",
+      "windDir": "北风",
+      "windScale": "2",
+      "windSpeed": "6",
+      "humidity": "98",
+      "feelsLike": "28",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "103.01,29.98": {
+      "temp": "35",
+      "icon": "101",
+      "text": "多云",
+      "windDir": "东风",
+      "windScale": "2",
+      "windSpeed": "6",
+      "humidity": "49",
+      "feelsLike": "41",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    },
+    "104.24,23.37": {
+      "temp": "29",
+      "icon": "104",
+      "text": "阴",
+      "windDir": "西风",
+      "windScale": "2",
+      "windSpeed": "10",
+      "humidity": "58",
+      "feelsLike": "32",
+      "updateTime": "2026-08-25T13:45:46+08:00"
+    }
+  },
+  "warning": {},
+  "forecast": {
+    "101281401": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      }
+    ],
+    "101270101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "37",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "24",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101230701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "24",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "23",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "23",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101230601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "27",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101010100": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "23",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "26",
+        "tempMin": "22",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "29",
+        "tempMin": "20",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101250301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101281601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101040100": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "38",
+        "tempMin": "30",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "38",
+        "tempMin": "30",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "37",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101210101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101230501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "24",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101210301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101220701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101220101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101020100": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "28",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "28",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101280801": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "27",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101190101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101250501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101200101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "37",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "37",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "37",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101240101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "27",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "28",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101250101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101190901": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101220201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101190801": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101190701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101260101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "21",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "20",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "26",
+        "tempMin": "21",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "101200601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "36",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101280101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101191301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101210401": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      }
+    ],
+    "101230301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "26",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "37",
+        "tempMin": "28",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101230101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "24",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "38",
+        "tempMin": "28",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101230901": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "25",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101230401": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "25",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "28",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101280701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "27",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "27",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "119.92,28.45": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "36",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "24",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101120101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101210901": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101190201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101210701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101210501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101300101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "24",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "101300301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "36",
+        "tempMin": "27",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "307",
+        "textDay": "大雨"
+      }
+    ],
+    "101240201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "35",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101190501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101070201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "27",
+        "tempMin": "24",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "29",
+        "tempMin": "22",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101050101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "27",
+        "tempMin": "17",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "24",
+        "tempMin": "15",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "23",
+        "tempMin": "15",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "101060101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "27",
+        "tempMin": "19",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "27",
+        "tempMin": "15",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "25",
+        "tempMin": "15",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101070101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "22",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "16",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "29",
+        "tempMin": "17",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101090201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "24",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "25",
+        "tempMin": "22",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "21",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "117.96,40.95": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "19",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "26",
+        "tempMin": "16",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "28",
+        "tempMin": "17",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101060201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "27",
+        "tempMin": "18",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "14",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "25",
+        "tempMin": "14",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101090101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "25",
+        "tempMin": "22",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "24",
+        "tempMin": "22",
+        "iconDay": "306",
+        "textDay": "中雨"
+      }
+    ],
+    "109.84,40.66": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "26",
+        "tempMin": "18",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "25",
+        "tempMin": "16",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "25",
+        "tempMin": "16",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101030100": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "27",
+        "tempMin": "23",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "28",
+        "tempMin": "23",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101221101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101220301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "120.74,31.64": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101191101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101191001": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101190601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101190301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101120201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "29",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "29",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101190401": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101121301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "24",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "24",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101120601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "24",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "28",
+        "tempMin": "25",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "101120501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "24",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "28",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101100101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "22",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "21",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "30",
+        "tempMin": "21",
+        "iconDay": "306",
+        "textDay": "中雨"
+      }
+    ],
+    "101210201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101210801": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "36",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "24",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "120.95,31.39": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "28",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "120.06,29.32": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "35",
+        "tempMin": "25",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101280301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101281301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "29",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101281501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "24",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101281701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101180901": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "23",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101180401": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "23",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "23",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101180101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "24",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101200901": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "24",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "31",
+        "tempMin": "24",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "101250201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101250601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101110101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "36",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "37",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "104.28,31.0": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "37",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "25",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "103.83,30.05": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "36",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "24",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "24",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "101290101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "18",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "25",
+        "tempMin": "17",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "17",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101050401": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "27",
+        "tempMin": "16",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "24",
+        "tempMin": "14",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "21",
+        "tempMin": "13",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "130.83,45.77": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "27",
+        "tempMin": "16",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "26",
+        "tempMin": "16",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "23",
+        "tempMin": "14",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "120.44,41.57": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "21",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "16",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "30",
+        "tempMin": "18",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "123.96,41.88": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "19",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "29",
+        "tempMin": "15",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "15",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "123.85,42.28": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "20",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "17",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "19",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "119.38,25.72": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "24",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "122.23,40.67": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "24",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "20",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "28",
+        "tempMin": "20",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "115.67,37.73": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "24",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "29",
+        "tempMin": "22",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "25",
+        "tempMin": "22",
+        "iconDay": "306",
+        "textDay": "中雨"
+      }
+    ],
+    "101091101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "22",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "29",
+        "tempMin": "21",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "28",
+        "tempMin": "20",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101090301": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "20",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "21",
+        "tempMin": "16",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "25",
+        "tempMin": "17",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "112.85,35.49": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "23",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "21",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "30",
+        "tempMin": "22",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101230801": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "28",
+        "tempMin": "26",
+        "iconDay": "310",
+        "textDay": "暴雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "103.21,35.6": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "17",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "26",
+        "tempMin": "16",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "22",
+        "tempMin": "14",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101280601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "27",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "101241101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "35",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "116.29,37.45": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "24",
+        "iconDay": "104",
+        "textDay": "阴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "24",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "26",
+        "tempMin": "24",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "119.46,35.42": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "29",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101210601": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      }
+    ],
+    "101310101": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      }
+    ],
+    "120.55,31.88": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "25",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "100",
+        "textDay": "晴"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "27",
+        "iconDay": "100",
+        "textDay": "晴"
+      }
+    ],
+    "98.28,39.77": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "22",
+        "tempMin": "15",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "25",
+        "tempMin": "16",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "25",
+        "tempMin": "14",
+        "iconDay": "104",
+        "textDay": "阴"
+      }
+    ],
+    "98.85,25.86": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "34",
+        "tempMin": "22",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "32",
+        "tempMin": "23",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "20",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ],
+    "101240701": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "31",
+        "tempMin": "26",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "302",
+        "textDay": "雷阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "34",
+        "tempMin": "26",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "101300501": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "33",
+        "tempMin": "26",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "31",
+        "tempMin": "25",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "32",
+        "tempMin": "25",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "107.52,26.25": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "27",
+        "tempMin": "21",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "28",
+        "tempMin": "21",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "21",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "101230201": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "25",
+        "iconDay": "307",
+        "textDay": "大雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "30",
+        "tempMin": "25",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "33",
+        "tempMin": "27",
+        "iconDay": "101",
+        "textDay": "多云"
+      }
+    ],
+    "103.01,29.98": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "36",
+        "tempMin": "25",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "35",
+        "tempMin": "24",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "36",
+        "tempMin": "24",
+        "iconDay": "300",
+        "textDay": "阵雨"
+      }
+    ],
+    "104.24,23.37": [
+      {
+        "fxDate": "2026-08-25",
+        "tempMax": "29",
+        "tempMin": "20",
+        "iconDay": "305",
+        "textDay": "小雨"
+      },
+      {
+        "fxDate": "2026-08-26",
+        "tempMax": "27",
+        "tempMin": "20",
+        "iconDay": "306",
+        "textDay": "中雨"
+      },
+      {
+        "fxDate": "2026-08-27",
+        "tempMax": "27",
+        "tempMin": "19",
+        "iconDay": "305",
+        "textDay": "小雨"
+      }
+    ]
+  }
+}

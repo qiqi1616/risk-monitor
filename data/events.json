@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-08-26T08:00:00+08:00",
+  "updateTime": "2026-08-26T13:44:57+08:00",
   "events": [
     {
       "time": "08-25 15:00",
@@ -10,12 +10,20 @@
       "url": "https://news.cctv.com/2026/08/25/ARTI8zqcM4MwUKSvGa5DNBky260825.shtml"
     },
     {
-      "time": "08-24 13:30",
+      "time": "08-23 凌晨",
       "type": "landslide",
+      "level": "major",
+      "title": "云南凤庆泥石流滑坡致4人遇难2人失联",
+      "location": "云南临沧凤庆县凤山镇",
+      "url": "https://news.sina.com.cn/o/2026-08-24/doc-inipmnpn1989044.shtml"
+    },
+    {
+      "time": "08-25 07:44",
+      "type": "traffic",
       "level": "general",
-      "title": "辽宁丹东暴雨致小区山体滑坡，314人紧急转移",
-      "location": "辽宁丹东元宝区",
-      "url": "http://www.ctdsb.net/c1716_202608/2840422.html"
+      "title": "宁波海曙区交通事故致1死4伤，司机突发疾病",
+      "location": "浙江宁波海曙区集士港镇",
+      "url": "https://news.cctv.cn/2026/08/25/ARTIxmODzdAEYINroTjPUrYw260825.shtml"
     },
     {
       "time": "08-24 下午",
