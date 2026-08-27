@@ -629,17 +629,17 @@ def fetch_nmc_typhoon():
         resp = requests.get(f'{nmc_base}/typhoon/jsons/list_default',
                            headers=headers, verify=False, timeout=10)
         if resp.status_code != 200:
-            print(f"  [台风] NMC列表请求失败: HTTP {resp.status_code}")
-            return {"active": False}
+            print(f"  [台风] NMC列表请求失败: HTTP {resp.status_code}，保留已有台风数据")
+            return None
         # 解析JSONP: typhoon_jsons_list_default({...})
         json_match = _re.search(r'\((\{.*\})\)', resp.text, _re.S)
         if not json_match:
-            print("  [台风] NMC列表解析失败: 无JSON数据")
-            return {"active": False}
+            print("  [台风] NMC列表解析失败: 无JSON数据，保留已有台风数据")
+            return None
         list_data = json.loads(json_match.group(1))
     except Exception as e:
-        print(f"  [台风] NMC列表请求异常: {e}")
-        return {"active": False}
+        print(f"  [台风] NMC列表请求异常: {e}，保留已有台风数据")
+        return None
 
     # 2. 筛选活跃台风（status == "start"）
     active_list = [t for t in list_data.get('typhoonList', []) if len(t) >= 8 and t[7] == 'start']
@@ -997,6 +997,22 @@ def main():
     # 提取台风信息（从已有预警数据中，不额外消耗API配额）
     print("  提取台风信息...")
     typhoon = extract_typhoon_info(warnings)
+    
+    # 如果NMC API失败返回None，保留已有台风数据
+    if typhoon is None:
+        existing_file = os.path.join(os.path.dirname(__file__), 'data', 'weather.json')
+        if os.path.exists(existing_file):
+            try:
+                with open(existing_file, 'r', encoding='utf-8') as ef:
+                    existing_data = json.load(ef)
+                typhoon = existing_data.get('typhoon', {"active": False})
+                print(f"  [台风] NMC不可用，保留已有台风数据: {typhoon.get('name', '无')} (active={typhoon.get('active', False)})")
+            except Exception as e:
+                print(f"  [台风] 读取已有台风数据失败: {e}，使用默认值")
+                typhoon = {"active": False}
+        else:
+            print(f"  [台风] 无已有数据，使用默认值")
+            typhoon = {"active": False}
 
     shared = {
         'updateTime': datetime.now().strftime('%Y-%m-%dT%H:%M:%S+08:00'),
