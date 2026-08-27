@@ -1,6 +1,22 @@
 {
-  "updateTime": "2026-08-26T13:44:57+08:00",
+  "updateTime": "2026-08-27T13:43:24+08:00",
   "events": [
+    {
+      "time": "08-27 08:00",
+      "type": "landslide",
+      "level": "major",
+      "title": "西藏吉隆泥石流灾害最新：遇难3人、失联558人，各项救援全力进行",
+      "location": "西藏日喀则市吉隆县",
+      "url": "http://www.xinhuanet.com/local/20260827/c80eca2cd35a443489c76d00193e11e3/c.html"
+    },
+    {
+      "time": "08-25 20:35",
+      "type": "electric",
+      "level": "general",
+      "title": "重庆洪崖洞暴雨积水漏电，母女触电倒地，女儿危重",
+      "location": "重庆渝中区嘉滨路",
+      "url": "http://news.cnr.cn/local/dftj/20260826/t20260826_527793277.shtml"
+    },
     {
       "time": "08-25 15:00",
       "type": "flood",
@@ -8,30 +24,6 @@
       "title": "内蒙古乌兰察布突发山洪，4人死亡1人失联",
       "location": "内蒙古乌兰察布兴和县",
       "url": "https://news.cctv.com/2026/08/25/ARTI8zqcM4MwUKSvGa5DNBky260825.shtml"
-    },
-    {
-      "time": "08-23 凌晨",
-      "type": "landslide",
-      "level": "major",
-      "title": "云南凤庆泥石流滑坡致4人遇难2人失联",
-      "location": "云南临沧凤庆县凤山镇",
-      "url": "https://news.sina.com.cn/o/2026-08-24/doc-inipmnpn1989044.shtml"
-    },
-    {
-      "time": "08-25 07:44",
-      "type": "traffic",
-      "level": "general",
-      "title": "宁波海曙区交通事故致1死4伤，司机突发疾病",
-      "location": "浙江宁波海曙区集士港镇",
-      "url": "https://news.cctv.cn/2026/08/25/ARTIxmODzdAEYINroTjPUrYw260825.shtml"
-    },
-    {
-      "time": "08-24 下午",
-      "type": "hazmat",
-      "level": "general",
-      "title": "杭瑞高速云南保山段载焦油货车侧翻起火",
-      "location": "云南保山隆阳区",
-      "url": "https://m.weibo.cn/detail/5335581996878337"
     }
   ]
 }
