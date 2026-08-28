@@ -1244,5 +1244,85 @@
       "feelsLike": "18",
       "updateTime": ""
     }
+  },
+  "typhoon": {
+    "active": true,
+    "name": "沙德尔",
+    "nameEn": "SAUDEL",
+    "number": "2618",
+    "strength": "台风级",
+    "windLevel": "12级",
+    "windSpeed": "35",
+    "pressure": "975",
+    "lat": "28.1",
+    "lon": "121.5",
+    "direction": "西偏南",
+    "speed": "20",
+    "warning": "台风红色预警",
+    "response": "重大气象灾害二级",
+    "updateTime": "2026-08-28T08:05:00+08:00",
+    "landfallTime": "8月28日08时05分",
+    "landfallPlace": "浙江台州玉环市坎门街道沿海",
+    "landfallWind": "12级(35m/s)，台风级",
+    "radius7": "150-300km",
+    "radius10": "80-120km",
+    "radius12": "50km",
+    "rainfall": "福建中北部大暴雨局地特大暴雨250-280mm；浙东南、闽东北累计200-400mm局地超500mm",
+    "gust": "15-17级",
+    "status": "已登陆",
+    "postLandfallPath": "登陆后向西偏南深入内陆，将先后影响福建、江西、湖南、广东、广西、贵州、云南等9省区",
+    "fujianImpact": "福建中北部大暴雨，宁德前期已600mm+降水叠加，风雨潮三碰头",
+    "affectedCities": [
+      {
+        "city": "宁德",
+        "count": 55,
+        "risk": "极高"
+      },
+      {
+        "city": "福州",
+        "count": 50,
+        "risk": "极高"
+      },
+      {
+        "city": "南平",
+        "count": 35,
+        "risk": "极高"
+      },
+      {
+        "city": "厦门",
+        "count": 44,
+        "risk": "极高"
+      },
+      {
+        "city": "杭州",
+        "count": 30,
+        "risk": "极高"
+      },
+      {
+        "city": "漳州",
+        "count": 27,
+        "risk": "极高"
+      },
+      {
+        "city": "泉州",
+        "count": 22,
+        "risk": "高"
+      },
+      {
+        "city": "莆田",
+        "count": 17,
+        "risk": "高"
+      },
+      {
+        "city": "广州",
+        "count": 20,
+        "risk": "高"
+      },
+      {
+        "city": "长沙",
+        "count": 15,
+        "risk": "高"
+      }
+    ]
   }
 }
