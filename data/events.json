@@ -1,21 +1,21 @@
 {
-  "updateTime": "2026-08-28T07:36:32+08:00",
+  "updateTime": "2026-08-28T13:44:28+08:00",
   "events": [
+    {
+      "time": "08-28 13:13",
+      "type": "earthquake",
+      "level": "major",
+      "title": "四川隆昌5.1级地震：震源深度13公里，距内江42公里、成都186公里、重庆134公里",
+      "location": "四川内江市隆昌市",
+      "url": "https://www.cenc.ac.cn/cenc/2026-08/28/article_2026082813275225492.html"
+    },
     {
       "time": "08-26 10:30",
       "type": "landslide",
       "level": "major",
-      "title": "西藏吉隆泥石流：尼泊尔冰崩引发，已致3人遇难558人失联（含外籍260人），运-20驰援，堰塞湖威胁救援",
+      "title": "西藏吉隆泥石流：尼泊尔冰崩引发，已致3人遇难558人失联（含外籍260人），堰塞湖溢流，500余人驰援",
       "location": "西藏日喀则市吉隆县",
-      "url": "http://news.china.com.cn/2026-08/28/content_118667947.shtml"
-    },
-    {
-      "time": "08-26 23:00",
-      "type": "fire",
-      "level": "general",
-      "title": "广西南宁良庆区一仓库深夜起火，消防已处置完毕，无人员伤亡",
-      "location": "广西南宁市良庆区",
-      "url": "http://m.toutiao.com/group/7678537375902974479/"
+      "url": "https://www.mem.gov.cn/xw/yjglbgzdt/"
     }
   ]
 }
