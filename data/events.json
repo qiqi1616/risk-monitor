@@ -1,13 +1,13 @@
 {
-  "updateTime": "2026-08-30T08:00:00+08:00",
+  "updateTime": "2026-08-30T14:00:00+08:00",
   "events": [
     {
-      "time": "08-30 06:48",
+      "time": "08-30 11:42",
       "type": "typhoon",
       "level": "major",
-      "title": "台风沙德尔深入赣湘，江西西部湖南南部大暴雨，国家防总紧急部署防汛防台风",
-      "location": "江西/湖南",
-      "url": "https://m.voc.com.cn/xhn/news/202608/33617230.html"
+      "title": "台风沙德尔减弱为热带低压，中央气象台继续发布暴雨黄色预警和台风蓝色预警，广东海南多地暴雨",
+      "location": "广西/广东/海南",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33975103"
     },
     {
       "time": "08-29 20:51",
@@ -18,28 +18,28 @@
       "url": "https://www.news.cn/politics/szlb/index.html"
     },
     {
+      "time": "08-29 16:00",
+      "type": "hazmat",
+      "level": "major",
+      "title": "泉州泉港石化园区疑似发生溴泄漏，应急局：属小范围泄漏，险情已控制",
+      "location": "福建泉州市泉港区",
+      "url": "https://m.weibo.cn/detail/5337606080694650"
+    },
+    {
+      "time": "08-29 06:07",
+      "type": "earthquake",
+      "level": "major",
+      "title": "新疆阿克苏温宿县4.2级地震，震源深度14千米",
+      "location": "新疆阿克苏地区温宿县",
+      "url": "https://www.cenc.ac.cn/cenc/419502/415984/index.html"
+    },
+    {
       "time": "08-28 13:13",
       "type": "earthquake",
       "level": "major",
       "title": "四川隆昌5.1级地震：震源深度6公里，中国地震局启动三级应急响应",
       "location": "四川内江市隆昌市",
       "url": "https://www.cenc.ac.cn/cenc/202608/28/article_2026082813275225492.html"
-    },
-    {
-      "time": "08-26 10:30",
-      "type": "landslide",
-      "level": "major",
-      "title": "西藏吉隆泥石流：救援黄金72小时关键阶段，水陆空并进挺进核心区加紧搜救",
-      "location": "西藏日喀则市吉隆县",
-      "url": "https://news.cctv.com/2026/08/28/ARTIek9ubcKZjCso1F65y0Tv260828.shtml"
-    },
-    {
-      "time": "08-28 08:00",
-      "type": "fire",
-      "level": "major",
-      "title": "南宁万科城架空层数十辆电动车起火，浓烟包裹整栋楼，多层外墙被熏黑",
-      "location": "广西南宁市",
-      "url": "https://m.sohu.com/a/1068979624_121106991/"
     }
   ]
 }
