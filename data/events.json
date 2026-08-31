@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-08-31T08:00:00+08:00",
+  "updateTime": "2026-08-31T14:00:00+08:00",
   "events": [
     {
       "time": "08-31 07:22",
@@ -26,6 +26,14 @@
       "url": "https://m.thepaper.cn/newsDetail_forward_33975103"
     },
     {
+      "time": "08-30 16:31",
+      "type": "chemical",
+      "level": "major",
+      "title": "福建泉州泉港石化园区发生溴泄漏，现场橙红色毒雾弥漫，已处置完毕无人员伤亡",
+      "location": "福建泉州市泉港区",
+      "url": "https://news.sina.com.cn/o/2026-08-30/doc-iniqauvp8209676.shtml"
+    },
+    {
       "time": "08-30 11:30",
       "type": "fire",
       "level": "normal",
@@ -34,20 +42,36 @@
       "url": "http://news.qq.com/rain/a/20260830V0A50P00"
     },
     {
+      "time": "08-30 05:00",
+      "type": "explosion",
+      "level": "normal",
+      "title": "深圳龙岗区一化工仪器店凌晨爆炸引发火灾，店铺被焚烧一空，无人员伤亡",
+      "location": "广东深圳市龙岗区横岗街道",
+      "url": "https://m.lab168.com/news/show-31115.html"
+    },
+    {
+      "time": "08-30 02:00",
+      "type": "fire",
+      "level": "normal",
+      "title": "呼和浩特锦绣园小区凌晨电动车棚突发火灾，浓烟滚滚车辆被烧毁，消防通道被占道车辆阻塞",
+      "location": "内蒙古呼和浩特市",
+      "url": "https://video.sina.cn/finance/2026-08-31/detail-iniqetnr7898371.d.html"
+    },
+    {
+      "time": "08-29 22:12",
+      "type": "fire",
+      "level": "normal",
+      "title": "昆明官渡区金马寺一仓库深夜突发大火，现场爆炸声不断，明火已于23:20扑灭，无人员伤亡",
+      "location": "云南昆明市官渡区",
+      "url": "https://www.ccwb.cn/content/202608/30/c912257.html"
+    },
+    {
       "time": "08-29 21:00",
       "type": "fire",
       "level": "normal",
       "title": "辽宁丹东一电动车门店突发火灾，两分钟火势蔓延至门店招牌，不时传出砰砰爆炸声，无人员伤亡",
       "location": "辽宁丹东市元宝区",
       "url": "http://news.qq.com/rain/a/20260830A05N9S00"
-    },
-    {
-      "time": "08-29 06:07",
-      "type": "earthquake",
-      "level": "major",
-      "title": "新疆阿克苏温宿县4.2级地震，震源深度14千米",
-      "location": "新疆阿克苏地区温宿县",
-      "url": "https://www.cenc.ac.cn/cenc/419502/415984/index.html"
     }
   ]
 }
