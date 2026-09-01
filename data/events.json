@@ -1,77 +1,21 @@
 {
-  "updateTime": "2026-09-01T07:40:00+08:00",
+  "updateTime": "2026-08-28T13:44:28+08:00",
   "events": [
     {
-      "time": "09-01 06:00",
-      "type": "typhoon",
+      "time": "08-28 13:13",
+      "type": "earthquake",
       "level": "major",
-      "title": "台风沙德尔残余涡旋在南海再度加强为台风，中央气象台双预警齐发暴雨黄色+台风蓝色预警，福建东北部局地特大暴雨250-280mm",
-      "location": "南海/福建/浙江/广东",
-      "url": "https://m.bjnews.com.cn/detail/1787925319129147.html"
+      "title": "四川隆昌5.1级地震：震源深度13公里，距内江42公里、成都186公里、重庆134公里",
+      "location": "四川内江市隆昌市",
+      "url": "https://www.cenc.ac.cn/cenc/2026-08/28/article_2026082813275225492.html"
     },
     {
-      "time": "09-01 06:00",
-      "type": "flood",
-      "level": "major",
-      "title": "持续暴雨致五省市190段国省道路封闭管控，交通运输部启动综合调度指挥",
-      "location": "北京/河北/河南/湖北/云南",
-      "url": "https://www.gmt8press.com/flash/detail/1509992"
-    },
-    {
-      "time": "08-31 07:22",
+      "time": "08-26 10:30",
       "type": "landslide",
       "level": "major",
-      "title": "西藏吉隆县泥石流灾害已致16人遇难546人失联，2141名救援力量全力搜救，启动一级应急响应",
+      "title": "西藏吉隆泥石流：尼泊尔冰崩引发，已致3人遇难558人失联（含外籍260人），堰塞湖溢流，500余人驰援",
       "location": "西藏日喀则市吉隆县",
-      "url": "http://news.china.com.cn/2026-08/31/content_118671623.shtml"
-    },
-    {
-      "time": "08-30 21:30",
-      "type": "flood",
-      "level": "major",
-      "title": "云南磨憨强降雨引发洪涝，盐塘水库漫坝险情，紧急转移8115人，启动防汛Ⅱ级应急响应",
-      "location": "云南西双版纳州磨憨镇",
-      "url": "http://www.xinhuanet.com/20260830/345bc0c4241448e18c985a4f1be7e6a5/c.html"
-    },
-    {
-      "time": "08-30 16:31",
-      "type": "chemical",
-      "level": "major",
-      "title": "福建泉州泉港石化园区发生溴泄漏，现场橙红色毒雾弥漫，已处置完毕无人员伤亡",
-      "location": "福建泉州市泉港区",
-      "url": "https://news.sina.com.cn/o/2026-08-30/doc-iniqauvp8209676.shtml"
-    },
-    {
-      "time": "08-30 夜间",
-      "type": "fire",
-      "level": "normal",
-      "title": "远东股份控股孙公司江西远东电池有限公司电芯老化检测车间发生火灾，1个厂房设备部分受损，无人员伤亡",
-      "location": "江西",
-      "url": "https://m.weibo.cn/detail/5338044175746838"
-    },
-    {
-      "time": "08-30 11:42",
-      "type": "typhoon",
-      "level": "major",
-      "title": "台风沙德尔减弱为热带低压，中央气象台继续发布暴雨黄色预警和台风蓝色预警，广东海南多地暴雨",
-      "location": "广西/广东/海南",
-      "url": "https://m.thepaper.cn/newsDetail_forward_33975103"
-    },
-    {
-      "time": "08-30 11:30",
-      "type": "fire",
-      "level": "normal",
-      "title": "山西太原一辆零跑D19新能源汽车街头突发自燃，前机舱起火冒出浓烟，消防已将火扑灭无人员伤亡",
-      "location": "山西太原市小店区",
-      "url": "http://news.qq.com/rain/a/20260830V0A50P00"
-    },
-    {
-      "time": "08-30 05:00",
-      "type": "explosion",
-      "level": "normal",
-      "title": "深圳龙岗区一化工仪器店凌晨爆炸引发火灾，店铺被焚烧一空，无人员伤亡",
-      "location": "广东深圳市龙岗区横岗街道",
-      "url": "https://m.lab168.com/news/show-31115.html"
+      "url": "https://www.mem.gov.cn/xw/yjglbgzdt/"
     }
   ]
 }
