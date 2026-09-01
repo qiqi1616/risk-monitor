@@ -1,21 +1,37 @@
 {
-  "updateTime": "2026-08-28T13:44:28+08:00",
+  "updateTime": "2026-09-02T07:39:00+08:00",
   "events": [
     {
-      "time": "08-28 13:13",
-      "type": "earthquake",
+      "time": "09-02 06:00",
+      "type": "typhoon",
       "level": "major",
-      "title": "四川隆昌5.1级地震：震源深度13公里，距内江42公里、成都186公里、重庆134公里",
-      "location": "四川内江市隆昌市",
-      "url": "https://www.cenc.ac.cn/cenc/2026-08/28/article_2026082813275225492.html"
+      "title": "台风沙德尔在南海复活后持续活跃，中央气象台暴雨黄色+台风蓝色双预警齐发，福建浙江广东等地大暴雨100-230mm，福建东北部局地特大暴雨",
+      "location": "南海/福建/浙江/广东/江西/台湾",
+      "url": "http://m.chinanews.com/wap/detail/chs/zw/10688363.shtml"
     },
     {
-      "time": "08-26 10:30",
+      "time": "09-01 14:50",
+      "type": "flood",
+      "level": "major",
+      "title": "福建莆田木兰溪发生2026年第1号洪水，受持续暴雨影响水位涨至10.05米达洪水编号标准，省防指维持防汛三级+防台风四级应急响应",
+      "location": "福建莆田市",
+      "url": "https://m.huanqiu.com/article/4T28cJlVovS"
+    },
+    {
+      "time": "09-01 14:40",
+      "type": "fire",
+      "level": "normal",
+      "title": "湖南郴州格瑞普新能源有限公司生产车间突发火灾，5人轻伤已送医，火情已得到控制",
+      "location": "湖南郴州市高新区",
+      "url": "http://news.cnr.cn/local/dftj/20260901/t20260901_527801634.shtml"
+    },
+    {
+      "time": "08-31 07:22",
       "type": "landslide",
       "level": "major",
-      "title": "西藏吉隆泥石流：尼泊尔冰崩引发，已致3人遇难558人失联（含外籍260人），堰塞湖溢流，500余人驰援",
+      "title": "西藏吉隆县泥石流灾害已致16人遇难546人失联，2141名救援力量全力搜救，启动一级应急响应",
       "location": "西藏日喀则市吉隆县",
-      "url": "https://www.mem.gov.cn/xw/yjglbgzdt/"
+      "url": "http://news.china.com.cn/2026-08/31/content_118671623.shtml"
     }
   ]
 }
