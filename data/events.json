@@ -1,13 +1,21 @@
 {
-  "updateTime": "2026-09-02T14:00:00+08:00",
+  "updateTime": "2026-09-03T07:45:00+08:00",
   "events": [
     {
-      "time": "09-02 13:05",
+      "time": "09-03 06:30",
+      "type": "typhoon",
+      "level": "major",
+      "title": "台风'沙德尔'今晨加强为强热带风暴级后，于9月3日06时30分前后在福建漳州漳浦古雷沿海第三次登陆（登陆时中心附近最大风力9级/23米/秒，中心气压985百帕），中央气象台9月3日6时发布台风黄色预警，登陆后将逐渐减弱，但福建东南部、广东东部局地仍有特大暴雨(250-300mm)",
+      "location": "福建漳浦/广东东部",
+      "url": "http://www3.xinhuanet.com/20260903/9c2d5210bbcb4d65805e4e482cb9bcda/c.html"
+    },
+    {
+      "time": "09-02 15:04",
       "type": "flood",
       "level": "major",
-      "title": "福建提升防汛应急响应为二级，漳州厦门泉州宁德四市大暴雨局部特大暴雨，24小时累计雨量80-180mm局部300mm，最大小时雨量120mm，省防指维持防台风四级应急响应",
+      "title": "福建将防汛应急响应提升至二级、暴雨预警升为一级（最高级），福鼎实行'三停一休'，全省累计转移海上陆上危险区域群众1.95万人，11县16河21站发生超警戒洪水、木兰溪交溪发生编号洪水",
       "location": "福建全省",
-      "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?channelId=1119&item_id=8941694837663207628"
+      "url": "http://www.xinhuanet.com/20260902/07e49bed688c478590fdf578ea1bf145/c.html"
     },
     {
       "time": "09-02 12:59",
@@ -18,20 +26,28 @@
       "url": "http://www2.xinhuanet.com/20260902/510592527f3c4f1cb36ae0f3be551c2f/c.html"
     },
     {
-      "time": "09-02 06:00",
-      "type": "typhoon",
-      "level": "major",
-      "title": "台风沙德尔在南海复活后持续活跃，中央气象台暴雨黄色+台风蓝色双预警齐发，南澳大桥14时起封桥，预计3日下午至4日在汕头到惠州一带登陆，福建浙江广东等地大暴雨局地特大暴雨250-300mm",
-      "location": "南海/福建/浙江/广东/江西/台湾",
-      "url": "http://www.chinanews.com.cn/gn/2026/09-02/10688363.shtml"
-    },
-    {
       "time": "09-02 11:54",
       "type": "flood",
       "level": "normal",
       "title": "受台风沙德尔影响湖南郴州遭遇强降雨引发山洪，消防联合多部门营救转移被困群众40人，无人员受伤",
       "location": "湖南郴州市北湖区",
       "url": "https://m.voc.com.cn/xhn/news/202609/33646835.html"
+    },
+    {
+      "time": "09-02 15:00",
+      "type": "chemical",
+      "level": "normal",
+      "title": "陕西延安延长县董家河村辖区公路一满载液碱的危化品罐车因操作失误侧翻，罐体破裂液碱泄漏，消防采取围挡控源处置，经40分钟抢险险情有效管控，无人员伤亡",
+      "location": "陕西延安市延长县",
+      "url": "http://m.toutiao.com/group/7680974407359873551/"
+    },
+    {
+      "time": "09-02 09:04",
+      "type": "fire",
+      "level": "normal",
+      "title": "贵州贵阳市某小学一间教室凌晨突发火灾，消防及时扑灭明火并排查无复燃及安全隐患，事故未造成人员伤亡，起火原因正在调查",
+      "location": "贵州贵阳市",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33994771"
     },
     {
       "time": "09-01 14:40",
@@ -48,22 +64,6 @@
       "title": "杭州萧山区盈丰街道亚奥城北区一住宅发生火灾，消防13时20分扑灭明火，营救1名被困人员未受伤，燃烧物为床被褥等生活可燃物",
       "location": "浙江杭州市萧山区",
       "url": "http://m.toutiao.com/group/7680442492642198026/"
-    },
-    {
-      "time": "08-31 07:22",
-      "type": "landslide",
-      "level": "major",
-      "title": "西藏吉隆县泥石流灾害已致16人遇难546人失联（含23国261名外籍人员），G216国道抢通至距口岸700米，堰塞湖已排空风险可控，超2000人参与搜救",
-      "location": "西藏日喀则市吉隆县",
-      "url": "http://www.china.org.cn/china/Off_the_Wire/2026-09/02/content_118676475.shtml"
-    },
-    {
-      "time": "08-31 14:43",
-      "type": "explosion",
-      "level": "major",
-      "title": "湖南浏阳华盛烟花制造有限公司发生爆炸事故，已致37人遇难1人失踪51人受伤（5人重症），1500余人参与救援，8人因涉嫌过失致事故被传唤",
-      "location": "湖南长沙市浏阳市",
-      "url": "https://azerbaijannewsgazette.com/death-toll-rises-to-37-in-central-china-fireworks-plant-explosion/"
     }
   ]
 }
