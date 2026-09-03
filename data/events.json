@@ -1,6 +1,38 @@
 {
-  "updateTime": "2026-09-03T13:40:00+08:00",
+  "updateTime": "2026-09-04T07:40:00+08:00",
   "events": [
+    {
+      "time": "09-04 01:04",
+      "type": "earthquake",
+      "level": "major",
+      "title": "中国地震台网测定，青海海西州直辖区（北纬37.84度，东经95.59度）发生5.1级地震，震源深度10公里，中国地震局迅速启动四级应急响应，青海省地震局已派出现场工作队赶赴震区协助地方政府开展应急处置",
+      "location": "青海海西州直辖区",
+      "url": "http://news.cnr.cn/native/gd/kx/index.html"
+    },
+    {
+      "time": "09-03 19:39",
+      "type": "earthquake",
+      "level": "normal",
+      "title": "中国地震台网测定，四川绵阳市北川县发生4.8级地震，震源深度10千米",
+      "location": "四川绵阳市北川县",
+      "url": "http://news.cnr.cn/native/gd/kx/index.html"
+    },
+    {
+      "time": "09-03 16:16",
+      "type": "earthquake",
+      "level": "normal",
+      "title": "中国地震台网测定，西藏阿里地区噶尔县发生4.5级地震，震源深度10千米",
+      "location": "西藏阿里地区噶尔县",
+      "url": "http://news.cnr.cn/native/gd/kx/index.html"
+    },
+    {
+      "time": "09-03 14:45",
+      "type": "fire",
+      "level": "major",
+      "title": "海南海口市秀英大道东侧一家正在装修的椰香源餐厅突发火灾，造成6人死亡、3人受伤（伤者生命体征平稳），起火原因正在调查中",
+      "location": "海南海口市秀英区",
+      "url": "http://www.xinhuanet.com/20260903/c63de1dc81324a7f97966346b2ffadaa/c.html"
+    },
     {
       "time": "09-03 10:45",
       "type": "earthquake",
@@ -8,14 +40,6 @@
       "title": "新疆阿克苏地区沙雅县发生4.0级地震，震源深度25公里，震中位于塔里木盆地沙漠无人区，距沙雅县城约154公里，经核实无人员伤亡及房屋倒塌，沙雅县无震感",
       "location": "新疆阿克苏地区沙雅县",
       "url": "http://news.cnr.cn/native/gd/kx/20260903/t20260903_527803336.shtml"
-    },
-    {
-      "time": "09-03 06:30",
-      "type": "typhoon",
-      "level": "major",
-      "title": "台风'沙德尔'9月3日06时30分前后在福建漳州漳浦古雷沿海第三次登陆（中心附近最大风力9级/23米/秒，中心气压985百帕），中央气象台发布台风黄色预警，登陆后逐渐减弱，但福建东南部、广东东部局地仍有特大暴雨(250-300mm)，多地通知停课，漳浦至云霄公路多处边坡塌方",
-      "location": "福建漳浦/广东东部",
-      "url": "http://fj.people.com.cn/n2/2026/0903/c181466-41685747.html"
     },
     {
       "time": "09-03 10:28",
@@ -26,12 +50,12 @@
       "url": "http://www3.xinhuanet.com/20260903/d4e3b25b22a64d96a2b2d3e5e1e5c6fc/c.html"
     },
     {
-      "time": "09-02 12:00",
-      "type": "mudslide",
+      "time": "09-03 06:30",
+      "type": "typhoon",
       "level": "major",
-      "title": "西藏吉隆'8·26'泥石流灾害持续：截至9月2日12时已致21人遇难、541人失联、发现遗物847件，G216陆路通道已抢通，累计投入救援力量2300余人，抢险救援和应急处置有序开展",
-      "location": "西藏日喀则市吉隆县",
-      "url": "http://www.xz.xinhuanet.com/20260903/bc9f415af4274dd0813a7bccaec6f5ce/c.html"
+      "title": "台风'沙德尔'9月3日06时30分前后在福建漳州漳浦古雷沿海第三次登陆（中心附近最大风力9级/23米/秒），中央气象台发布台风黄色预警，福建多地启动'三停一休'、全市停课，福建全省转移海上陆上危险区域群众8.37万人，登陆后逐渐减弱，但福建东南部、广东东部局地仍有特大暴雨(250-300mm)",
+      "location": "福建漳浦/广东东部",
+      "url": "http://www2.xinhuanet.com/20260903/208db74d5960485a9c2d171dd3edf81b/c.html"
     },
     {
       "time": "09-02 15:04",
@@ -50,6 +74,14 @@
       "url": "http://m.toutiao.com/group/7680974407359873551/"
     },
     {
+      "time": "09-02 12:00",
+      "type": "mudslide",
+      "level": "major",
+      "title": "西藏吉隆'8·26'泥石流灾害持续：截至9月2日12时已致21人遇难、541人失联、发现遗物847件；尼泊尔警方截至9月3日10时统计遇难人数已升至1252人、另有4875人失联，G216陆路通道已抢通，累计投入救援力量2300余人，抢险救援和应急处置有序开展",
+      "location": "西藏日喀则市吉隆县",
+      "url": "http://www.xz.xinhuanet.com/20260903/bc9f415af4274dd0813a7bccaec6f5ce/c.html"
+    },
+    {
       "time": "09-02 11:54",
       "type": "flood",
       "level": "normal",
@@ -64,14 +96,6 @@
       "title": "贵州贵阳市某小学一间教室凌晨突发火灾，消防及时扑灭明火并排查无复燃及安全隐患，事故未造成人员伤亡，起火原因正在调查",
       "location": "贵州贵阳市",
       "url": "https://m.thepaper.cn/newsDetail_forward_33994771"
-    },
-    {
-      "time": "09-01 14:40",
-      "type": "fire",
-      "level": "normal",
-      "title": "湖南郴州格瑞普新能源有限公司生产车间突发火灾，5人轻伤已送医，火情已得到控制，起火原因正在调查中",
-      "location": "湖南郴州市高新区",
-      "url": "http://news.cnr.cn/local/dftj/20260901/t20260901_527801634.shtml"
     }
   ]
 }
