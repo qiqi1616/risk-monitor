@@ -656,21 +656,21 @@ def fetch_nmc_typhoon():
         resp2 = requests.get(f'{nmc_base}/typhoon/jsons/view_{typhoon_id}',
                             headers=headers, verify=False, timeout=10)
         if resp2.status_code != 200:
-            print(f"  [台风] NMC详情请求失败: HTTP {resp2.status_code}")
-            return {"active": False}
+            print(f"  [台风] NMC详情请求失败: HTTP {resp2.status_code}，保留已有台风数据")
+            return None
         json_match2 = _re.search(r'\((\{.*\})\)', resp2.text, _re.S)
         if not json_match2:
-            print("  [台风] NMC详情解析失败")
-            return {"active": False}
+            print("  [台风] NMC详情解析失败，保留已有台风数据")
+            return None
         detail = json.loads(json_match2.group(1))
     except Exception as e:
-        print(f"  [台风] NMC详情请求异常: {e}")
-        return {"active": False}
+        print(f"  [台风] NMC详情请求异常: {e}，保留已有台风数据")
+        return None
 
     tf = detail.get('typhoon', [])
     if len(tf) < 9 or not tf[8]:
-        print("  [台风] 数据结构异常")
-        return {"active": False}
+        print("  [台风] 数据结构异常，保留已有台风数据")
+        return None
 
     # 4. 解析最新路径点
     track_points = tf[8]
@@ -997,22 +997,32 @@ def main():
     # 提取台风信息（从已有预警数据中，不额外消耗API配额）
     print("  提取台风信息...")
     typhoon = extract_typhoon_info(warnings)
-    
-    # 如果NMC API失败返回None，保留已有台风数据
-    if typhoon is None:
-        existing_file = os.path.join(os.path.dirname(__file__), 'data', 'weather.json')
-        if os.path.exists(existing_file):
-            try:
-                with open(existing_file, 'r', encoding='utf-8') as ef:
-                    existing_data = json.load(ef)
-                typhoon = existing_data.get('typhoon', {"active": False})
-                print(f"  [台风] NMC不可用，保留已有台风数据: {typhoon.get('name', '无')} (active={typhoon.get('active', False)})")
-            except Exception as e:
-                print(f"  [台风] 读取已有台风数据失败: {e}，使用默认值")
-                typhoon = {"active": False}
-        else:
-            print(f"  [台风] 无已有数据，使用默认值")
-            typhoon = {"active": False}
+
+    # 台风数据保护：仅当NMC返回有效活跃台风(active=True且name非空)时才更新台风字段，
+    # 否则一律保留已有weather.json中的台风数据，杜绝NMC异常(超时/返回active=False/解析失败)导致的误清空。
+    valid_new_typhoon = (typhoon is not None
+                         and typhoon.get('active') is True
+                         and typhoon.get('name'))
+    existing_file = os.path.join(os.path.dirname(__file__), 'data', 'weather.json')
+    if not valid_new_typhoon and os.path.exists(existing_file):
+        try:
+            with open(existing_file, 'r', encoding='utf-8') as ef:
+                existing_data = json.load(ef)
+            existing_typhoon = existing_data.get('typhoon', {"active": False})
+            # 保留既有台风数据；若无既有台风记录则采用NMC返回(含active=False)
+            if existing_typhoon.get('active') is True and existing_typhoon.get('name'):
+                typhoon = existing_typhoon
+                print(f"  [台风] NMC未返回有效台风，保留已有台风数据: {typhoon.get('name', '无')} (active={typhoon.get('active', False)})")
+            else:
+                typhoon = typhoon if typhoon is not None else {"active": False}
+                print(f"  [台风] NMC无有效台风且无既有台风记录，使用: active={str(typhoon.get('active', False))}")
+        except Exception as e:
+            print(f"  [台风] 读取已有台风数据失败: {e}，使用NMC返回值")
+            typhoon = typhoon if typhoon is not None else {"active": False}
+    elif not valid_new_typhoon:
+        # NMC返回None或active=False，且无已有数据文件
+        typhoon = typhoon if typhoon is not None else {"active": False}
+        print(f"  [台风] 无已有数据文件，使用NMC返回值: active={str(typhoon.get('active', False))}")
 
     shared = {
         'updateTime': datetime.now().strftime('%Y-%m-%dT%H:%M:%S+08:00'),
