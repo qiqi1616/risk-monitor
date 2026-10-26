@@ -1975,6 +1975,13 @@ body {
 .season-tag.thunder { background: rgba(234,179,8,0.2); color: #FACC15; }
 .season-tag.hail { background: rgba(6,182,212,0.2); color: #22D3EE; }
 .season-tag.heatwave { background: rgba(239,68,68,0.2); color: #F87171; }
+.season-tag.drought { background: rgba(200,138,52,0.2); color: #D9A45C; }
+.season-tag.fire { background: rgba(251,146,60,0.2); color: #FB923C; }
+.season-tag.cold { background: rgba(129,140,248,0.2); color: #818CF8; }
+.season-tag.frost { background: rgba(103,232,249,0.2); color: #67E8F9; }
+.season-tag.snow { background: rgba(186,230,253,0.2); color: #BAE6FD; }
+.season-tag.ice { background: rgba(34,211,238,0.2); color: #22D3EE; }
+.season-tag.wind { background: rgba(74,222,128,0.2); color: #4ADE80; }
 
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
@@ -2448,7 +2455,7 @@ body {
 
 
 
-    <h4 class="section-title">🌀 防台风提示</h4>
+    <h4 class="section-title">🍂 秋冬季风险提示（防旱·防火·防冻）</h4>
 
     <div class="typhoon-tips-buttons">
 
@@ -6363,19 +6370,19 @@ const TYPHOON_TIPS = {
 
   property: {
 
-    title: '物业管理防台风提示',
+    title: '物业管理秋冬季风险提示（防旱·防火·防冻）',
 
     tips: [
 
-      '提醒业主/住户在台风到来前检查好门窗是否牢固，及时关好门窗，清理阳台花盆、拖把等易坠物',
+      '防冻：入冬前对供暖设备、外露水管、消防管线、水表做保温，寒潮时保持管道长流水或放空，地下车库出入口、台阶铺设防滑垫',
 
-      '对地下车库、配电室等低洼地预备充足的防水沙袋，架设防洪挡板，检查集水井排水设备，备足抽水泵',
+      '防火：加强用火用电用气管理，清理楼道及消防通道堆物，检查消防设施，严禁电动自行车进楼入户、飞线充电，绿地周边及时清理枯枝落叶',
 
-      '清理楼顶平台排水沟、窖井堵塞物，巡查天台、地库等易渗漏内涝部位，及时处理渗漏点，疏通下水道排水口',
+      '防旱：关注供水情况，检查二次供水和蓄水设施，倡导节约用水；长期干旱时空气干燥，提高防火巡查频次',
 
-      '完善树木加固，及时清理修剪，劝移树下车辆至地下车库；加固大堂玻璃门、宣传橱窗等玻璃制品',
+      '寒潮大风：加固门窗、广告牌、空调外机，转移阳台易坠物，加固和修剪树木，防止高空坠物',
 
-      '检查供电线路，防范涉水触电事故'
+      '雨雪冰冻：及时清扫屋顶、通道和出入口积雪积冰，防止屋顶超载和人员滑倒，保持排水通畅、防范融雪渗漏'
 
     ]
 
@@ -6383,21 +6390,19 @@ const TYPHOON_TIPS = {
 
   enterprise: {
 
-    title: '企业财产防台风提示',
+    title: '企业财产秋冬季风险提示（防旱·防火·防冻）',
 
     tips: [
 
-      '露天财产及时转移到安全地方，无法转移的用防水材料罩盖并垫高处理（垫高≥15cm），易湿损物资存放于二楼及以上',
+      '防冻凝：室外设备、管道、阀门、消防系统做好保温伴热，停用装置排空存水防止冻裂，危化品设备防范低温脆断和物料凝固',
 
-      '检查排水系统（建筑物周围排水渠、屋顶排水槽）是否畅通，及时疏通堵塞；所有门窗保持完好且可紧闭，迎风窗加固',
+      '防火：严格动火作业审批，排查电气线路老化和超负荷用电，仓库落实防火间距、配齐消防器材，易燃可燃物品专区管理，林草周边企业清理防火隔离带',
 
-      '较低地势企业准备应急物品：便携式抽水机、紧急照明、沙袋、防水布、手提工具等，集中于企业中心安全地点',
+      '防旱防静电：干旱期加强防静电、防粉尘爆炸措施，确保消防水源充足，节约用水保障连续生产',
 
-      '轻钢/简易结构建筑：检查紧固螺栓锈蚀（及时更换）、焊点完整性（加固）、用帆布遮盖屋面下机器存货、灾前转移简易结构下资产',
+      '防雪压：大跨度厂房、轻钢屋架及时清除屋面积雪，防止压塌，雪后检查结构有无变形和渗漏',
 
-      '地下建筑不应存放贵重财产，入口设置挡水板或沙包，配备应急排水设备及稳定电源',
-
-      '检查户外附属设施（广告牌、天线、太阳能装置、霓虹灯等）是否紧固，松动立即加固'
+      '寒潮：露天和简易结构建筑检查加固，户外设备停用保养，道路结冰期间暂停或谨慎安排户外装卸作业'
 
     ]
 
@@ -6405,21 +6410,19 @@ const TYPHOON_TIPS = {
 
   cargo: {
 
-    title: '货物运输防台风提示',
+    title: '货物运输秋冬季风险提示（防冻·防火·防滑）',
 
     tips: [
 
-      '货物发运前对运输工具进行水密性、防风防雨性能检查，做好紧急加固，注意防雨防潮防散防漏',
+      '防冻：液体、电子、建材等怕冻货物采用保温运输，防止冻损和容器冻裂，到货做好温度核对',
 
-      '密切关注台风实时路径和天气预报，尽量避免灾害期间的运输安排',
+      '防滑：寒潮、雨雪、道路结冰时减速慢行、配备防滑链，必要时暂停运输并停靠安全区域，避免急刹和疲劳驾驶',
 
-      '加强仓库防风防雨措施，保证仓库排水通畅',
+      '防火：干燥季节防范含锂电池、易燃品货物自燃，车辆和仓库配齐灭火器材，严禁夹带火种',
 
-      '运输中转货物及时风险排查，提醒司机谨慎驾驶，风雨较大时及时停靠服务区',
+      '防雾防大风：秋冬大雾、寒潮大风能见度差，加强瞭望、控制车速车距，水上运输密切关注大风预警、及时避风',
 
-      '码头等易海水倒灌地区的货物，尽量在灾害来临前提货，避免灾害期间堆存在码头堆场',
-
-      '无法及时提取的货物，做好重箱转移工作，特别是低洼地区堆放的货物尽快转移'
+      '装卸：雨雪冰冻天气做好装卸区防滑，货物加盖防雪防潮篷布，防止货物受潮和作业人员滑倒'
 
     ]
 
@@ -6427,21 +6430,19 @@ const TYPHOON_TIPS = {
 
   engineering: {
 
-    title: '在建工程防台风提示',
+    title: '在建工程秋冬季风险提示（防火·防冻·防风）',
 
     tips: [
 
-      '临时设施：检查选址是否在地质灾害隐患位置，有无沉降开裂；临建房屋用钢管/钢丝绳防风加固；场地排水通畅',
+      '防冻：混凝土、砌筑按冬期施工规范作业并做好保温养护，不具备条件的工序暂停施工，临时水管和机械设备采取防冻措施',
 
-      '临时用电：设备安全可靠，满足"一机一闸一箱一漏"，停工时断电；配电箱室防雨；配备应急备用电源',
+      '防火：宿舍临建严禁明火取暖和违规用电，焊割动火落实看火人，易燃保温材料专人管理、远离火源，现场配齐消防器材',
 
-      '高边坡深基坑：排水系统通畅，支护有效无沉降开裂，对深基坑有防洪水雨水倒灌措施，抽排设备到位',
+      '防风防滑：寒潮大风时停止塔吊、高处和脚手架作业并加固，脚手板、马道和场内道路及时除雪防滑',
 
-      '桥梁工程：脚手架基础平整夯实并排水，架体整体稳固无倾斜，搭设高度>10m设置缆风绳；设置防雷击防大风措施',
+      '特种设备：塔吊、施工电梯、起重机械在寒潮、大风、冰冻前检查制动、限位和附着装置，风雪后经验收合格方可重新启用',
 
-      '特种设备：起重机械塔吊基础排水有效，基础螺栓螺母数量齐全连结牢靠，安全装置灵敏有效',
-
-      '路基工程：涵洞逐一排查保证排水畅通，路基排水设施形成完整有效系统'
+      '用电与边坡：临时用电做好防潮防冻防漏电，深基坑、高边坡防范冻融坍塌，保持现场排水通畅'
 
     ]
 
@@ -6479,7 +6480,7 @@ function showTyphoonTip(type) {
 
       <span class="tip-close" onclick="document.getElementById('tipModalOverlay').remove()">✕</span>
 
-      <h3>🌀 ${data.title}</h3>
+      <h3>🍂 ${data.title}</h3>
 
       ${data.tips.map(tip => `<div class="tip-item">${tip}</div>`).join('')}
 
@@ -7102,19 +7103,19 @@ function renderSeasonCalendar() {
   
   // Seasonal disaster patterns (typical for China)
   const seasonPatterns = {
-    0: [{type:'heatwave',label:'寒潮'},{type:'rainstorm',label:'低温'}], // Jan
-    1: [{type:'heatwave',label:'寒潮'},{type:'rainstorm',label:'低温'}], // Feb
-    2: [{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'}], // Mar
-    3: [{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'},{type:'rainstorm',label:'暴雨'}], // Apr
-    4: [{type:'rainstorm',label:'暴雨'},{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'}], // May
-    5: [{type:'rainstorm',label:'暴雨'},{type:'typhoon',label:'台风'},{type:'thunder',label:'雷电'}], // Jun
+    0: [{type:'cold',label:'寒潮'},{type:'snow',label:'暴雪'},{type:'frost',label:'霜冻'}], // Jan
+    1: [{type:'cold',label:'寒潮'},{type:'ice',label:'道路结冰'},{type:'frost',label:'霜冻'}], // Feb
+    2: [{type:'cold',label:'寒潮'},{type:'frost',label:'霜冻'},{type:'wind',label:'大风'}], // Mar
+    3: [{type:'drought',label:'干旱'},{type:'wind',label:'大风'},{type:'fire',label:'森林火险'}], // Apr
+    4: [{type:'drought',label:'干旱'},{type:'fire',label:'森林火险'},{type:'wind',label:'大风'}], // May
+    5: [{type:'rainstorm',label:'暴雨'},{type:'thunder',label:'雷电'},{type:'hail',label:'冰雹'}], // Jun
     6: [{type:'typhoon',label:'台风'},{type:'rainstorm',label:'暴雨'},{type:'heatwave',label:'高温'}], // Jul
     7: [{type:'typhoon',label:'台风'},{type:'rainstorm',label:'暴雨'},{type:'heatwave',label:'高温'}], // Aug
     8: [{type:'typhoon',label:'台风'},{type:'rainstorm',label:'暴雨'},{type:'thunder',label:'雷电'}], // Sep
-    9: [{type:'typhoon',label:'台风'},{type:'thunder',label:'雷电'}], // Oct
-    10: [{type:'heatwave',label:'寒潮'},{type:'thunder',label:'雷电'}], // Nov
-    11: [{type:'heatwave',label:'寒潮'}] // Dec
-  };
+    9: [{type:'fire',label:'森林火险'},{type:'drought',label:'干旱'},{type:'wind',label:'大风'}], // Oct
+    10: [{type:'cold',label:'寒潮'},{type:'frost',label:'霜冻'},{type:'fire',label:'森林火险'}], // Nov
+    11: [{type:'cold',label:'寒潮'},{type:'snow',label:'暴雪'},{type:'ice',label:'道路结冰'}] // Dec
+  }
   
   // Enhance with actual disaster_history data if available
   const disasterMonthData = {};
