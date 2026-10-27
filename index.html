@@ -1,4 +1,4 @@
-<!-- BUILD-VER: 2026-10-27 13:26 -->
+<!-- BUILD-VER: 2026-10-27 14:33 -->
 <!DOCTYPE html>
 
 <html lang="zh-CN">
@@ -4674,7 +4674,7 @@ async function fetchWarnings(qid) {
 
   if (warningApiStatus === 'failed') {
 
-    return getBadWeatherFallback(qid);
+    return []; // 预警接口失败时不伪造，避免误报
 
   }
 
@@ -4799,247 +4799,35 @@ async function fetchWarnings(qid) {
 // 备用预警API尝试
 
 async function tryFallbackWarningApi(qid, lat, lon) {
-
+  // 已停用“天气实况硬造预警”降级：备用KEY未配置，按天气文字推断会误报（如大风误判台风）。
+  // 仅当确有可用备用KEY时尝试；主接口偶发失败本轮按“无预警”，下次刷新自动重试。
   try {
-
-    // 如果没传经纬度，从CITY_DATA查找
-
-    if (!lat || !lon) {
-
-      const cityEntry = Object.entries(CITY_DATA).find(([_, c]) => c.qid === qid);
-
-      if (cityEntry) {
-
-        lat = cityEntry[1].lat;
-
-        lon = cityEntry[1].lon;
-
-      }
-
-    }
-
-    if (!lat || !lon) {
-
-      warningApiStatus = 'failed';
-
-      return getBadWeatherFallback(qid);
-
-    }
-
-    
-
-    const url = `https://${WARNING_API_DOMAIN_FALLBACK}/weatheralert/v1/current/${lat}/${lon}?key=${WARNING_API_KEY_FALLBACK}`;
-
-    const resp = await fetch(url);
-
-    
-
-    if (!resp.ok) {
-
-      console.warn('备用预警API也返回错误', resp.status, '，走降级方案');
-
-      warningApiStatus = 'failed';
-
-      return getBadWeatherFallback(qid);
-
-    }
-
-    
-
-    const data = await resp.json();
-
-    
-
-    if (data.metadata) {
-
-      warningApiStatus = 'ok';
-
-      if (data.metadata.zeroResult || !data.alerts || data.alerts.length === 0) {
-
+    if (typeof WARNING_API_KEY_FALLBACK !== 'undefined' && WARNING_API_KEY_FALLBACK && lat && lon) {
+      const url = `https://${WARNING_API_DOMAIN_FALLBACK}/weatheralert/v1/current/${lat}/${lon}?key=${WARNING_API_KEY_FALLBACK}`;
+      const resp = await fetch(url);
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.metadata && !data.metadata.zeroResult && data.alerts && data.alerts.length) {
+          warningApiStatus = 'ok';
+          return data.alerts.map(mapNewAlertToOld);
+        }
+        warningApiStatus = 'ok';
         return [];
-
       }
-
-      return data.alerts.map(mapNewAlertToOld);
-
     }
-
-    
-
-    if (data.code === '200') {
-
-      warningApiStatus = 'ok';
-
-      return (data.warning || []).map(w => ({
-
-        ...w,
-
-        severity: w.severity || w.level || '蓝色',
-
-        typeName: w.typeName || w.type || '',
-
-        text: w.text || w.detail || ''
-
-      }));
-
-    }
-
-    
-
-    if (data.code === '204') {
-
-      warningApiStatus = 'ok';
-
-      return [];
-
-    }
-
-    
-
-    warningApiStatus = 'failed';
-
-    return getBadWeatherFallback(qid);
-
-    
-
-  } catch (e) {
-
-    console.warn('备用预警API请求异常:', e.message);
-
-    warningApiStatus = 'failed';
-
-    return getBadWeatherFallback(qid);
-
-  }
-
+  } catch (e) { console.warn('备用预警API异常:', e.message); }
+  warningApiStatus = 'failed';
+  return [];
 }
 
 
 
 // 降级方案：通过天气API判断恶劣天气
 
+// 已停用：不再依据天气实况文字硬造预警（历史上会把暴雨/大风误判成台风等假预警）。
+// 保留函数名兼容调用点；接口失败一律“无预警”，宁可缺报也不误报。
 async function getBadWeatherFallback(qid) {
-
-  try {
-
-    // 优先复用已缓存的天气数据
-
-    const weather = cityWeatherData[qid];
-
-    if (!weather || !weather.text) return [];
-
-    
-
-    const text = weather.text;
-
-    
-
-    // 天气描述→预警类型+严重级别映射
-
-    const warningMap = [
-
-      { keywords: ['特大暴雨'], typeName: '暴雨', severity: '红色' },
-
-      { keywords: ['大暴雨'], typeName: '暴雨', severity: '橙色' },
-
-      { keywords: ['暴雨'], typeName: '暴雨', severity: '黄色' },
-
-      { keywords: ['雷阵雨', '雷电', '雷'], typeName: '雷电', severity: '黄色' },
-
-      { keywords: ['台风'], typeName: '台风', severity: '橙色' },
-
-      { keywords: ['强对流'], typeName: '强对流', severity: '黄色' },
-
-      { keywords: ['冰雹'], typeName: '冰雹', severity: '橙色' },
-
-    ];
-
-    
-
-    let matched = null;
-
-    for (const m of warningMap) {
-
-      if (m.keywords.some(kw => text.includes(kw))) {
-
-        matched = m;
-
-        break;
-
-      }
-
-    }
-
-    
-
-    // 台风大风等级判断（仅台风类型，大风等级>=8视为台风影响）
-
-    if (!matched && weather.windScale && parseInt(weather.windScale) >= 10) {
-
-      matched = { typeName: '台风', severity: parseInt(weather.windScale) >= 12 ? '红色' : '橙色' };
-
-    }
-
-    
-
-    if (!matched) return [];
-
-    
-
-    // 检查是否属于FOCUS_WARNING_TYPES
-
-    if (!FOCUS_WARNING_TYPES.some(ft => matched.typeName.includes(ft))) return [];
-
-    
-
-    // 检查是否属于FOCUS_WARNING_LEVELS（过滤蓝色）
-
-    if (!FOCUS_WARNING_LEVELS.includes(matched.severity)) return [];
-
-    
-
-    // 找到对应的城市名称
-
-    const cityEntry = Object.entries(CITY_DATA).find(([_, c]) => c.qid === qid);
-
-    const cityName = cityEntry ? cityEntry[0] : qid;
-
-    
-
-    return [{
-
-      id: `fallback_${qid}`,
-
-      provinceName: weather.provinceName || '',
-
-      cityName: cityName,
-
-      title: `${cityName}发布${matched.typeName}${matched.severity}预警`,
-
-      description: `${text}，温度${weather.temp || ''}℃，${weather.windDir || ''}${weather.windScale || ''}级`,
-
-      severity: matched.severity,
-
-      typeName: matched.typeName,
-
-      text: `天气实况检测到恶劣天气：${text}`,
-
-      sender: '天气实况降级',
-
-      source: '降级',
-
-      status: 'active'
-
-    }];
-
-  } catch (e) {
-
-    console.warn('降级方案异常:', e.message);
-
-    return [];
-
-  }
-
+  return [];
 }
 
 
@@ -5162,7 +4950,7 @@ async function fetchWarningsBatch(cities, delay = 200) {
 
 // 各类数据缓存有效期（毫秒）：实时天气1小时，预报3小时，预警30分钟（强对流期间更新快）
 const LIVE_CACHE_TTL = { weather: 60*60*1000, forecast: 3*60*60*1000, warning: 30*60*1000 };
-const LIVE_CACHE_KEY = 'risk_monitor_live_cache_v1';
+const LIVE_CACHE_KEY = 'risk_monitor_live_cache_v2';
 
 function loadLiveCache() {
   try { return JSON.parse(localStorage.getItem(LIVE_CACHE_KEY) || '{}'); } catch { return {}; }
@@ -6160,66 +5948,68 @@ let todayEvents = [];
 
 // 获取当日突发事件数据
 
-async function fetchTodayEvents() {
-
-  try {
-
-    // 从内嵌事件数据加载（由定时任务更新到data/events.json）
-
-    const resp = await fetch('data/events.json?_t=' + Date.now());
-
-    if (!resp.ok) {
-
-      // 如果文件不存在，使用示例数据
-
-      console.log('[事件播报] events.json不存在，使用内置示例数据');
-
-      return getBuiltinEvents();
-
-    }
-
-    const data = await resp.json();
-
-    return data.events || [];
-
-  } catch (e) {
-
-    console.log('[事件播报] 加载失败，使用内置示例数据');
-
-    return getBuiltinEvents();
-
+// 解析事件时间：支持 ISO、"MM-DD 凌晨/清晨/早上/早/上午/中午/下午/傍晚/晚上/晚/夜间"、"HH:MM" 等
+// 无法确定具体日期的返回 null（该事件不展示）
+function parseEventTime(raw, refYear) {
+  if (!raw) return null;
+  const s = String(raw).trim();
+  if (/\d{4}-\d{1,2}-\d{1,2}/.test(s)) {
+    const t = Date.parse(s.replace(/\.0/g,''));
+    return isNaN(t) ? null : t;
   }
-
+  const md = s.match(/(\d{1,2})[\-\/.](\d{1,2})/);
+  if (md) {
+    let mon = parseInt(md[1], 10), day = parseInt(md[2], 10);
+    if (mon < 1 || mon > 12 || day < 1 || day > 31) return null;
+    let hh = 12, mm = 0;
+    const hm = s.match(/(\d{1,2})[:：](\d{2})/);
+    if (hm) { hh = parseInt(hm[1],10); mm = parseInt(hm[2],10); }
+    else {
+      const slotMap = [
+        [/凌晨|清晨/, 3], [/早上|早晨|早/, 8], [/上午/, 10],
+        [/中午/, 12], [/下午/, 15], [/傍晚/, 18], [/晚上|晚|夜间|夜里/, 21]
+      ];
+      for (const [re, h] of slotMap) { if (re.test(s)) { hh = h; break; } }
+    }
+    let year = refYear || new Date().getFullYear();
+    let d = new Date(year, mon - 1, day, hh, mm, 0);
+    // 跨年处理：解析结果明显在未来(>2天)，按去年算
+    if (d.getTime() - Date.now() > 2 * 24 * 3600 * 1000) {
+      d = new Date(year - 1, mon - 1, day, hh, mm, 0);
+    }
+    return d.getTime();
+  }
+  return null; // 仅"HH:MM"等无法确定日期的，丢弃
 }
 
-
-
-// 内置示例事件（演示用，实际由数据文件提供）
-
-function getBuiltinEvents() {
-
-  const today = new Date();
-
-  const dateStr = today.toISOString().slice(0, 10);
-
-  // 以下为演示占位数据，实际应来自真实数据源
-
-  return [
-
-    { time: '08:30', type: 'fire', level: 'major', title: '某省某市发生火灾事故，已造成人员伤亡', location: '某省某市' },
-
-    { time: '10:15', type: 'traffic', level: '', title: 'Gxx高速多车追尾事故，交通临时管制', location: '某省' },
-
-    { time: '14:20', type: 'explosion', level: 'especially', title: '某化工厂发生爆炸事故，应急处置中', location: '某省某区' },
-
-  ];
-
+// 严格保留最近48小时内事件；时间无法解析的不展示
+function filterRecentEvents(events, refYear) {
+  const now = Date.now();
+  const WINDOW = 48 * 3600 * 1000;
+  return (events || []).filter(evt => {
+    const t = parseEventTime(evt.time, refYear);
+    if (t === null) return false;
+    return (now - t) >= 0 && (now - t) <= WINDOW;
+  });
 }
 
-
-
-// 渲染事件滚动播报
-
+// 获取突发事件数据并按48小时时效严格过滤；文件缺失/失败时不使用任何占位假数据
+async function fetchTodayEvents() {
+  try {
+    const resp = await fetch('data/events.json?_t=' + Date.now());
+    if (!resp.ok) { console.log('[事件播报] events.json不可用，本次不展示突发事件'); return []; }
+    const data = await resp.json();
+    let refYear = new Date().getFullYear();
+    if (data.updateTime) {
+      const u = Date.parse(String(data.updateTime).replace(/\.0/g,''));
+      if (!isNaN(u)) refYear = new Date(u).getFullYear();
+    }
+    return filterRecentEvents(data.events || [], refYear);
+  } catch (e) {
+    console.log('[事件播报] 加载失败，本次不展示突发事件');
+    return [];
+  }
+}
 function renderEventTicker(events) {
 
   const ticker = document.getElementById('eventTicker');
@@ -6278,11 +6068,11 @@ function renderEventTicker(events) {
 
   
 
-  // 根据内容长度调整动画时长（约100px/s）
+  // 根据内容长度调整动画时长（约45px/s，更平缓）
 
   const trackWidth = track.scrollWidth / 2;
 
-  const duration = Math.max(30, trackWidth / 100);
+  const duration = Math.max(60, trackWidth / 45); // 约45px/s且不少于60s，滚动更平缓
 
   track.style.setProperty('--ticker-duration', duration + 's');
 
